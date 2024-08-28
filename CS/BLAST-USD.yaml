@@ -1,4 +1,5 @@
 sources:
+- source_id: coinbase
+  id: BLAST-USD
 - source_id: coinmarketcap
   id: '28480'
-  routes: []

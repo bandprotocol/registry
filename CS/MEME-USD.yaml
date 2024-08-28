@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: memecoin-2
-  routes: []
 - source_id: coinmarketcap
   id: '28301'
-  routes: []
 - source_id: okx
   id: MEME-USDT
   routes:

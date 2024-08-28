@@ -11,7 +11,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: nervos-network
-  routes: []
 - source_id: coinmarketcap
   id: '4948'
-  routes: []

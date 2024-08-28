@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: nexo
-  routes: []
 - source_id: coinmarketcap
   id: '2694'
-  routes: []

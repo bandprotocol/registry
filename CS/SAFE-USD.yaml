@@ -1,13 +1,12 @@
 sources:
+- source_id: coinbase
+  id: SAFE-USD
 - source_id: coingecko
   id: safe
-  routes: []
 - source_id: coinmarketcap
   id: '21585'
-  routes: []
 - source_id: kraken
   id: SAFE/USD
-  routes: []
 - source_id: okx
   id: SAFE-USDT
   routes:

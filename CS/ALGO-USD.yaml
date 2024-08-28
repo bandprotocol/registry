@@ -9,15 +9,14 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: ALGO-USD
 - source_id: coingecko
   id: algorand
-  routes: []
 - source_id: coinmarketcap
   id: '4030'
-  routes: []
 - source_id: kraken
   id: ALGO/USD
-  routes: []
 - source_id: kraken
   id: ALGO/USDT
   routes:

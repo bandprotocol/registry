@@ -4,6 +4,7 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: VTHO-USD
 - source_id: coinmarketcap
   id: '3012'
-  routes: []

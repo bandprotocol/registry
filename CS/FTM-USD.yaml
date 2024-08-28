@@ -11,13 +11,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: fantom
-  routes: []
 - source_id: coinmarketcap
   id: '3513'
-  routes: []
 - source_id: kraken
   id: FTM/USD
-  routes: []
 - source_id: okx
   id: FTM-USDC
   routes:

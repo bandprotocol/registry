@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: trust-wallet-token
-  routes: []
 - source_id: coinmarketcap
   id: '5964'
-  routes: []

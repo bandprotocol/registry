@@ -4,15 +4,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: CHZ-USD
+- source_id: coinbase
+  id: CHZ-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: chiliz
-  routes: []
 - source_id: coinmarketcap
   id: '4066'
-  routes: []
 - source_id: kraken
   id: CHZ/USD
-  routes: []
 - source_id: okx
   id: CHZ-USDC
   routes:

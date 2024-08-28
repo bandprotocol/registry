@@ -11,13 +11,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: jupiter-exchange-solana
-  routes: []
 - source_id: coinmarketcap
   id: '29210'
-  routes: []
 - source_id: kraken
   id: JUP/USD
-  routes: []
 - source_id: okx
   id: JUP-USDT
   routes:

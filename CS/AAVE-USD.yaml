@@ -4,15 +4,14 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: AAVE-USD
 - source_id: coingecko
   id: aave
-  routes: []
 - source_id: coinmarketcap
   id: '7278'
-  routes: []
 - source_id: kraken
   id: AAVE/USD
-  routes: []
 - source_id: okx
   id: AAVE-USDC
   routes:

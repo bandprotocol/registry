@@ -4,15 +4,14 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: SNX-USD
 - source_id: coingecko
   id: havven
-  routes: []
 - source_id: coinmarketcap
   id: '2586'
-  routes: []
 - source_id: kraken
   id: SNX/USD
-  routes: []
 - source_id: okx
   id: SNX-USDC
   routes:

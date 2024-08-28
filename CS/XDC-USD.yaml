@@ -1,7 +1,5 @@
 sources:
 - source_id: coingecko
   id: xdce-crowd-sale
-  routes: []
 - source_id: coinmarketcap
   id: '2634'
-  routes: []

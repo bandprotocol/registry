@@ -11,10 +11,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: arweave
-  routes: []
 - source_id: coinmarketcap
   id: '5632'
-  routes: []
 - source_id: okx
   id: AR-USDC
   routes:

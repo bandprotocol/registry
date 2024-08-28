@@ -9,15 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: OP-USD
+- source_id: coinbase
+  id: OP-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: optimism
-  routes: []
 - source_id: coinmarketcap
   id: '11840'
-  routes: []
 - source_id: kraken
   id: OP/USD
-  routes: []
 - source_id: okx
   id: OP-USDC
   routes:

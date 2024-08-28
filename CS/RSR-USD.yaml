@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: reserve-rights-token
-  routes: []
 - source_id: coinmarketcap
   id: '3964'
-  routes: []
 - source_id: okx
   id: RSR-USDT
   routes:

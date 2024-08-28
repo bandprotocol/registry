@@ -9,15 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: FET-USD
+- source_id: coinbase
+  id: FET-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: fetch-ai
-  routes: []
 - source_id: coinmarketcap
   id: '3773'
-  routes: []
 - source_id: kraken
   id: FET/USD
-  routes: []
 - source_id: okx
   id: FET-USDT
   routes:

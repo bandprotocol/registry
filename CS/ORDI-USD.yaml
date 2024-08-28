@@ -11,10 +11,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: ordinals
-  routes: []
 - source_id: coinmarketcap
   id: '25028'
-  routes: []
 - source_id: okx
   id: ORDI-USDC
   routes:

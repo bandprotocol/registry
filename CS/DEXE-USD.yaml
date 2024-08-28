@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: dexe
-  routes: []
 - source_id: coinmarketcap
   id: '7326'
-  routes: []

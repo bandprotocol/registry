@@ -11,13 +11,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: pepe
-  routes: []
 - source_id: coinmarketcap
   id: '24478'
-  routes: []
 - source_id: kraken
   id: PEPE/USD
-  routes: []
 - source_id: okx
   id: PEPE-USDC
   routes:

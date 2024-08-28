@@ -6,13 +6,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: wormhole
-  routes: []
 - source_id: coinmarketcap
   id: '29587'
-  routes: []
 - source_id: kraken
   id: W/USD
-  routes: []
 - source_id: okx
   id: W-USDC
   routes:

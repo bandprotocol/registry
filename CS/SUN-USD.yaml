@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: sun-token
-  routes: []
 - source_id: coinmarketcap
   id: '10529'
-  routes: []

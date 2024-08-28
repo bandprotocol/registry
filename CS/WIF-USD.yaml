@@ -11,13 +11,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: dogwifcoin
-  routes: []
 - source_id: coinmarketcap
   id: '28752'
-  routes: []
 - source_id: kraken
   id: WIF/USD
-  routes: []
 - source_id: okx
   id: WIF-USDC
   routes:

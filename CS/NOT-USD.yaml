@@ -11,10 +11,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: notcoin
-  routes: []
 - source_id: coinmarketcap
   id: '28850'
-  routes: []
 - source_id: okx
   id: NOT-USDT
   routes:

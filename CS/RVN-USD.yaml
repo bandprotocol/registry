@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: ravencoin
-  routes: []
 - source_id: coinmarketcap
   id: '2577'
-  routes: []
 - source_id: okx
   id: RVN-USDC
   routes:

@@ -11,4 +11,3 @@ sources:
     operation: '*'
 - source_id: coinmarketcap
   id: '28683'
-  routes: []

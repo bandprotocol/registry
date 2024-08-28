@@ -1,10 +1,9 @@
 sources:
+- source_id: coinbase
+  id: AKT-USD
 - source_id: coingecko
   id: akash-network
-  routes: []
 - source_id: coinmarketcap
   id: '7431'
-  routes: []
 - source_id: kraken
   id: AKT/USD
-  routes: []

@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: holotoken
-  routes: []
 - source_id: coinmarketcap
   id: '2682'
-  routes: []

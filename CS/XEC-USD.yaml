@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: ecash
-  routes: []
 - source_id: coinmarketcap
   id: '10791'
-  routes: []

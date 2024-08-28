@@ -6,7 +6,6 @@ sources:
     operation: '*'
 - source_id: coinmarketcap
   id: '21846'
-  routes: []
 - source_id: okx
   id: ID-USDT
   routes:

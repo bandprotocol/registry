@@ -1,4 +1,5 @@
 sources:
+- source_id: coinbase
+  id: ABT-USD
 - source_id: coinmarketcap
   id: '2545'
-  routes: []

@@ -1,7 +1,5 @@
 sources:
 - source_id: coingecko
   id: mog-coin
-  routes: []
 - source_id: coinmarketcap
   id: '27659'
-  routes: []

@@ -6,13 +6,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: enjincoin
-  routes: []
 - source_id: coinmarketcap
   id: '2130'
-  routes: []
 - source_id: kraken
   id: ENJ/USD
-  routes: []
 - source_id: okx
   id: ENJ-USDT
   routes:

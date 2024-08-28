@@ -6,10 +6,7 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: bittensor
-  routes: []
 - source_id: coinmarketcap
   id: '22974'
-  routes: []
 - source_id: kraken
   id: TAO/USD
-  routes: []

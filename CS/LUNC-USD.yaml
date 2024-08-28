@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: terra-luna
-  routes: []
 - source_id: coinmarketcap
   id: '4172'
-  routes: []
 - source_id: okx
   id: LUNC-USDC
   routes:

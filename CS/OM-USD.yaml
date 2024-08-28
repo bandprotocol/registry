@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: mantra-dao
-  routes: []
 - source_id: coinmarketcap
   id: '6536'
-  routes: []
 - source_id: okx
   id: OM-USDC
   routes:

@@ -9,15 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: ADA-USD
+- source_id: coinbase
+  id: ADA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: cardano
-  routes: []
 - source_id: coinmarketcap
   id: '2010'
-  routes: []
 - source_id: kraken
   id: ADA/USD
-  routes: []
 - source_id: kraken
   id: ADA/USDT
   routes:

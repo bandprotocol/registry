@@ -11,10 +11,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: constitutiondao
-  routes: []
 - source_id: coinmarketcap
   id: '14806'
-  routes: []
 - source_id: okx
   id: PEOPLE-USDC
   routes:

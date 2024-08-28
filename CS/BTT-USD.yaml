@@ -1,13 +1,10 @@
 sources:
 - source_id: coingecko
   id: bittorrent
-  routes: []
 - source_id: coinmarketcap
   id: '16086'
-  routes: []
 - source_id: kraken
   id: BTT/USD
-  routes: []
 - source_id: okx
   id: BTT-USDT
   routes:

@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: pancakeswap-token
-  routes: []
 - source_id: coinmarketcap
   id: '7186'
-  routes: []

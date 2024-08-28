@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: zelcash
-  routes: []
 - source_id: coinmarketcap
   id: '3029'
-  routes: []

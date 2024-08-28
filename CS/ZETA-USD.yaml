@@ -1,10 +1,10 @@
 sources:
+- source_id: coinbase
+  id: ZETA-USD
 - source_id: coinmarketcap
   id: '21259'
-  routes: []
 - source_id: kraken
   id: ZETA/USD
-  routes: []
 - source_id: okx
   id: ZETA-USDT
   routes:

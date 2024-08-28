@@ -4,15 +4,14 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: ETC-USD
 - source_id: coingecko
   id: ethereum-classic
-  routes: []
 - source_id: coinmarketcap
   id: '1321'
-  routes: []
 - source_id: kraken
   id: ETC/USD
-  routes: []
 - source_id: okx
   id: ETC-USDC
   routes:

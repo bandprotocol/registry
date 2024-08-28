@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: zilliqa
-  routes: []
 - source_id: coinmarketcap
   id: '2469'
-  routes: []
 - source_id: okx
   id: ZIL-USDC
   routes:

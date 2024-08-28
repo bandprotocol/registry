@@ -1,13 +1,12 @@
 sources:
+- source_id: coinbase
+  id: ONDO-USD
 - source_id: coingecko
   id: ondo-finance
-  routes: []
 - source_id: coinmarketcap
   id: '21159'
-  routes: []
 - source_id: kraken
   id: ONDO/USD
-  routes: []
 - source_id: okx
   id: ONDO-USDT
   routes:

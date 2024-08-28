@@ -6,13 +6,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: terra-luna-2
-  routes: []
 - source_id: coinmarketcap
   id: '20314'
-  routes: []
 - source_id: kraken
   id: LUNA/USD
-  routes: []
 - source_id: okx
   id: LUNA-USDC
   routes:

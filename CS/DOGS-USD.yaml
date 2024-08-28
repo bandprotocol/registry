@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: dogs-2
-  routes: []
 - source_id: coinmarketcap
   id: '32698'
-  routes: []
 - source_id: okx
   id: DOGS-USDT
   routes:

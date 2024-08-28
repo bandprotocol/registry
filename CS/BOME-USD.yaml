@@ -11,10 +11,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: book-of-meme
-  routes: []
 - source_id: coinmarketcap
   id: '29870'
-  routes: []
 - source_id: okx
   id: BOME-USDT
   routes:

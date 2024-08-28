@@ -9,15 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: SHIB-USD
+- source_id: coinbase
+  id: SHIB-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: shiba-inu
-  routes: []
 - source_id: coinmarketcap
   id: '5994'
-  routes: []
 - source_id: kraken
   id: SHIB/USD
-  routes: []
 - source_id: kraken
   id: SHIB/USDT
   routes:

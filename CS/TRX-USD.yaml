@@ -6,13 +6,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: tron
-  routes: []
 - source_id: coinmarketcap
   id: '1958'
-  routes: []
 - source_id: kraken
   id: TRX/USD
-  routes: []
 - source_id: okx
   id: TRX-USDC
   routes:

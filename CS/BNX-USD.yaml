@@ -6,4 +6,3 @@ sources:
     operation: '*'
 - source_id: coinmarketcap
   id: '23635'
-  routes: []

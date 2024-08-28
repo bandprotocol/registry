@@ -1,13 +1,10 @@
 sources:
 - source_id: coingecko
   id: monero
-  routes: []
 - source_id: coinmarketcap
   id: '328'
-  routes: []
 - source_id: kraken
   id: XMR/USD
-  routes: []
 - source_id: kraken
   id: XMR/USDT
   routes:

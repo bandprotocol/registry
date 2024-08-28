@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: safepal
-  routes: []
 - source_id: coinmarketcap
   id: '8119'
-  routes: []

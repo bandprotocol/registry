@@ -1,13 +1,17 @@
 sources:
+- source_id: coinbase
+  id: USDT-USD
+- source_id: coinbase
+  id: USDT-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: coingecko
   id: tether
-  routes: []
 - source_id: coinmarketcap
   id: '825'
-  routes: []
 - source_id: kraken
   id: USDT/USD
-  routes: []
 - source_id: okx
   id: USDT-USDC
   routes:

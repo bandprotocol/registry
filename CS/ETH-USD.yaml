@@ -9,15 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: ETH-USD
+- source_id: coinbase
+  id: ETH-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: ethereum
-  routes: []
 - source_id: coinmarketcap
   id: '1027'
-  routes: []
 - source_id: kraken
   id: ETH/USD
-  routes: []
 - source_id: kraken
   id: ETH/USDC
   routes:

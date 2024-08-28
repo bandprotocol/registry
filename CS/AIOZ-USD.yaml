@@ -1,7 +1,7 @@
 sources:
+- source_id: coinbase
+  id: AIOZ-USD
 - source_id: coingecko
   id: aioz-network
-  routes: []
 - source_id: coinmarketcap
   id: '9104'
-  routes: []

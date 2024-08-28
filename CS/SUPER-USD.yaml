@@ -4,12 +4,11 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: SUPER-USD
 - source_id: coingecko
   id: superfarm
-  routes: []
 - source_id: coinmarketcap
   id: '8290'
-  routes: []
 - source_id: kraken
   id: SUPER/USD
-  routes: []

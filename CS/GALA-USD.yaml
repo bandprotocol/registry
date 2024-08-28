@@ -11,13 +11,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: gala
-  routes: []
 - source_id: coinmarketcap
   id: '7080'
-  routes: []
 - source_id: kraken
   id: GALA/USD
-  routes: []
 - source_id: okx
   id: GALA-USDC
   routes:

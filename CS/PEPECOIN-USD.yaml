@@ -1,7 +1,5 @@
 sources:
 - source_id: coingecko
   id: pepecoin-2
-  routes: []
 - source_id: coinmarketcap
   id: '24835'
-  routes: []

@@ -4,15 +4,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: MASK-USD
+- source_id: coinbase
+  id: MASK-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: mask-network
-  routes: []
 - source_id: coinmarketcap
   id: '8536'
-  routes: []
 - source_id: kraken
   id: MASK/USD
-  routes: []
 - source_id: okx
   id: MASK-USDC
   routes:

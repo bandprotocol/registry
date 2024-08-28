@@ -1,7 +1,5 @@
 sources:
 - source_id: coingecko
   id: radix
-  routes: []
 - source_id: coinmarketcap
   id: '11948'
-  routes: []

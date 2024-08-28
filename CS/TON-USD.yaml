@@ -11,10 +11,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: the-open-network
-  routes: []
 - source_id: coinmarketcap
   id: '11419'
-  routes: []
 - source_id: okx
   id: TON-USDC
   routes:

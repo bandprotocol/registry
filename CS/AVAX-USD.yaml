@@ -9,15 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: AVAX-USD
+- source_id: coinbase
+  id: AVAX-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: avalanche-2
-  routes: []
 - source_id: coinmarketcap
   id: '5805'
-  routes: []
 - source_id: kraken
   id: AVAX/USD
-  routes: []
 - source_id: kraken
   id: AVAX/USDT
   routes:

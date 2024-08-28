@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coinmarketcap
   id: '6836'
-  routes: []
 - source_id: kraken
   id: GLMR/USD
-  routes: []
 - source_id: okx
   id: GLMR-USDC
   routes:

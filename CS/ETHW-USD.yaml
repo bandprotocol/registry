@@ -1,13 +1,10 @@
 sources:
 - source_id: coingecko
   id: ethereum-pow-iou
-  routes: []
 - source_id: coinmarketcap
   id: '21296'
-  routes: []
 - source_id: kraken
   id: ETHW/USD
-  routes: []
 - source_id: okx
   id: ETHW-USDC
   routes:

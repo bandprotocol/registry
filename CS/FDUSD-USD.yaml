@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: first-digital-usd
-  routes: []
 - source_id: coinmarketcap
   id: '26081'
-  routes: []

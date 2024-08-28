@@ -9,15 +9,14 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: SUI-USD
 - source_id: coingecko
   id: sui
-  routes: []
 - source_id: coinmarketcap
   id: '20947'
-  routes: []
 - source_id: kraken
   id: SUI/USD
-  routes: []
 - source_id: okx
   id: SUI-USDC
   routes:

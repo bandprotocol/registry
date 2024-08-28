@@ -1,10 +1,8 @@
 sources:
 - source_id: coingecko
   id: okb
-  routes: []
 - source_id: coinmarketcap
   id: '3897'
-  routes: []
 - source_id: okx
   id: OKB-USDC
   routes:

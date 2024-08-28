@@ -1,13 +1,10 @@
 sources:
 - source_id: coingecko
   id: turbo
-  routes: []
 - source_id: coinmarketcap
   id: '24911'
-  routes: []
 - source_id: kraken
   id: TURBO/USD
-  routes: []
 - source_id: okx
   id: TURBO-USDT
   routes:

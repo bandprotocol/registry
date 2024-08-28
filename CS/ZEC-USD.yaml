@@ -4,12 +4,11 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: ZEC-USD
 - source_id: coingecko
   id: zcash
-  routes: []
 - source_id: coinmarketcap
   id: '1437'
-  routes: []
 - source_id: kraken
   id: ZEC/USD
-  routes: []

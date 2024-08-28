@@ -6,13 +6,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: raydium
-  routes: []
 - source_id: coinmarketcap
   id: '8526'
-  routes: []
 - source_id: kraken
   id: RAY/USD
-  routes: []
 - source_id: okx
   id: RAY-USDT
   routes:

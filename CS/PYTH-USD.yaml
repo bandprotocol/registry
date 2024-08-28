@@ -6,13 +6,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: pyth-network
-  routes: []
 - source_id: coinmarketcap
   id: '28177'
-  routes: []
 - source_id: kraken
   id: PYTH/USD
-  routes: []
 - source_id: okx
   id: PYTH-USDC
   routes:

@@ -6,13 +6,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: siacoin
-  routes: []
 - source_id: coinmarketcap
   id: '1042'
-  routes: []
 - source_id: kraken
   id: SC/USD
-  routes: []
 - source_id: okx
   id: SC-USDC
   routes:

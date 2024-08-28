@@ -1,7 +1,5 @@
 sources:
 - source_id: coingecko
   id: fasttoken
-  routes: []
 - source_id: coinmarketcap
   id: '22615'
-  routes: []

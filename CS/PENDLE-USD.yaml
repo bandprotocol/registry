@@ -11,10 +11,7 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: pendle
-  routes: []
 - source_id: coinmarketcap
   id: '9481'
-  routes: []
 - source_id: kraken
   id: PENDLE/USD
-  routes: []

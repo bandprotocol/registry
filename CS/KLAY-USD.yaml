@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: klay-token
-  routes: []
 - source_id: coinmarketcap
   id: '4256'
-  routes: []
 - source_id: okx
   id: KLAY-USDC
   routes:

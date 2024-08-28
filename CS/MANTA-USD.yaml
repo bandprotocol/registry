@@ -11,7 +11,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: manta-network
-  routes: []
 - source_id: coinmarketcap
   id: '13631'
-  routes: []

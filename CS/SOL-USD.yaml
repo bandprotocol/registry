@@ -9,15 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: SOL-USD
+- source_id: coinbase
+  id: SOL-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: solana
-  routes: []
 - source_id: coinmarketcap
   id: '5426'
-  routes: []
 - source_id: kraken
   id: SOL/USD
-  routes: []
 - source_id: kraken
   id: SOL/USDT
   routes:

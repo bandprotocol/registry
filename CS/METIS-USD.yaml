@@ -4,12 +4,12 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: METIS-USD
 - source_id: coingecko
   id: metis-token
-  routes: []
 - source_id: coinmarketcap
   id: '9640'
-  routes: []
 - source_id: okx
   id: METIS-USDC
   routes:

@@ -6,10 +6,7 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: true-usd
-  routes: []
 - source_id: coinmarketcap
   id: '2563'
-  routes: []
 - source_id: kraken
   id: TUSD/USD
-  routes: []

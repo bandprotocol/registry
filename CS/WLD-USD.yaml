@@ -11,10 +11,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: worldcoin-wld
-  routes: []
 - source_id: coinmarketcap
   id: '13502'
-  routes: []
 - source_id: okx
   id: WLD-USDC
   routes:

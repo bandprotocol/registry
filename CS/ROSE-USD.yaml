@@ -4,9 +4,14 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: ROSE-USD
+- source_id: coinbase
+  id: ROSE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: oasis-network
-  routes: []
 - source_id: coinmarketcap
   id: '7653'
-  routes: []

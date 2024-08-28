@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: just
-  routes: []
 - source_id: coinmarketcap
   id: '5488'
-  routes: []
 - source_id: okx
   id: JST-USDT
   routes:

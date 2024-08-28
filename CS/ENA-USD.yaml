@@ -11,10 +11,7 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: ethena
-  routes: []
 - source_id: coinmarketcap
   id: '30171'
-  routes: []
 - source_id: kraken
   id: ENA/USD
-  routes: []

@@ -6,7 +6,5 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: theta-fuel
-  routes: []
 - source_id: coinmarketcap
   id: '3822'
-  routes: []

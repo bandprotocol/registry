@@ -1,7 +1,5 @@
 sources:
 - source_id: coingecko
   id: h2o-dao
-  routes: []
 - source_id: coinmarketcap
   id: '19091'
-  routes: []

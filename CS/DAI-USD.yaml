@@ -1,13 +1,12 @@
 sources:
+- source_id: coinbase
+  id: DAI-USD
 - source_id: coingecko
   id: dai
-  routes: []
 - source_id: coinmarketcap
   id: '4943'
-  routes: []
 - source_id: kraken
   id: DAI/USD
-  routes: []
 - source_id: kraken
   id: DAI/USDT
   routes:

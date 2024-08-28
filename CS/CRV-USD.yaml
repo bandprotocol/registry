@@ -9,15 +9,14 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: CRV-USD
 - source_id: coingecko
   id: curve-dao-token
-  routes: []
 - source_id: coinmarketcap
   id: '6538'
-  routes: []
 - source_id: kraken
   id: CRV/USD
-  routes: []
 - source_id: okx
   id: CRV-USDC
   routes:

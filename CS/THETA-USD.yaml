@@ -6,10 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: theta-token
-  routes: []
 - source_id: coinmarketcap
   id: '2416'
-  routes: []
 - source_id: okx
   id: THETA-USDT
   routes:

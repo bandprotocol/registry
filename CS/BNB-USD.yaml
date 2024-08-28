@@ -11,10 +11,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: binancecoin
-  routes: []
 - source_id: coinmarketcap
   id: '1839'
-  routes: []
 - source_id: okx
   id: BNB-USDC
   routes:
