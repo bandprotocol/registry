@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: sunusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: sun-token
+  routes: []
+- source_id: coinmarketcap
+  id: '10529'
+  routes: []

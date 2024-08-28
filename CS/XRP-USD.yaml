@@ -1,0 +1,25 @@
+sources:
+- source_id: binance
+  id: xrpusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: xrpusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: ripple
+  routes: []
+- source_id: coinmarketcap
+  id: '52'
+  routes: []
+- source_id: kraken
+  id: XRP/USD
+  routes: []
+- source_id: kraken
+  id: XRP/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

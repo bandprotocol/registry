@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: kucoin-shares
+  routes: []
+- source_id: coinmarketcap
+  id: '2087'
+  routes: []

@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: polyxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: polymesh
+  routes: []
+- source_id: coinmarketcap
+  id: '20362'
+  routes: []

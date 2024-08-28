@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: bnbusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: bnbusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: binancecoin
+  routes: []
+- source_id: coinmarketcap
+  id: '1839'
+  routes: []

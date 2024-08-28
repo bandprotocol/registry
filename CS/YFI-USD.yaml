@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: yfiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinmarketcap
+  id: '5864'
+  routes: []
+- source_id: kraken
+  id: YFI/USD
+  routes: []

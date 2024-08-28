@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: helium
+  routes: []
+- source_id: coinmarketcap
+  id: '5665'
+  routes: []
+- source_id: kraken
+  id: HNT/USD
+  routes: []

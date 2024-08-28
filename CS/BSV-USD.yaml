@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: bitcoin-cash-sv
+  routes: []
+- source_id: coinmarketcap
+  id: '3602'
+  routes: []

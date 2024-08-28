@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: crypto-com-chain
+  routes: []
+- source_id: coinmarketcap
+  id: '3635'
+  routes: []

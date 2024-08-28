@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: safe
+  routes: []
+- source_id: coinmarketcap
+  id: '21585'
+  routes: []
+- source_id: kraken
+  id: SAFE/USD
+  routes: []

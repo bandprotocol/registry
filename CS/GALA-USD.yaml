@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: galausdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: galausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: gala
+  routes: []
+- source_id: coinmarketcap
+  id: '7080'
+  routes: []
+- source_id: kraken
+  id: GALA/USD
+  routes: []

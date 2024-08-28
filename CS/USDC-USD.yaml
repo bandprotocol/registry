@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: usdcusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: usd-coin
+  routes: []
+- source_id: coinmarketcap
+  id: '3408'
+  routes: []
+- source_id: kraken
+  id: USDC/USD
+  routes: []
+- source_id: kraken
+  id: USDC/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

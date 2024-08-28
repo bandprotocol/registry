@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: fetusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: fetusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: fetch-ai
+  routes: []
+- source_id: coinmarketcap
+  id: '3773'
+  routes: []
+- source_id: kraken
+  id: FET/USD
+  routes: []

@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: icpusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: icpusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: internet-computer
+  routes: []
+- source_id: coinmarketcap
+  id: '8916'
+  routes: []
+- source_id: kraken
+  id: ICP/USD
+  routes: []

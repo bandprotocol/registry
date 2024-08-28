@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: frax
+  routes: []
+- source_id: coinmarketcap
+  id: '6952'
+  routes: []

@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: dashusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: dash
+  routes: []
+- source_id: coinmarketcap
+  id: '131'
+  routes: []
+- source_id: kraken
+  id: DASH/USD
+  routes: []

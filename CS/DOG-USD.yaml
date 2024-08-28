@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: dog-go-to-the-moon-rune
+  routes: []
+- source_id: coinmarketcap
+  id: '30933'
+  routes: []

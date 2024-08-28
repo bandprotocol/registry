@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: apenft
+  routes: []
+- source_id: coinmarketcap
+  id: '9816'
+  routes: []

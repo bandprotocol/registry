@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: ankrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: ankr
+  routes: []
+- source_id: coinmarketcap
+  id: '3783'
+  routes: []
+- source_id: kraken
+  id: ANKR/USD
+  routes: []

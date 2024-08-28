@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: tether
+  routes: []
+- source_id: coinmarketcap
+  id: '825'
+  routes: []
+- source_id: kraken
+  id: USDT/USD
+  routes: []

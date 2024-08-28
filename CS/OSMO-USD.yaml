@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: osmousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: osmosis
+  routes: []
+- source_id: coinmarketcap
+  id: '12220'
+  routes: []
+- source_id: kraken
+  id: OSMO/USD
+  routes: []

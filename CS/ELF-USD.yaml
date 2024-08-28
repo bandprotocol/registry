@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: elfusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: aelf
+  routes: []
+- source_id: coinmarketcap
+  id: '2299'
+  routes: []

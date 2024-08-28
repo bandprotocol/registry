@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: ronin
+  routes: []
+- source_id: coinmarketcap
+  id: '14101'
+  routes: []

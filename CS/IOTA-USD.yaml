@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: iotausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: iota
+  routes: []
+- source_id: coinmarketcap
+  id: '1720'
+  routes: []

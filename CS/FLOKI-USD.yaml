@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: flokiusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: flokiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: floki
+  routes: []
+- source_id: coinmarketcap
+  id: '10804'
+  routes: []
+- source_id: kraken
+  id: FLOKI/USD
+  routes: []

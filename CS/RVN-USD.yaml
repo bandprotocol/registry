@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: rvnusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: ravencoin
+  routes: []
+- source_id: coinmarketcap
+  id: '2577'
+  routes: []

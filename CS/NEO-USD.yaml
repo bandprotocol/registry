@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: neousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: neousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: neo
+  routes: []
+- source_id: coinmarketcap
+  id: '1376'
+  routes: []

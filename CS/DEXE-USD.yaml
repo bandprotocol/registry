@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: dexeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: dexe
+  routes: []
+- source_id: coinmarketcap
+  id: '7326'
+  routes: []

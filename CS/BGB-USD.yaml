@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: bitget-token
+  routes: []
+- source_id: coinmarketcap
+  id: '11092'
+  routes: []

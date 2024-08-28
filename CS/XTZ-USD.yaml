@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: xtzusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: tezos
+  routes: []
+- source_id: coinmarketcap
+  id: '2011'
+  routes: []
+- source_id: kraken
+  id: XTZ/USD
+  routes: []
+- source_id: kraken
+  id: XTZ/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

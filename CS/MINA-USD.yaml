@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: minausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: mina-protocol
+  routes: []
+- source_id: coinmarketcap
+  id: '8646'
+  routes: []
+- source_id: kraken
+  id: MINA/USD
+  routes: []

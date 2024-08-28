@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: crvusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: crvusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: curve-dao-token
+  routes: []
+- source_id: coinmarketcap
+  id: '6538'
+  routes: []
+- source_id: kraken
+  id: CRV/USD
+  routes: []

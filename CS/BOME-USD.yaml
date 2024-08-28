@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: bomeusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: bomeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: book-of-meme
+  routes: []
+- source_id: coinmarketcap
+  id: '29870'
+  routes: []

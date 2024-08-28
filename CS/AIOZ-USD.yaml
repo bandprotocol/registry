@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: aioz-network
+  routes: []
+- source_id: coinmarketcap
+  id: '9104'
+  routes: []

@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: beldex
+  routes: []
+- source_id: coinmarketcap
+  id: '3987'
+  routes: []

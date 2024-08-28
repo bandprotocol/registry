@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: sfpusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: safepal
+  routes: []
+- source_id: coinmarketcap
+  id: '8119'
+  routes: []

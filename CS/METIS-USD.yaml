@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: metisusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: metis-token
+  routes: []
+- source_id: coinmarketcap
+  id: '9640'
+  routes: []

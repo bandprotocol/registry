@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: ftmusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: ftmusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: fantom
+  routes: []
+- source_id: coinmarketcap
+  id: '3513'
+  routes: []
+- source_id: kraken
+  id: FTM/USD
+  routes: []

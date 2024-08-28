@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: ondo-us-dollar-yield
+  routes: []
+- source_id: coinmarketcap
+  id: '29256'
+  routes: []

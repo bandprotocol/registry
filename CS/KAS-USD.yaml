@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: kaspa
+  routes: []
+- source_id: coinmarketcap
+  id: '20396'
+  routes: []

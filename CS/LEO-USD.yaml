@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: leo-token
+  routes: []
+- source_id: coinmarketcap
+  id: '3957'
+  routes: []

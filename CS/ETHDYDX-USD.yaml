@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: dydx
+  routes: []
+- source_id: coinmarketcap
+  id: '11156'
+  routes: []

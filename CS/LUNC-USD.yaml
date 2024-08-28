@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: luncusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: terra-luna
+  routes: []
+- source_id: coinmarketcap
+  id: '4172'
+  routes: []

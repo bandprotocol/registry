@@ -1,0 +1,7 @@
+sources:
+- source_id: coinmarketcap
+  id: '21259'
+  routes: []
+- source_id: kraken
+  id: ZETA/USD
+  routes: []

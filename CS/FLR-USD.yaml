@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: flare-networks
+  routes: []
+- source_id: coinmarketcap
+  id: '7950'
+  routes: []
+- source_id: kraken
+  id: FLR/USD
+  routes: []

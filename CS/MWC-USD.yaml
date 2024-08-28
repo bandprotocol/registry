@@ -1,0 +1,4 @@
+sources:
+- source_id: coinmarketcap
+  id: '5031'
+  routes: []

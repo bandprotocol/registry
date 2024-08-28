@@ -1,0 +1,9 @@
+sources:
+- source_id: binance
+  id: ssvusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinmarketcap
+  id: '12999'
+  routes: []

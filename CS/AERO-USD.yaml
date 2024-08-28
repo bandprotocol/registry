@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: aerodrome-finance
+  routes: []
+- source_id: coinmarketcap
+  id: '29270'
+  routes: []

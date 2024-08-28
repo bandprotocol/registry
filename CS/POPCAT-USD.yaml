@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: popcat
+  routes: []
+- source_id: coinmarketcap
+  id: '28782'
+  routes: []

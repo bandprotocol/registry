@@ -1,0 +1,7 @@
+sources:
+- source_id: coinmarketcap
+  id: '6748'
+  routes: []
+- source_id: kraken
+  id: CFG/USD
+  routes: []

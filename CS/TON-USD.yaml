@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: tonusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: tonusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: the-open-network
+  routes: []
+- source_id: coinmarketcap
+  id: '11419'
+  routes: []

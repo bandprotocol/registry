@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: wldusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: wldusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: worldcoin-wld
+  routes: []
+- source_id: coinmarketcap
+  id: '13502'
+  routes: []

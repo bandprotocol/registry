@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: omusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: mantra-dao
+  routes: []
+- source_id: coinmarketcap
+  id: '6536'
+  routes: []

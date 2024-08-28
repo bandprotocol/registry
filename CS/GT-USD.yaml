@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: gatechain-token
+  routes: []
+- source_id: coinmarketcap
+  id: '4269'
+  routes: []

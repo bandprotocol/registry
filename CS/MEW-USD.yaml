@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: cat-in-a-dogs-world
+  routes: []
+- source_id: coinmarketcap
+  id: '30126'
+  routes: []

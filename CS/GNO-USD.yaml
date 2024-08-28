@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: gnousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: gnosis
+  routes: []
+- source_id: coinmarketcap
+  id: '1659'
+  routes: []
+- source_id: kraken
+  id: GNO/USD
+  routes: []

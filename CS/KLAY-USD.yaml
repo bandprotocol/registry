@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: klayusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: klay-token
+  routes: []
+- source_id: coinmarketcap
+  id: '4256'
+  routes: []

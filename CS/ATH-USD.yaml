@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: aethir
+  routes: []
+- source_id: coinmarketcap
+  id: '30083'
+  routes: []

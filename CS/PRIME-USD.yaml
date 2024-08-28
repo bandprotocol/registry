@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: echelon-prime
+  routes: []
+- source_id: coinmarketcap
+  id: '23711'
+  routes: []
+- source_id: kraken
+  id: PRIME/USD
+  routes: []

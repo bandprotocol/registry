@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: celousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: celo
+  routes: []
+- source_id: coinmarketcap
+  id: '5567'
+  routes: []

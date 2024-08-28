@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: origintrail
+  routes: []
+- source_id: coinmarketcap
+  id: '2467'
+  routes: []
+- source_id: kraken
+  id: TRAC/USD
+  routes: []

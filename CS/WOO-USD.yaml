@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: woousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: woo-network
+  routes: []
+- source_id: coinmarketcap
+  id: '7501'
+  routes: []
+- source_id: kraken
+  id: WOO/USD
+  routes: []

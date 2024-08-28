@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: coredaoorg
+  routes: []
+- source_id: coinmarketcap
+  id: '23254'
+  routes: []

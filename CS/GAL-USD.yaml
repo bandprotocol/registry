@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: project-galaxy
+  routes: []
+- source_id: coinmarketcap
+  id: '11877'
+  routes: []
+- source_id: kraken
+  id: GAL/USD
+  routes: []

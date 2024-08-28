@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: ilvusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: illuvium
+  routes: []
+- source_id: coinmarketcap
+  id: '8719'
+  routes: []

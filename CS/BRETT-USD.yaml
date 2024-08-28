@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: based-brett
+  routes: []
+- source_id: coinmarketcap
+  id: '29743'
+  routes: []

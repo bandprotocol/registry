@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: opusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: opusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: optimism
+  routes: []
+- source_id: coinmarketcap
+  id: '11840'
+  routes: []
+- source_id: kraken
+  id: OP/USD
+  routes: []

@@ -1,0 +1,30 @@
+sources:
+- source_id: binance
+  id: btcusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: btcusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: bitcoin
+  routes: []
+- source_id: coinmarketcap
+  id: '1'
+  routes: []
+- source_id: kraken
+  id: XBT/USD
+  routes: []
+- source_id: kraken
+  id: XBT/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
+  id: XBT/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

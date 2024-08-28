@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: peopleusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: peopleusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: constitutiondao
+  routes: []
+- source_id: coinmarketcap
+  id: '14806'
+  routes: []

@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: usdb
+  routes: []
+- source_id: coinmarketcap
+  id: '29599'
+  routes: []

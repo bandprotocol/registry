@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: bitcoin-gold
+  routes: []
+- source_id: coinmarketcap
+  id: '2083'
+  routes: []

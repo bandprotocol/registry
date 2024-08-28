@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: enausdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: enausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: ethena
+  routes: []
+- source_id: coinmarketcap
+  id: '30171'
+  routes: []
+- source_id: kraken
+  id: ENA/USD
+  routes: []

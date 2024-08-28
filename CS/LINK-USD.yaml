@@ -1,0 +1,25 @@
+sources:
+- source_id: binance
+  id: linkusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: linkusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: chainlink
+  routes: []
+- source_id: coinmarketcap
+  id: '1975'
+  routes: []
+- source_id: kraken
+  id: LINK/USD
+  routes: []
+- source_id: kraken
+  id: LINK/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
