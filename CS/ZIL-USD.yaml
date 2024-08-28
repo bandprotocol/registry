@@ -10,3 +10,13 @@ sources:
 - source_id: coinmarketcap
   id: '2469'
   routes: []
+- source_id: okx
+  id: ZIL-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ZIL-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

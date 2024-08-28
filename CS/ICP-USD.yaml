@@ -18,3 +18,13 @@ sources:
 - source_id: kraken
   id: ICP/USD
   routes: []
+- source_id: okx
+  id: ICP-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ICP-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

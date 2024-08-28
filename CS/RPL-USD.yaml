@@ -13,3 +13,13 @@ sources:
 - source_id: kraken
   id: RPL/USD
   routes: []
+- source_id: okx
+  id: RPL-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: RPL-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -10,3 +10,13 @@ sources:
 - source_id: kraken
   id: BICO/USD
   routes: []
+- source_id: okx
+  id: BICO-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: BICO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

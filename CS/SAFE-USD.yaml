@@ -8,3 +8,8 @@ sources:
 - source_id: kraken
   id: SAFE/USD
   routes: []
+- source_id: okx
+  id: SAFE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

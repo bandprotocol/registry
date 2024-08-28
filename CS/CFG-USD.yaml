@@ -5,3 +5,8 @@ sources:
 - source_id: kraken
   id: CFG/USD
   routes: []
+- source_id: okx
+  id: CFG-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

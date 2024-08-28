@@ -13,3 +13,8 @@ sources:
 - source_id: kraken
   id: WOO/USD
   routes: []
+- source_id: okx
+  id: WOO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

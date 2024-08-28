@@ -5,3 +5,8 @@ sources:
 - source_id: kraken
   id: ZETA/USD
   routes: []
+- source_id: okx
+  id: ZETA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

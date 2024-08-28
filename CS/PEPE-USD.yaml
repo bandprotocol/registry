@@ -18,3 +18,13 @@ sources:
 - source_id: kraken
   id: PEPE/USD
   routes: []
+- source_id: okx
+  id: PEPE-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: PEPE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

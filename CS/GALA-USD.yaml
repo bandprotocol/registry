@@ -18,3 +18,13 @@ sources:
 - source_id: kraken
   id: GALA/USD
   routes: []
+- source_id: okx
+  id: GALA-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: GALA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

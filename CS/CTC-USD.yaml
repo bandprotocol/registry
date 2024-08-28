@@ -2,3 +2,13 @@ sources:
 - source_id: coinmarketcap
   id: '5198'
   routes: []
+- source_id: okx
+  id: CTC-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: CTC-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

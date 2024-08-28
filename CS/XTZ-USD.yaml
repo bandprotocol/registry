@@ -18,3 +18,13 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: okx
+  id: XTZ-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: XTZ-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

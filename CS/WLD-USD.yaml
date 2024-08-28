@@ -15,3 +15,13 @@ sources:
 - source_id: coinmarketcap
   id: '13502'
   routes: []
+- source_id: okx
+  id: WLD-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: WLD-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

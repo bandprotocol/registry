@@ -8,3 +8,13 @@ sources:
 - source_id: kraken
   id: FLR/USD
   routes: []
+- source_id: okx
+  id: FLR-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: FLR-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

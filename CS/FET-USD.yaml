@@ -18,3 +18,8 @@ sources:
 - source_id: kraken
   id: FET/USD
   routes: []
+- source_id: okx
+  id: FET-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

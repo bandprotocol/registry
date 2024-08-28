@@ -13,3 +13,13 @@ sources:
 - source_id: kraken
   id: 1INCH/USD
   routes: []
+- source_id: okx
+  id: 1INCH-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: 1INCH-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -15,3 +15,13 @@ sources:
 - source_id: coinmarketcap
   id: '1839'
   routes: []
+- source_id: okx
+  id: BNB-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: BNB-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

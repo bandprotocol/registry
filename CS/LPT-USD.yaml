@@ -13,3 +13,13 @@ sources:
 - source_id: kraken
   id: LPT/USD
   routes: []
+- source_id: okx
+  id: LPT-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: LPT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

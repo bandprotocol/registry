@@ -18,3 +18,13 @@ sources:
 - source_id: kraken
   id: FTM/USD
   routes: []
+- source_id: okx
+  id: FTM-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: FTM-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

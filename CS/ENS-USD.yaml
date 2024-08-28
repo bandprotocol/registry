@@ -18,3 +18,13 @@ sources:
 - source_id: kraken
   id: ENS/USD
   routes: []
+- source_id: okx
+  id: ENS-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ENS-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

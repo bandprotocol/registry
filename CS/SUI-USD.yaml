@@ -18,3 +18,13 @@ sources:
 - source_id: kraken
   id: SUI/USD
   routes: []
+- source_id: okx
+  id: SUI-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: SUI-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

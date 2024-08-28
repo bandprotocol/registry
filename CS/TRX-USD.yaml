@@ -13,3 +13,13 @@ sources:
 - source_id: kraken
   id: TRX/USD
   routes: []
+- source_id: okx
+  id: TRX-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: TRX-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

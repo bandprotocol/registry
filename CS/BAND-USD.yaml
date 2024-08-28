@@ -10,3 +10,13 @@ sources:
 - source_id: kraken
   id: BAND/USD
   routes: []
+- source_id: okx
+  id: BAND-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: BAND-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

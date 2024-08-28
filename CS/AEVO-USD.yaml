@@ -13,3 +13,8 @@ sources:
 - source_id: kraken
   id: AEVO/USD
   routes: []
+- source_id: okx
+  id: AEVO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

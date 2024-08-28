@@ -18,3 +18,8 @@ sources:
 - source_id: kraken
   id: ARKM/USD
   routes: []
+- source_id: okx
+  id: ARKM-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

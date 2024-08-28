@@ -10,3 +10,8 @@ sources:
 - source_id: coinmarketcap
   id: '32698'
   routes: []
+- source_id: okx
+  id: DOGS-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

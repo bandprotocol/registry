@@ -18,3 +18,8 @@ sources:
 - source_id: kraken
   id: BONK/USD
   routes: []
+- source_id: okx
+  id: BONK-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

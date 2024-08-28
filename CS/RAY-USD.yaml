@@ -13,3 +13,8 @@ sources:
 - source_id: kraken
   id: RAY/USD
   routes: []
+- source_id: okx
+  id: RAY-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

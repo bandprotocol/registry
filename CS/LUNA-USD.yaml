@@ -13,3 +13,13 @@ sources:
 - source_id: kraken
   id: LUNA/USD
   routes: []
+- source_id: okx
+  id: LUNA-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: LUNA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -23,3 +23,13 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: okx
+  id: BCH-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: BCH-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

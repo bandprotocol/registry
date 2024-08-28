@@ -10,3 +10,8 @@ sources:
 - source_id: coinmarketcap
   id: '1785'
   routes: []
+- source_id: okx
+  id: GAS-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

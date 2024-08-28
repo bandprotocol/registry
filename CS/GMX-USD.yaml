@@ -13,3 +13,8 @@ sources:
 - source_id: kraken
   id: GMX/USD
   routes: []
+- source_id: okx
+  id: GMX-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
