@@ -4,15 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: BICO-USD
-- source_id: coinbase
-  id: BICO-USDT
+- source_id: bybit
+  id: BICOUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: BICO-USD
 - source_id: coinmarketcap
   id: '9543'
+- source_id: cryptocompare
+  id: BICO
 - source_id: kraken
   id: BICO/USD
 - source_id: okx

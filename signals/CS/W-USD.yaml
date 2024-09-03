@@ -4,10 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: WUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: wormhole
 - source_id: coinmarketcap
   id: '29587'
+- source_id: cryptocompare
+  id: W
 - source_id: kraken
   id: W/USD
 - source_id: okx

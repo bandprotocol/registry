@@ -8,6 +8,8 @@ sources:
   id: aelf
 - source_id: coinmarketcap
   id: '2299'
+- source_id: cryptocompare
+  id: ELF
 - source_id: okx
   id: ELF-USDT
   routes:

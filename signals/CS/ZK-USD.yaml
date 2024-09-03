@@ -9,10 +9,24 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ZKUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: ZKUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ZK-USD
 - source_id: coingecko
   id: zksync
 - source_id: coinmarketcap
   id: '24091'
+- source_id: cryptocompare
+  id: ZK
 - source_id: kraken
   id: ZK/USD
 - source_id: okx

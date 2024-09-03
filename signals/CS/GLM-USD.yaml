@@ -10,6 +10,8 @@ sources:
   id: golem
 - source_id: coinmarketcap
   id: '1455'
+- source_id: cryptocompare
+  id: GLM
 - source_id: okx
   id: GLM-USDC
   routes:

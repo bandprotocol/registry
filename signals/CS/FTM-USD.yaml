@@ -9,10 +9,22 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: FTMUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: FTMUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: fantom
 - source_id: coinmarketcap
   id: '3513'
+- source_id: cryptocompare
+  id: FTM
 - source_id: kraken
   id: FTM/USD
 - source_id: okx

@@ -3,3 +3,5 @@ sources:
   id: fasttoken
 - source_id: coinmarketcap
   id: '22615'
+- source_id: cryptocompare
+  id: FTN

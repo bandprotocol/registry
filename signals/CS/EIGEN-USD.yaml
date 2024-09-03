@@ -1,27 +1,26 @@
 sources:
 - source_id: binance
-  id: lrcusdt
+  id: eigenusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: EIGENUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
-  id: LRC-USD
-- source_id: coinbase
-  id: LRC-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+  id: EIGEN-USD
+- source_id: coingecko
+  id: eigenlayer
 - source_id: coinmarketcap
-  id: '1934'
+  id: '30494'
+- source_id: cryptocompare
+  id: EIGEN
 - source_id: kraken
-  id: LRC/USD
+  id: EIGEN/USD
 - source_id: okx
-  id: LRC-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: LRC-USDT
+  id: EIGEN-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

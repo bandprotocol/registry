@@ -8,6 +8,8 @@ sources:
   id: SKL-USD
 - source_id: coinmarketcap
   id: '5691'
+- source_id: cryptocompare
+  id: SKL
 - source_id: okx
   id: SKL-USDT
   routes:

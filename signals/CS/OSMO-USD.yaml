@@ -10,5 +10,7 @@ sources:
   id: osmosis
 - source_id: coinmarketcap
   id: '12220'
+- source_id: cryptocompare
+  id: OSMO
 - source_id: kraken
   id: OSMO/USD

@@ -4,6 +4,11 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: IMXUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: IMX-USD
 - source_id: coinbase
@@ -15,6 +20,8 @@ sources:
   id: immutable-x
 - source_id: coinmarketcap
   id: '10603'
+- source_id: cryptocompare
+  id: IMX
 - source_id: kraken
   id: IMX/USD
 - source_id: okx

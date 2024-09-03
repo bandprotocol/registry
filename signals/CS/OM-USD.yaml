@@ -8,6 +8,8 @@ sources:
   id: mantra-dao
 - source_id: coinmarketcap
   id: '6536'
+- source_id: cryptocompare
+  id: OM
 - source_id: okx
   id: OM-USDC
   routes:

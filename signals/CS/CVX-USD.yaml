@@ -8,6 +8,8 @@ sources:
   id: CVX-USD
 - source_id: coinmarketcap
   id: '9903'
+- source_id: cryptocompare
+  id: CVX
 - source_id: kraken
   id: CVX/USD
 - source_id: okx

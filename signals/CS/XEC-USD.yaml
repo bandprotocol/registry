@@ -4,7 +4,14 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: XECUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: ecash
 - source_id: coinmarketcap
   id: '10791'
+- source_id: cryptocompare
+  id: XEC

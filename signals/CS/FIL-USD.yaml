@@ -9,12 +9,24 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: FILUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: FILUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: FIL-USD
 - source_id: coingecko
   id: filecoin
 - source_id: coinmarketcap
   id: '2280'
+- source_id: cryptocompare
+  id: FIL
 - source_id: kraken
   id: FIL/USD
 - source_id: okx

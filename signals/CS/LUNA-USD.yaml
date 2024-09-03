@@ -4,10 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: LUNAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: terra-luna-2
 - source_id: coinmarketcap
   id: '20314'
+- source_id: cryptocompare
+  id: LUNA
 - source_id: kraken
   id: LUNA/USD
 - source_id: okx

@@ -4,6 +4,11 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: FLOWUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: FLOW-USD
 - source_id: coinbase
@@ -15,6 +20,8 @@ sources:
   id: flow
 - source_id: coinmarketcap
   id: '4558'
+- source_id: cryptocompare
+  id: FLOW
 - source_id: kraken
   id: FLOW/USD
 - source_id: okx

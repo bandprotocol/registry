@@ -1,10 +1,17 @@
 sources:
+- source_id: bybit
+  id: FLRUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: FLR-USD
 - source_id: coingecko
   id: flare-networks
 - source_id: coinmarketcap
   id: '7950'
+- source_id: cryptocompare
+  id: FLR
 - source_id: kraken
   id: FLR/USD
 - source_id: okx

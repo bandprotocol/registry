@@ -9,10 +9,27 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: NOTUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: NOTUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: notcoin
 - source_id: coinmarketcap
   id: '28850'
+- source_id: cryptocompare
+  id: NOT
+- source_id: okx
+  id: NOT-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: okx
   id: NOT-USDT
   routes:

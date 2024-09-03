@@ -11,3 +11,5 @@ sources:
     operation: '*'
 - source_id: coinmarketcap
   id: '28683'
+- source_id: cryptocompare
+  id: 1000SATS

@@ -4,12 +4,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: MKRUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: MKR-USD
 - source_id: coingecko
   id: maker
 - source_id: coinmarketcap
   id: '1518'
+- source_id: cryptocompare
+  id: MKR
 - source_id: kraken
   id: MKR/USD
 - source_id: okx

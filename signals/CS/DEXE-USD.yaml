@@ -8,3 +8,5 @@ sources:
   id: dexe
 - source_id: coinmarketcap
   id: '7326'
+- source_id: cryptocompare
+  id: DEXE

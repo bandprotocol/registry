@@ -6,3 +6,5 @@ sources:
     operation: '*'
 - source_id: coinmarketcap
   id: '23635'
+- source_id: cryptocompare
+  id: BNX

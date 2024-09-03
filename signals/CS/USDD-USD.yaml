@@ -3,3 +3,5 @@ sources:
   id: usdd
 - source_id: coinmarketcap
   id: '19891'
+- source_id: cryptocompare
+  id: USDD

@@ -9,12 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: BLURUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: BLUR-USD
 - source_id: coingecko
   id: blur
 - source_id: coinmarketcap
   id: '23121'
+- source_id: cryptocompare
+  id: BLUR
 - source_id: kraken
   id: BLUR/USD
 - source_id: okx

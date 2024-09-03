@@ -1,5 +1,12 @@
 sources:
+- source_id: bybit
+  id: XDCUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: xdce-crowd-sale
 - source_id: coinmarketcap
   id: '2634'
+- source_id: cryptocompare
+  id: XDC

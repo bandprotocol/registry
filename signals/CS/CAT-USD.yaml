@@ -1,3 +1,10 @@
 sources:
+- source_id: bybit
+  id: CATUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinmarketcap
   id: '32724'
+- source_id: cryptocompare
+  id: CAT

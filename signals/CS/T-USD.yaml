@@ -4,12 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: TUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: T-USD
-- source_id: coingecko
-  id: threshold-network-token
 - source_id: coinmarketcap
   id: '17751'
+- source_id: cryptocompare
+  id: T
 - source_id: kraken
   id: T/USD
 - source_id: okx

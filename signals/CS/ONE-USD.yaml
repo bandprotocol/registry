@@ -4,8 +4,15 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ONEUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinmarketcap
   id: '3945'
+- source_id: cryptocompare
+  id: ONE
 - source_id: okx
   id: ONE-USDT
   routes:

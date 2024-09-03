@@ -9,12 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ALGOUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ALGO-USD
 - source_id: coingecko
   id: algorand
 - source_id: coinmarketcap
   id: '4030'
+- source_id: cryptocompare
+  id: ALGO
 - source_id: kraken
   id: ALGO/USD
 - source_id: kraken
