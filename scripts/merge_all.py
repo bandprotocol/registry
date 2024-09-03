@@ -25,7 +25,7 @@ def main(input_path: str, output_path: str):
         for file in sorted(files):
             with open(os.path.join(root, file), 'r') as f:
                 signal_id = file.split('.')[0]
-                prefixed_signal_id = f"{prefix}_{signal_id}"
+                prefixed_signal_id = f"{prefix}:{signal_id}"
 
                 signal_ids[prefixed_signal_id].update(yaml.safe_load(f))
                 signal_ids[prefixed_signal_id].update(shared_prefix_traits[prefix])

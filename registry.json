@@ -1,5 +1,5 @@
 {
-    "CS_1000SATS-USD": {
+    "CS:1000SATS-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -33,7 +33,7 @@
             }
         }
     },
-    "CS_1INCH-USD": {
+    "CS:1INCH-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -89,7 +89,7 @@
             }
         }
     },
-    "CS_AAVE-USD": {
+    "CS:AAVE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -145,7 +145,7 @@
             }
         }
     },
-    "CS_ABT-USD": {
+    "CS:ABT-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -163,7 +163,7 @@
             }
         }
     },
-    "CS_ADA-USD": {
+    "CS:ADA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -249,7 +249,7 @@
             }
         }
     },
-    "CS_AERO-USD": {
+    "CS:AERO-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -271,7 +271,7 @@
             }
         }
     },
-    "CS_AEVO-USD": {
+    "CS:AEVO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -313,7 +313,7 @@
             }
         }
     },
-    "CS_AIOZ-USD": {
+    "CS:AIOZ-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -335,7 +335,7 @@
             }
         }
     },
-    "CS_AKT-USD": {
+    "CS:AKT-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -361,7 +361,7 @@
             }
         }
     },
-    "CS_ALGO-USD": {
+    "CS:ALGO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -437,7 +437,7 @@
             }
         }
     },
-    "CS_ALT-USD": {
+    "CS:ALT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -475,7 +475,7 @@
             }
         }
     },
-    "CS_AMP-USD": {
+    "CS:AMP-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -507,7 +507,7 @@
             }
         }
     },
-    "CS_ANKR-USD": {
+    "CS:ANKR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -543,7 +543,7 @@
             }
         }
     },
-    "CS_ANT-USD": {
+    "CS:ANT-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -565,7 +565,7 @@
             }
         }
     },
-    "CS_APE-USD": {
+    "CS:APE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -641,7 +641,7 @@
             }
         }
     },
-    "CS_APT-USD": {
+    "CS:APT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -717,7 +717,7 @@
             }
         }
     },
-    "CS_AR-USD": {
+    "CS:AR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -775,7 +775,7 @@
             }
         }
     },
-    "CS_ARB-USD": {
+    "CS:ARB-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -841,7 +841,7 @@
             }
         }
     },
-    "CS_ARKM-USD": {
+    "CS:ARKM-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -897,7 +897,7 @@
             }
         }
     },
-    "CS_ASTR-USD": {
+    "CS:ASTR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -949,7 +949,7 @@
             }
         }
     },
-    "CS_ATH-USD": {
+    "CS:ATH-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -977,7 +977,7 @@
             }
         }
     },
-    "CS_ATOM-USD": {
+    "CS:ATOM-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1063,7 +1063,7 @@
             }
         }
     },
-    "CS_AUDIO-USD": {
+    "CS:AUDIO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1095,7 +1095,7 @@
             }
         }
     },
-    "CS_AVAX-USD": {
+    "CS:AVAX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1181,7 +1181,7 @@
             }
         }
     },
-    "CS_AXL-USD": {
+    "CS:AXL-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1213,7 +1213,7 @@
             }
         }
     },
-    "CS_AXS-USD": {
+    "CS:AXS-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1279,7 +1279,7 @@
             }
         }
     },
-    "CS_BAND-USD": {
+    "CS:BAND-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1331,7 +1331,7 @@
             }
         }
     },
-    "CS_BAT-USD": {
+    "CS:BAT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1387,7 +1387,7 @@
             }
         }
     },
-    "CS_BCH-USD": {
+    "CS:BCH-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1463,7 +1463,7 @@
             }
         }
     },
-    "CS_BDX-USD": {
+    "CS:BDX-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -1481,7 +1481,7 @@
             }
         }
     },
-    "CS_BEAM-USD": {
+    "CS:BEAM-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -1503,7 +1503,7 @@
             }
         }
     },
-    "CS_BGB-USD": {
+    "CS:BGB-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -1521,7 +1521,7 @@
             }
         }
     },
-    "CS_BICO-USD": {
+    "CS:BICO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1583,7 +1583,7 @@
             }
         }
     },
-    "CS_BLAST-USD": {
+    "CS:BLAST-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -1601,7 +1601,7 @@
             }
         }
     },
-    "CS_BLUR-USD": {
+    "CS:BLUR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1667,7 +1667,7 @@
             }
         }
     },
-    "CS_BNB-USD": {
+    "CS:BNB-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1725,7 +1725,7 @@
             }
         }
     },
-    "CS_BNX-USD": {
+    "CS:BNX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1749,7 +1749,7 @@
             }
         }
     },
-    "CS_BOME-USD": {
+    "CS:BOME-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1797,7 +1797,7 @@
             }
         }
     },
-    "CS_BONK-USD": {
+    "CS:BONK-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -1853,7 +1853,7 @@
             }
         }
     },
-    "CS_BRETT-USD": {
+    "CS:BRETT-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -1871,7 +1871,7 @@
             }
         }
     },
-    "CS_BSV-USD": {
+    "CS:BSV-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -1909,7 +1909,7 @@
             }
         }
     },
-    "CS_BTC-USD": {
+    "CS:BTC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2005,7 +2005,7 @@
             }
         }
     },
-    "CS_BTG-USD": {
+    "CS:BTG-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -2023,7 +2023,7 @@
             }
         }
     },
-    "CS_BTT-USD": {
+    "CS:BTT-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -2055,7 +2055,7 @@
             }
         }
     },
-    "CS_CAIR-USD": {
+    "CS:CAIR-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -2069,7 +2069,7 @@
             }
         }
     },
-    "CS_CAKE-USD": {
+    "CS:CAKE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2097,7 +2097,7 @@
             }
         }
     },
-    "CS_CAT-USD": {
+    "CS:CAT-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -2111,7 +2111,7 @@
             }
         }
     },
-    "CS_CELO-USD": {
+    "CS:CELO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2149,7 +2149,7 @@
             }
         }
     },
-    "CS_CFG-USD": {
+    "CS:CFG-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -2177,7 +2177,7 @@
             }
         }
     },
-    "CS_CFX-USD": {
+    "CS:CFX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2235,7 +2235,7 @@
             }
         }
     },
-    "CS_CHEEL-USD": {
+    "CS:CHEEL-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -2249,7 +2249,7 @@
             }
         }
     },
-    "CS_CHZ-USD": {
+    "CS:CHZ-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2315,7 +2315,7 @@
             }
         }
     },
-    "CS_CKB-USD": {
+    "CS:CKB-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2353,7 +2353,7 @@
             }
         }
     },
-    "CS_COMP-USD": {
+    "CS:COMP-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2409,7 +2409,7 @@
             }
         }
     },
-    "CS_CORE-USD": {
+    "CS:CORE-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -2437,7 +2437,7 @@
             }
         }
     },
-    "CS_CRO-USD": {
+    "CS:CRO-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -2489,7 +2489,7 @@
             }
         }
     },
-    "CS_CRV-USD": {
+    "CS:CRV-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2555,7 +2555,7 @@
             }
         }
     },
-    "CS_CTC-USD": {
+    "CS:CTC-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -2589,7 +2589,7 @@
             }
         }
     },
-    "CS_CVX-USD": {
+    "CS:CVX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2641,7 +2641,7 @@
             }
         }
     },
-    "CS_DAI-USD": {
+    "CS:DAI-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -2697,7 +2697,7 @@
             }
         }
     },
-    "CS_DASH-USD": {
+    "CS:DASH-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2733,7 +2733,7 @@
             }
         }
     },
-    "CS_DCR-USD": {
+    "CS:DCR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2757,7 +2757,7 @@
             }
         }
     },
-    "CS_DEXE-USD": {
+    "CS:DEXE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2785,7 +2785,7 @@
             }
         }
     },
-    "CS_DOG-USD": {
+    "CS:DOG-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -2803,7 +2803,7 @@
             }
         }
     },
-    "CS_DOGE-USD": {
+    "CS:DOGE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2889,7 +2889,7 @@
             }
         }
     },
-    "CS_DOGS-USD": {
+    "CS:DOGS-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -2927,7 +2927,7 @@
             }
         }
     },
-    "CS_DOT-USD": {
+    "CS:DOT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3013,7 +3013,7 @@
             }
         }
     },
-    "CS_DSYNC-USD": {
+    "CS:DSYNC-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -3027,7 +3027,7 @@
             }
         }
     },
-    "CS_DYDX-USD": {
+    "CS:DYDX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3079,7 +3079,7 @@
             }
         }
     },
-    "CS_DYM-USD": {
+    "CS:DYM-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3111,7 +3111,7 @@
             }
         }
     },
-    "CS_EDLC-USD": {
+    "CS:EDLC-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -3125,7 +3125,7 @@
             }
         }
     },
-    "CS_EDU-USD": {
+    "CS:EDU-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3149,7 +3149,7 @@
             }
         }
     },
-    "CS_EGLD-USD": {
+    "CS:EGLD-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3205,7 +3205,7 @@
             }
         }
     },
-    "CS_ELF-USD": {
+    "CS:ELF-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3243,7 +3243,7 @@
             }
         }
     },
-    "CS_ENA-USD": {
+    "CS:ENA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3285,7 +3285,7 @@
             }
         }
     },
-    "CS_ENJ-USD": {
+    "CS:ENJ-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3327,7 +3327,7 @@
             }
         }
     },
-    "CS_ENS-USD": {
+    "CS:ENS-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3403,7 +3403,7 @@
             }
         }
     },
-    "CS_EOS-USD": {
+    "CS:EOS-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3479,7 +3479,7 @@
             }
         }
     },
-    "CS_ETC-USD": {
+    "CS:ETC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3535,7 +3535,7 @@
             }
         }
     },
-    "CS_ETH-USD": {
+    "CS:ETH-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3631,7 +3631,7 @@
             }
         }
     },
-    "CS_ETHDYDX-USD": {
+    "CS:ETHDYDX-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -3649,7 +3649,7 @@
             }
         }
     },
-    "CS_ETHFI-USD": {
+    "CS:ETHFI-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3701,7 +3701,7 @@
             }
         }
     },
-    "CS_ETHW-USD": {
+    "CS:ETHW-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -3743,7 +3743,7 @@
             }
         }
     },
-    "CS_FDUSD-USD": {
+    "CS:FDUSD-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3771,7 +3771,7 @@
             }
         }
     },
-    "CS_FET-USD": {
+    "CS:FET-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3837,7 +3837,7 @@
             }
         }
     },
-    "CS_FIL-USD": {
+    "CS:FIL-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3903,7 +3903,7 @@
             }
         }
     },
-    "CS_FLOKI-USD": {
+    "CS:FLOKI-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -3965,7 +3965,7 @@
             }
         }
     },
-    "CS_FLOW-USD": {
+    "CS:FLOW-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4031,7 +4031,7 @@
             }
         }
     },
-    "CS_FLR-USD": {
+    "CS:FLR-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -4077,7 +4077,7 @@
             }
         }
     },
-    "CS_FLUX-USD": {
+    "CS:FLUX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4105,7 +4105,7 @@
             }
         }
     },
-    "CS_FLZ-USD": {
+    "CS:FLZ-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -4119,7 +4119,7 @@
             }
         }
     },
-    "CS_FNSA-USD": {
+    "CS:FNSA-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -4133,7 +4133,7 @@
             }
         }
     },
-    "CS_FRAX-USD": {
+    "CS:FRAX-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -4151,7 +4151,7 @@
             }
         }
     },
-    "CS_FTM-USD": {
+    "CS:FTM-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4213,7 +4213,7 @@
             }
         }
     },
-    "CS_FTN-USD": {
+    "CS:FTN-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -4231,7 +4231,7 @@
             }
         }
     },
-    "CS_FTT-USD": {
+    "CS:FTT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4255,7 +4255,7 @@
             }
         }
     },
-    "CS_G-USD": {
+    "CS:G-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4297,7 +4297,7 @@
             }
         }
     },
-    "CS_GAL-USD": {
+    "CS:GAL-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -4323,7 +4323,7 @@
             }
         }
     },
-    "CS_GALA-USD": {
+    "CS:GALA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4385,7 +4385,7 @@
             }
         }
     },
-    "CS_GAS-USD": {
+    "CS:GAS-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4423,7 +4423,7 @@
             }
         }
     },
-    "CS_GIGA-USD": {
+    "CS:GIGA-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -4437,7 +4437,7 @@
             }
         }
     },
-    "CS_GLM-USD": {
+    "CS:GLM-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4489,7 +4489,7 @@
             }
         }
     },
-    "CS_GLMR-USD": {
+    "CS:GLMR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4537,7 +4537,7 @@
             }
         }
     },
-    "CS_GMT-USD": {
+    "CS:GMT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4603,7 +4603,7 @@
             }
         }
     },
-    "CS_GMX-USD": {
+    "CS:GMX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4645,7 +4645,7 @@
             }
         }
     },
-    "CS_GNO-USD": {
+    "CS:GNO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4681,7 +4681,7 @@
             }
         }
     },
-    "CS_GRT-USD": {
+    "CS:GRT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4737,7 +4737,7 @@
             }
         }
     },
-    "CS_GT-USD": {
+    "CS:GT-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -4755,7 +4755,7 @@
             }
         }
     },
-    "CS_H2O-USD": {
+    "CS:H2O-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -4773,7 +4773,7 @@
             }
         }
     },
-    "CS_HBAR-USD": {
+    "CS:HBAR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4835,7 +4835,7 @@
             }
         }
     },
-    "CS_HNT-USD": {
+    "CS:HNT-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -4861,7 +4861,7 @@
             }
         }
     },
-    "CS_HONEY-USD": {
+    "CS:HONEY-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -4883,7 +4883,7 @@
             }
         }
     },
-    "CS_HOT-USD": {
+    "CS:HOT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4911,7 +4911,7 @@
             }
         }
     },
-    "CS_ICP-USD": {
+    "CS:ICP-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -4987,7 +4987,7 @@
             }
         }
     },
-    "CS_ID-USD": {
+    "CS:ID-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5021,7 +5021,7 @@
             }
         }
     },
-    "CS_ILV-USD": {
+    "CS:ILV-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5063,7 +5063,7 @@
             }
         }
     },
-    "CS_IMX-USD": {
+    "CS:IMX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5129,7 +5129,7 @@
             }
         }
     },
-    "CS_INJ-USD": {
+    "CS:INJ-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5185,7 +5185,7 @@
             }
         }
     },
-    "CS_IO-USD": {
+    "CS:IO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5219,7 +5219,7 @@
             }
         }
     },
-    "CS_IOTA-USD": {
+    "CS:IOTA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5267,7 +5267,7 @@
             }
         }
     },
-    "CS_IOTX-USD": {
+    "CS:IOTX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5299,7 +5299,7 @@
             }
         }
     },
-    "CS_IPV-USD": {
+    "CS:IPV-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -5313,7 +5313,7 @@
             }
         }
     },
-    "CS_JASMY-USD": {
+    "CS:JASMY-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5359,7 +5359,7 @@
             }
         }
     },
-    "CS_JST-USD": {
+    "CS:JST-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5397,7 +5397,7 @@
             }
         }
     },
-    "CS_JTO-USD": {
+    "CS:JTO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5463,7 +5463,7 @@
             }
         }
     },
-    "CS_JUP-USD": {
+    "CS:JUP-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5515,7 +5515,7 @@
             }
         }
     },
-    "CS_KAS-USD": {
+    "CS:KAS-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -5533,7 +5533,7 @@
             }
         }
     },
-    "CS_KAVA-USD": {
+    "CS:KAVA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5569,7 +5569,7 @@
             }
         }
     },
-    "CS_KCS-USD": {
+    "CS:KCS-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -5587,7 +5587,7 @@
             }
         }
     },
-    "CS_KLAY-USD": {
+    "CS:KLAY-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5635,7 +5635,7 @@
             }
         }
     },
-    "CS_KSM-USD": {
+    "CS:KSM-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5691,7 +5691,7 @@
             }
         }
     },
-    "CS_LDO-USD": {
+    "CS:LDO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5757,7 +5757,7 @@
             }
         }
     },
-    "CS_LEO-USD": {
+    "CS:LEO-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -5785,7 +5785,7 @@
             }
         }
     },
-    "CS_LINK-USD": {
+    "CS:LINK-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5871,7 +5871,7 @@
             }
         }
     },
-    "CS_LPT-USD": {
+    "CS:LPT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5927,7 +5927,7 @@
             }
         }
     },
-    "CS_LRC-USD": {
+    "CS:LRC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -5989,7 +5989,7 @@
             }
         }
     },
-    "CS_LTC-USD": {
+    "CS:LTC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6065,7 +6065,7 @@
             }
         }
     },
-    "CS_LUNA-USD": {
+    "CS:LUNA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6117,7 +6117,7 @@
             }
         }
     },
-    "CS_LUNC-USD": {
+    "CS:LUNC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6165,7 +6165,7 @@
             }
         }
     },
-    "CS_MANA-USD": {
+    "CS:MANA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6231,7 +6231,7 @@
             }
         }
     },
-    "CS_MANTA-USD": {
+    "CS:MANTA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6269,7 +6269,7 @@
             }
         }
     },
-    "CS_MASK-USD": {
+    "CS:MASK-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6335,7 +6335,7 @@
             }
         }
     },
-    "CS_MATIC-USD": {
+    "CS:MATIC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6421,7 +6421,7 @@
             }
         }
     },
-    "CS_MEME-USD": {
+    "CS:MEME-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6459,7 +6459,7 @@
             }
         }
     },
-    "CS_METIS-USD": {
+    "CS:METIS-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6511,7 +6511,7 @@
             }
         }
     },
-    "CS_MEW-USD": {
+    "CS:MEW-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -6539,7 +6539,7 @@
             }
         }
     },
-    "CS_MGC-USD": {
+    "CS:MGC-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -6553,7 +6553,7 @@
             }
         }
     },
-    "CS_MINA-USD": {
+    "CS:MINA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6619,7 +6619,7 @@
             }
         }
     },
-    "CS_MKR-USD": {
+    "CS:MKR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6675,7 +6675,7 @@
             }
         }
     },
-    "CS_MNT-USD": {
+    "CS:MNT-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -6697,7 +6697,7 @@
             }
         }
     },
-    "CS_MOG-USD": {
+    "CS:MOG-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -6715,7 +6715,7 @@
             }
         }
     },
-    "CS_MWC-USD": {
+    "CS:MWC-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -6729,7 +6729,7 @@
             }
         }
     },
-    "CS_MX-USD": {
+    "CS:MX-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -6747,7 +6747,7 @@
             }
         }
     },
-    "CS_NEAR-USD": {
+    "CS:NEAR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6823,7 +6823,7 @@
             }
         }
     },
-    "CS_NEO-USD": {
+    "CS:NEO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6881,7 +6881,7 @@
             }
         }
     },
-    "CS_NEXO-USD": {
+    "CS:NEXO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6909,7 +6909,7 @@
             }
         }
     },
-    "CS_NFT-USD": {
+    "CS:NFT-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -6937,7 +6937,7 @@
             }
         }
     },
-    "CS_NOT-USD": {
+    "CS:NOT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -6985,7 +6985,7 @@
             }
         }
     },
-    "CS_OKB-USD": {
+    "CS:OKB-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -7023,7 +7023,7 @@
             }
         }
     },
-    "CS_OM-USD": {
+    "CS:OM-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7071,7 +7071,7 @@
             }
         }
     },
-    "CS_ONDO-USD": {
+    "CS:ONDO-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -7107,7 +7107,7 @@
             }
         }
     },
-    "CS_ONE-USD": {
+    "CS:ONE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7141,7 +7141,7 @@
             }
         }
     },
-    "CS_OP-USD": {
+    "CS:OP-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7217,7 +7217,7 @@
             }
         }
     },
-    "CS_ORBR-USD": {
+    "CS:ORBR-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -7231,7 +7231,7 @@
             }
         }
     },
-    "CS_ORDI-USD": {
+    "CS:ORDI-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7289,7 +7289,7 @@
             }
         }
     },
-    "CS_OSMO-USD": {
+    "CS:OSMO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7325,7 +7325,7 @@
             }
         }
     },
-    "CS_PAXG-USD": {
+    "CS:PAXG-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7357,7 +7357,7 @@
             }
         }
     },
-    "CS_PENDLE-USD": {
+    "CS:PENDLE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7399,7 +7399,7 @@
             }
         }
     },
-    "CS_PEOPLE-USD": {
+    "CS:PEOPLE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7457,7 +7457,7 @@
             }
         }
     },
-    "CS_PEPE-USD": {
+    "CS:PEPE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7519,7 +7519,7 @@
             }
         }
     },
-    "CS_PEPECOIN-USD": {
+    "CS:PEPECOIN-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -7537,7 +7537,7 @@
             }
         }
     },
-    "CS_POLYX-USD": {
+    "CS:POLYX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7565,7 +7565,7 @@
             }
         }
     },
-    "CS_PONKE-USD": {
+    "CS:PONKE-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -7579,7 +7579,7 @@
             }
         }
     },
-    "CS_POPCAT-USD": {
+    "CS:POPCAT-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -7597,7 +7597,7 @@
             }
         }
     },
-    "CS_PRIME-USD": {
+    "CS:PRIME-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -7623,7 +7623,7 @@
             }
         }
     },
-    "CS_PYTH-USD": {
+    "CS:PYTH-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7675,7 +7675,7 @@
             }
         }
     },
-    "CS_PYUSD-USD": {
+    "CS:PYUSD-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -7701,7 +7701,7 @@
             }
         }
     },
-    "CS_QNT-USD": {
+    "CS:QNT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7747,7 +7747,7 @@
             }
         }
     },
-    "CS_QTUM-USD": {
+    "CS:QTUM-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7799,7 +7799,7 @@
             }
         }
     },
-    "CS_QUBIC-USD": {
+    "CS:QUBIC-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -7813,7 +7813,7 @@
             }
         }
     },
-    "CS_RAY-USD": {
+    "CS:RAY-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7855,7 +7855,7 @@
             }
         }
     },
-    "CS_RENDER-USD": {
+    "CS:RENDER-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -7921,7 +7921,7 @@
             }
         }
     },
-    "CS_RLB-USD": {
+    "CS:RLB-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -7935,7 +7935,7 @@
             }
         }
     },
-    "CS_RON-USD": {
+    "CS:RON-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -7973,7 +7973,7 @@
             }
         }
     },
-    "CS_ROSE-USD": {
+    "CS:ROSE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8015,7 +8015,7 @@
             }
         }
     },
-    "CS_RPL-USD": {
+    "CS:RPL-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8071,7 +8071,7 @@
             }
         }
     },
-    "CS_RSR-USD": {
+    "CS:RSR-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8109,7 +8109,7 @@
             }
         }
     },
-    "CS_RUNE-USD": {
+    "CS:RUNE-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8151,7 +8151,7 @@
             }
         }
     },
-    "CS_RVN-USD": {
+    "CS:RVN-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8199,7 +8199,7 @@
             }
         }
     },
-    "CS_SAFE-USD": {
+    "CS:SAFE-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -8235,7 +8235,7 @@
             }
         }
     },
-    "CS_SAND-USD": {
+    "CS:SAND-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8301,7 +8301,7 @@
             }
         }
     },
-    "CS_SC-USD": {
+    "CS:SC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8353,7 +8353,7 @@
             }
         }
     },
-    "CS_SEI-USD": {
+    "CS:SEI-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8399,7 +8399,7 @@
             }
         }
     },
-    "CS_SFP-USD": {
+    "CS:SFP-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8427,7 +8427,7 @@
             }
         }
     },
-    "CS_SHIB-USD": {
+    "CS:SHIB-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8513,7 +8513,7 @@
             }
         }
     },
-    "CS_SKL-USD": {
+    "CS:SKL-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8551,7 +8551,7 @@
             }
         }
     },
-    "CS_SNX-USD": {
+    "CS:SNX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8607,7 +8607,7 @@
             }
         }
     },
-    "CS_SOL-USD": {
+    "CS:SOL-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8693,7 +8693,7 @@
             }
         }
     },
-    "CS_SSV-USD": {
+    "CS:SSV-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8727,7 +8727,7 @@
             }
         }
     },
-    "CS_STRK-USD": {
+    "CS:STRK-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8793,7 +8793,7 @@
             }
         }
     },
-    "CS_STX-USD": {
+    "CS:STX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8869,7 +8869,7 @@
             }
         }
     },
-    "CS_SUI-USD": {
+    "CS:SUI-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8935,7 +8935,7 @@
             }
         }
     },
-    "CS_SUN-USD": {
+    "CS:SUN-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -8963,7 +8963,7 @@
             }
         }
     },
-    "CS_SUNDOG-USD": {
+    "CS:SUNDOG-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -8981,7 +8981,7 @@
             }
         }
     },
-    "CS_SUPER-USD": {
+    "CS:SUPER-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9017,7 +9017,7 @@
             }
         }
     },
-    "CS_T-USD": {
+    "CS:T-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9073,7 +9073,7 @@
             }
         }
     },
-    "CS_TAO-USD": {
+    "CS:TAO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9105,7 +9105,7 @@
             }
         }
     },
-    "CS_TFUEL-USD": {
+    "CS:TFUEL-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9133,7 +9133,7 @@
             }
         }
     },
-    "CS_THETA-USD": {
+    "CS:THETA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9171,7 +9171,7 @@
             }
         }
     },
-    "CS_TIA-USD": {
+    "CS:TIA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9237,7 +9237,7 @@
             }
         }
     },
-    "CS_TON-USD": {
+    "CS:TON-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9295,7 +9295,7 @@
             }
         }
     },
-    "CS_TRAC-USD": {
+    "CS:TRAC-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -9321,7 +9321,7 @@
             }
         }
     },
-    "CS_TRB-USD": {
+    "CS:TRB-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9369,7 +9369,7 @@
             }
         }
     },
-    "CS_TRIBE-USD": {
+    "CS:TRIBE-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -9383,7 +9383,7 @@
             }
         }
     },
-    "CS_TRX-USD": {
+    "CS:TRX-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9435,7 +9435,7 @@
             }
         }
     },
-    "CS_TURBO-USD": {
+    "CS:TURBO-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -9467,7 +9467,7 @@
             }
         }
     },
-    "CS_TUSD-USD": {
+    "CS:TUSD-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9499,7 +9499,7 @@
             }
         }
     },
-    "CS_TWT-USD": {
+    "CS:TWT-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9527,7 +9527,7 @@
             }
         }
     },
-    "CS_UMA-USD": {
+    "CS:UMA-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9579,7 +9579,7 @@
             }
         }
     },
-    "CS_UNI-USD": {
+    "CS:UNI-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9645,7 +9645,7 @@
             }
         }
     },
-    "CS_USDB-USD": {
+    "CS:USDB-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -9663,7 +9663,7 @@
             }
         }
     },
-    "CS_USDC-USD": {
+    "CS:USDC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9715,7 +9715,7 @@
             }
         }
     },
-    "CS_USDD-USD": {
+    "CS:USDD-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -9733,7 +9733,7 @@
             }
         }
     },
-    "CS_USDE-USD": {
+    "CS:USDE-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -9747,7 +9747,7 @@
             }
         }
     },
-    "CS_USDT-USD": {
+    "CS:USDT-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -9793,7 +9793,7 @@
             }
         }
     },
-    "CS_USDY-USD": {
+    "CS:USDY-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -9811,7 +9811,7 @@
             }
         }
     },
-    "CS_VET-USD": {
+    "CS:VET-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9843,7 +9843,7 @@
             }
         }
     },
-    "CS_VTHO-USD": {
+    "CS:VTHO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9871,7 +9871,7 @@
             }
         }
     },
-    "CS_W-USD": {
+    "CS:W-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -9923,7 +9923,7 @@
             }
         }
     },
-    "CS_WEMIX-USD": {
+    "CS:WEMIX-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -9941,7 +9941,7 @@
             }
         }
     },
-    "CS_WIF-USD": {
+    "CS:WIF-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10003,7 +10003,7 @@
             }
         }
     },
-    "CS_WLD-USD": {
+    "CS:WLD-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10061,7 +10061,7 @@
             }
         }
     },
-    "CS_WOO-USD": {
+    "CS:WOO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10103,7 +10103,7 @@
             }
         }
     },
-    "CS_XAUT-USD": {
+    "CS:XAUT-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -10117,7 +10117,7 @@
             }
         }
     },
-    "CS_XDC-USD": {
+    "CS:XDC-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -10135,7 +10135,7 @@
             }
         }
     },
-    "CS_XEC-USD": {
+    "CS:XEC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10163,7 +10163,7 @@
             }
         }
     },
-    "CS_XEM-USD": {
+    "CS:XEM-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -10177,7 +10177,7 @@
             }
         }
     },
-    "CS_XLM-USD": {
+    "CS:XLM-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10243,7 +10243,7 @@
             }
         }
     },
-    "CS_XMR-USD": {
+    "CS:XMR-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -10275,7 +10275,7 @@
             }
         }
     },
-    "CS_XRD-USD": {
+    "CS:XRD-USD": {
         "sources": [
             {
                 "source_id": "coingecko",
@@ -10293,7 +10293,7 @@
             }
         }
     },
-    "CS_XRP-USD": {
+    "CS:XRP-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10379,7 +10379,7 @@
             }
         }
     },
-    "CS_XTZ-USD": {
+    "CS:XTZ-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10445,7 +10445,7 @@
             }
         }
     },
-    "CS_YFI-USD": {
+    "CS:YFI-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10497,7 +10497,7 @@
             }
         }
     },
-    "CS_ZBU-USD": {
+    "CS:ZBU-USD": {
         "sources": [
             {
                 "source_id": "coinmarketcap",
@@ -10511,7 +10511,7 @@
             }
         }
     },
-    "CS_ZEC-USD": {
+    "CS:ZEC-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10547,7 +10547,7 @@
             }
         }
     },
-    "CS_ZETA-USD": {
+    "CS:ZETA-USD": {
         "sources": [
             {
                 "source_id": "coinbase",
@@ -10579,7 +10579,7 @@
             }
         }
     },
-    "CS_ZIL-USD": {
+    "CS:ZIL-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10627,7 +10627,7 @@
             }
         }
     },
-    "CS_ZK-USD": {
+    "CS:ZK-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10689,7 +10689,7 @@
             }
         }
     },
-    "CS_ZRO-USD": {
+    "CS:ZRO-USD": {
         "sources": [
             {
                 "source_id": "binance",
@@ -10745,7 +10745,7 @@
             }
         }
     },
-    "CS_ZRX-USD": {
+    "CS:ZRX-USD": {
         "sources": [
             {
                 "source_id": "binance",
