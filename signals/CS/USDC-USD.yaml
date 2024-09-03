@@ -1,9 +1,4 @@
 sources:
-- source_id: binance
-  id: usdcusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: usd-coin
 - source_id: coinmarketcap
