@@ -25,11 +25,12 @@ def main(input_path: str, output_path: str):
         for file in sorted(files):
             with open(os.path.join(root, file), 'r') as f:
                 signal_id = file.split('.')[0]
+                prefixed_signal_id = f"{prefix}_{signal_id}"
 
-                signal_ids[signal_id].update(yaml.safe_load(f))
-                signal_ids[signal_id].update(shared_prefix_traits[prefix])
+                signal_ids[prefixed_signal_id].update(yaml.safe_load(f))
+                signal_ids[prefixed_signal_id].update(shared_prefix_traits[prefix])
 
-        with open(f"{output_path}/{prefix}.json", 'w') as f:
+        with open(f"{output_path}/registry.json", 'w') as f:
             json.dump(signal_ids, f, indent=4)
 
 
