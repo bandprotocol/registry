@@ -1,0 +1,10 @@
+sources:
+- source_id: binance
+  id: fluxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: zelcash
+- source_id: coinmarketcap
+  id: '3029'

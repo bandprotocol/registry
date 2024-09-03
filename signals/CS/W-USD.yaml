@@ -1,0 +1,22 @@
+sources:
+- source_id: binance
+  id: wusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: wormhole
+- source_id: coinmarketcap
+  id: '29587'
+- source_id: kraken
+  id: W/USD
+- source_id: okx
+  id: W-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: W-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -1,0 +1,7 @@
+sources:
+- source_id: coinbase
+  id: AERO-USD
+- source_id: coingecko
+  id: aerodrome-finance
+- source_id: coinmarketcap
+  id: '29270'

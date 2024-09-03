@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: glmrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinmarketcap
+  id: '6836'
+- source_id: kraken
+  id: GLMR/USD
+- source_id: okx
+  id: GLMR-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: GLMR-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

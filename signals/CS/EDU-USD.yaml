@@ -1,0 +1,8 @@
+sources:
+- source_id: binance
+  id: eduusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinmarketcap
+  id: '24613'

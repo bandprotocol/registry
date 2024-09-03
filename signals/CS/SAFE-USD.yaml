@@ -1,0 +1,14 @@
+sources:
+- source_id: coinbase
+  id: SAFE-USD
+- source_id: coingecko
+  id: safe
+- source_id: coinmarketcap
+  id: '21585'
+- source_id: kraken
+  id: SAFE/USD
+- source_id: okx
+  id: SAFE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

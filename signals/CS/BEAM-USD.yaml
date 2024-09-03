@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: beam-2
+- source_id: coinmarketcap
+  id: '28298'
+- source_id: kraken
+  id: BEAM/USD

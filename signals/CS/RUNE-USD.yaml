@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: runeusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: runeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: thorchain
+- source_id: coinmarketcap
+  id: '4157'
+- source_id: kraken
+  id: RUNE/USD

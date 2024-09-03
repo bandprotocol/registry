@@ -1,0 +1,12 @@
+sources:
+- source_id: coingecko
+  id: bittorrent
+- source_id: coinmarketcap
+  id: '16086'
+- source_id: kraken
+  id: BTT/USD
+- source_id: okx
+  id: BTT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

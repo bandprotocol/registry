@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: h2o-dao
+- source_id: coinmarketcap
+  id: '19091'

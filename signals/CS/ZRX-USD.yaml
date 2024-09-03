@@ -1,0 +1,24 @@
+sources:
+- source_id: binance
+  id: zrxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ZRX-USD
+- source_id: coingecko
+  id: 0x
+- source_id: coinmarketcap
+  id: '1896'
+- source_id: kraken
+  id: ZRX/USD
+- source_id: okx
+  id: ZRX-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ZRX-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

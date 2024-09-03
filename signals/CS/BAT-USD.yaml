@@ -1,0 +1,24 @@
+sources:
+- source_id: binance
+  id: batusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: BAT-USD
+- source_id: coingecko
+  id: basic-attention-token
+- source_id: coinmarketcap
+  id: '1697'
+- source_id: kraken
+  id: BAT/USD
+- source_id: okx
+  id: BAT-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: BAT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: dogsusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: dogs-2
+- source_id: coinmarketcap
+  id: '32698'
+- source_id: okx
+  id: DOGS-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

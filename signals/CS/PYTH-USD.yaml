@@ -1,0 +1,22 @@
+sources:
+- source_id: binance
+  id: pythusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: pyth-network
+- source_id: coinmarketcap
+  id: '28177'
+- source_id: kraken
+  id: PYTH/USD
+- source_id: okx
+  id: PYTH-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: PYTH-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

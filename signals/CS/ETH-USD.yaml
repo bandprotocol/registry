@@ -1,0 +1,44 @@
+sources:
+- source_id: binance
+  id: ethusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: ethusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ETH-USD
+- source_id: coinbase
+  id: ETH-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: ethereum
+- source_id: coinmarketcap
+  id: '1027'
+- source_id: kraken
+  id: ETH/USD
+- source_id: kraken
+  id: ETH/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
+  id: ETH/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: ETH-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ETH-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

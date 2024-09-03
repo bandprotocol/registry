@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: mantausdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: mantausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: manta-network
+- source_id: coinmarketcap
+  id: '13631'

@@ -1,0 +1,39 @@
+sources:
+- source_id: binance
+  id: xrpusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: xrpusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: XRP-USD
+- source_id: coinbase
+  id: XRP-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: ripple
+- source_id: coinmarketcap
+  id: '52'
+- source_id: kraken
+  id: XRP/USD
+- source_id: kraken
+  id: XRP/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: XRP-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: XRP-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

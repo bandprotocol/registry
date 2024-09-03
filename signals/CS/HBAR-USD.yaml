@@ -1,0 +1,27 @@
+sources:
+- source_id: binance
+  id: hbarusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: HBAR-USD
+- source_id: coinbase
+  id: HBAR-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: hedera-hashgraph
+- source_id: coinmarketcap
+  id: '4642'
+- source_id: okx
+  id: HBAR-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: HBAR-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

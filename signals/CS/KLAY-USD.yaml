@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: klayusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: klay-token
+- source_id: coinmarketcap
+  id: '4256'
+- source_id: okx
+  id: KLAY-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: KLAY-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

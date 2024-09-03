@@ -1,0 +1,24 @@
+sources:
+- source_id: binance
+  id: egldusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: EGLD-USD
+- source_id: coingecko
+  id: elrond-erd-2
+- source_id: coinmarketcap
+  id: '6892'
+- source_id: kraken
+  id: EGLD/USD
+- source_id: okx
+  id: EGLD-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: EGLD-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

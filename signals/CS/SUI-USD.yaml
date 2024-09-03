@@ -1,0 +1,29 @@
+sources:
+- source_id: binance
+  id: suiusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: suiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: SUI-USD
+- source_id: coingecko
+  id: sui
+- source_id: coinmarketcap
+  id: '20947'
+- source_id: kraken
+  id: SUI/USD
+- source_id: okx
+  id: SUI-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: SUI-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

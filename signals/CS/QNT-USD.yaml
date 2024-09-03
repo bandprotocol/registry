@@ -1,0 +1,19 @@
+sources:
+- source_id: binance
+  id: qntusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: QNT-USD
+- source_id: coinbase
+  id: QNT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: quant-network
+- source_id: coinmarketcap
+  id: '3155'
+- source_id: kraken
+  id: QNT/USD

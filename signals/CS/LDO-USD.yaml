@@ -1,0 +1,29 @@
+sources:
+- source_id: binance
+  id: ldousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: ldousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: LDO-USD
+- source_id: coingecko
+  id: lido-dao
+- source_id: coinmarketcap
+  id: '8000'
+- source_id: kraken
+  id: LDO/USD
+- source_id: okx
+  id: LDO-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: LDO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

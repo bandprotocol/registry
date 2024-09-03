@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: aevousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: aevo-exchange
+- source_id: coinmarketcap
+  id: '29676'
+- source_id: kraken
+  id: AEVO/USD
+- source_id: okx
+  id: AEVO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

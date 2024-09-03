@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: thetausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: theta-token
+- source_id: coinmarketcap
+  id: '2416'
+- source_id: okx
+  id: THETA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

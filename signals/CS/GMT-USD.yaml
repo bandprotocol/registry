@@ -1,0 +1,29 @@
+sources:
+- source_id: binance
+  id: gmtusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: GMT-USD
+- source_id: coinbase
+  id: GMT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: stepn
+- source_id: coinmarketcap
+  id: '18069'
+- source_id: kraken
+  id: GMT/USD
+- source_id: okx
+  id: GMT-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: GMT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

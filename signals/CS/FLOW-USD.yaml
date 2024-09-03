@@ -1,0 +1,29 @@
+sources:
+- source_id: binance
+  id: flowusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: FLOW-USD
+- source_id: coinbase
+  id: FLOW-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: flow
+- source_id: coinmarketcap
+  id: '4558'
+- source_id: kraken
+  id: FLOW/USD
+- source_id: okx
+  id: FLOW-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: FLOW-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

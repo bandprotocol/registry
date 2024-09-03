@@ -1,0 +1,29 @@
+sources:
+- source_id: binance
+  id: tiausdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: tiausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: TIA-USD
+- source_id: coingecko
+  id: celestia
+- source_id: coinmarketcap
+  id: '22861'
+- source_id: kraken
+  id: TIA/USD
+- source_id: okx
+  id: TIA-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: TIA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

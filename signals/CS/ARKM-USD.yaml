@@ -1,0 +1,24 @@
+sources:
+- source_id: binance
+  id: arkmusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: arkmusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ARKM-USD
+- source_id: coingecko
+  id: arkham
+- source_id: coinmarketcap
+  id: '27565'
+- source_id: kraken
+  id: ARKM/USD
+- source_id: okx
+  id: ARKM-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

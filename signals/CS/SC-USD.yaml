@@ -1,0 +1,22 @@
+sources:
+- source_id: binance
+  id: scusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: siacoin
+- source_id: coinmarketcap
+  id: '1042'
+- source_id: kraken
+  id: SC/USD
+- source_id: okx
+  id: SC-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: SC-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

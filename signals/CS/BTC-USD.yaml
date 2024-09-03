@@ -1,0 +1,44 @@
+sources:
+- source_id: binance
+  id: btcusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: btcusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: BTC-USD
+- source_id: coinbase
+  id: BTC-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: bitcoin
+- source_id: coinmarketcap
+  id: '1'
+- source_id: kraken
+  id: XBT/USD
+- source_id: kraken
+  id: XBT/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
+  id: XBT/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: BTC-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: BTC-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

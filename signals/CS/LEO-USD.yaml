@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: leo-token
+- source_id: coinmarketcap
+  id: '3957'
+- source_id: okx
+  id: LEO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

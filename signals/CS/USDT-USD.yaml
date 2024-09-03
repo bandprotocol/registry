@@ -1,0 +1,9 @@
+sources:
+- source_id: coinbase
+  id: USDT-USD
+- source_id: coingecko
+  id: tether
+- source_id: coinmarketcap
+  id: '825'
+- source_id: kraken
+  id: USDT/USD

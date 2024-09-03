@@ -1,0 +1,15 @@
+sources:
+- source_id: coingecko
+  id: okb
+- source_id: coinmarketcap
+  id: '3897'
+- source_id: okx
+  id: OKB-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: OKB-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

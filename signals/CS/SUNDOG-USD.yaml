@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: sundog
+- source_id: coinmarketcap
+  id: '32717'

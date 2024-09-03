@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: rsrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: reserve-rights-token
+- source_id: coinmarketcap
+  id: '3964'
+- source_id: okx
+  id: RSR-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

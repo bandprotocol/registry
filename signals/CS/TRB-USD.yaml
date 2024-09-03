@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: trbusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: trbusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: TRB-USD
+- source_id: coinmarketcap
+  id: '4944'
+- source_id: okx
+  id: TRB-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

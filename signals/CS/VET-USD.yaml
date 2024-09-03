@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: vetusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: VET-USD
+- source_id: coingecko
+  id: vechain
+- source_id: coinmarketcap
+  id: '3077'

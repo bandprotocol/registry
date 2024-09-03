@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: mantle
+- source_id: coinmarketcap
+  id: '27075'
+- source_id: kraken
+  id: MNT/USD

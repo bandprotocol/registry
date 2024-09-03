@@ -1,0 +1,34 @@
+sources:
+- source_id: binance
+  id: aptusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: aptusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: APT-USD
+- source_id: coinbase
+  id: APT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: aptos
+- source_id: coinmarketcap
+  id: '21794'
+- source_id: kraken
+  id: APT/USD
+- source_id: okx
+  id: APT-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: APT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

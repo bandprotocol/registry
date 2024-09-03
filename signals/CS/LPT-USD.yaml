@@ -1,0 +1,24 @@
+sources:
+- source_id: binance
+  id: lptusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: LPT-USD
+- source_id: coingecko
+  id: livepeer
+- source_id: coinmarketcap
+  id: '3640'
+- source_id: kraken
+  id: LPT/USD
+- source_id: okx
+  id: LPT-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: LPT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

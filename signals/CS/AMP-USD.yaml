@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: ampusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: AMP-USD
+- source_id: coingecko
+  id: amp-token
+- source_id: coinmarketcap
+  id: '6945'

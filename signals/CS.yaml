@@ -1,0 +1,4 @@
+processor:
+  function: median
+  params:
+    min_source_count: 3

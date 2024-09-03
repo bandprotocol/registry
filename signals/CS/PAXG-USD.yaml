@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: paxgusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: pax-gold
+- source_id: coinmarketcap
+  id: '4705'
+- source_id: kraken
+  id: PAXG/USD

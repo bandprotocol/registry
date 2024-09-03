@@ -1,0 +1,24 @@
+sources:
+- source_id: binance
+  id: etcusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ETC-USD
+- source_id: coingecko
+  id: ethereum-classic
+- source_id: coinmarketcap
+  id: '1321'
+- source_id: kraken
+  id: ETC/USD
+- source_id: okx
+  id: ETC-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ETC-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

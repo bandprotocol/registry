@@ -1,0 +1,15 @@
+sources:
+- source_id: coingecko
+  id: bitcoin-cash-sv
+- source_id: coinmarketcap
+  id: '3602'
+- source_id: okx
+  id: BSV-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: BSV-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

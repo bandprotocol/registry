@@ -1,0 +1,9 @@
+sources:
+- source_id: coinbase
+  id: PYUSD-USD
+- source_id: coingecko
+  id: paypal-usd
+- source_id: coinmarketcap
+  id: '27772'
+- source_id: kraken
+  id: PYUSD/USD

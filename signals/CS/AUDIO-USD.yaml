@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: audiousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: AUDIO-USD
+- source_id: coinmarketcap
+  id: '7455'
+- source_id: kraken
+  id: AUDIO/USD

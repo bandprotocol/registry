@@ -1,0 +1,24 @@
+sources:
+- source_id: binance
+  id: 1inchusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: 1INCH-USD
+- source_id: coingecko
+  id: 1inch
+- source_id: coinmarketcap
+  id: '8104'
+- source_id: kraken
+  id: 1INCH/USD
+- source_id: okx
+  id: 1INCH-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: 1INCH-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

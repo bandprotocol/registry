@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: popcat
+- source_id: coinmarketcap
+  id: '28782'

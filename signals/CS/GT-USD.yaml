@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: gatechain-token
+- source_id: coinmarketcap
+  id: '4269'

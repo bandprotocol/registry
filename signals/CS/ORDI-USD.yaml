@@ -1,0 +1,25 @@
+sources:
+- source_id: binance
+  id: ordiusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: ordiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: ordinals
+- source_id: coinmarketcap
+  id: '25028'
+- source_id: okx
+  id: ORDI-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ORDI-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

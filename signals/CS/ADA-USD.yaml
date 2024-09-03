@@ -1,0 +1,39 @@
+sources:
+- source_id: binance
+  id: adausdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: adausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ADA-USD
+- source_id: coinbase
+  id: ADA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: cardano
+- source_id: coinmarketcap
+  id: '2010'
+- source_id: kraken
+  id: ADA/USD
+- source_id: kraken
+  id: ADA/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: ADA-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ADA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

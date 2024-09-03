@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: kaspa
+- source_id: coinmarketcap
+  id: '20396'

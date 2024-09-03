@@ -1,0 +1,39 @@
+sources:
+- source_id: binance
+  id: dogeusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: dogeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: DOGE-USD
+- source_id: coinbase
+  id: DOGE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: dogecoin
+- source_id: coinmarketcap
+  id: '74'
+- source_id: kraken
+  id: XDG/USD
+- source_id: kraken
+  id: XDG/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: DOGE-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: DOGE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

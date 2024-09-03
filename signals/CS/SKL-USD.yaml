@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: sklusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: SKL-USD
+- source_id: coinmarketcap
+  id: '5691'
+- source_id: okx
+  id: SKL-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: cat-in-a-dogs-world
+- source_id: coinmarketcap
+  id: '30126'
+- source_id: okx
+  id: MEW-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

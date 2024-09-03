@@ -1,0 +1,27 @@
+sources:
+- source_id: binance
+  id: bicousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: BICO-USD
+- source_id: coinbase
+  id: BICO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinmarketcap
+  id: '9543'
+- source_id: kraken
+  id: BICO/USD
+- source_id: okx
+  id: BICO-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: BICO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

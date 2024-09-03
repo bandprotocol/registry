@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: mx-token
+- source_id: coinmarketcap
+  id: '4041'

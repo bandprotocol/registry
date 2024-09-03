@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: bitcoin-gold
+- source_id: coinmarketcap
+  id: '2083'

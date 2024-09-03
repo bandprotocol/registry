@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: apenft
+- source_id: coinmarketcap
+  id: '9816'
+- source_id: okx
+  id: NFT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

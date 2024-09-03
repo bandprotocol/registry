@@ -1,0 +1,27 @@
+sources:
+- source_id: binance
+  id: pepeusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: pepeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: pepe
+- source_id: coinmarketcap
+  id: '24478'
+- source_id: kraken
+  id: PEPE/USD
+- source_id: okx
+  id: PEPE-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: PEPE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

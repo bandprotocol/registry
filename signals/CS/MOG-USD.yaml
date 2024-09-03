@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: mog-coin
+- source_id: coinmarketcap
+  id: '27659'

@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: dog-go-to-the-moon-rune
+- source_id: coinmarketcap
+  id: '30933'

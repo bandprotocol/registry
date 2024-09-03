@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: xdce-crowd-sale
+- source_id: coinmarketcap
+  id: '2634'

@@ -1,0 +1,9 @@
+sources:
+- source_id: coinbase
+  id: GAL-USD
+- source_id: coingecko
+  id: project-galaxy
+- source_id: coinmarketcap
+  id: '11877'
+- source_id: kraken
+  id: GAL/USD

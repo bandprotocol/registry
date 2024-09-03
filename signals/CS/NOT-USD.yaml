@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: notusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: notusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: notcoin
+- source_id: coinmarketcap
+  id: '28850'
+- source_id: okx
+  id: NOT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

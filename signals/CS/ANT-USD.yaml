@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: aragon
+- source_id: coinmarketcap
+  id: '1680'
+- source_id: kraken
+  id: ANT/USD

@@ -1,0 +1,34 @@
+sources:
+- source_id: binance
+  id: algousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: algousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ALGO-USD
+- source_id: coingecko
+  id: algorand
+- source_id: coinmarketcap
+  id: '4030'
+- source_id: kraken
+  id: ALGO/USD
+- source_id: kraken
+  id: ALGO/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: ALGO-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ALGO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: kucoin-shares
+- source_id: coinmarketcap
+  id: '2087'

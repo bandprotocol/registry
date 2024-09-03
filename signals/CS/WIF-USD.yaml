@@ -1,0 +1,27 @@
+sources:
+- source_id: binance
+  id: wifusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: wifusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: dogwifcoin
+- source_id: coinmarketcap
+  id: '28752'
+- source_id: kraken
+  id: WIF/USD
+- source_id: okx
+  id: WIF-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: WIF-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

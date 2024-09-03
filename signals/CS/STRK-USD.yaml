@@ -1,0 +1,29 @@
+sources:
+- source_id: binance
+  id: strkusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: strkusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: STRK-USD
+- source_id: coingecko
+  id: starknet
+- source_id: coinmarketcap
+  id: '22691'
+- source_id: kraken
+  id: STRK/USD
+- source_id: okx
+  id: STRK-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: STRK-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

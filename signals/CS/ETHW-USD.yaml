@@ -1,0 +1,17 @@
+sources:
+- source_id: coingecko
+  id: ethereum-pow-iou
+- source_id: coinmarketcap
+  id: '21296'
+- source_id: kraken
+  id: ETHW/USD
+- source_id: okx
+  id: ETHW-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ETHW-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

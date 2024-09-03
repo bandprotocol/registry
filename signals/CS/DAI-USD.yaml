@@ -1,0 +1,9 @@
+sources:
+- source_id: coinbase
+  id: DAI-USD
+- source_id: coingecko
+  id: dai
+- source_id: coinmarketcap
+  id: '4943'
+- source_id: kraken
+  id: DAI/USD

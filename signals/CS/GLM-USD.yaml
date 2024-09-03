@@ -1,0 +1,22 @@
+sources:
+- source_id: binance
+  id: glmusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: GLM-USD
+- source_id: coingecko
+  id: golem
+- source_id: coinmarketcap
+  id: '1455'
+- source_id: okx
+  id: GLM-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: GLM-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

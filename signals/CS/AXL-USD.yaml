@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: axlusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: AXL-USD
+- source_id: coingecko
+  id: axelar
+- source_id: coinmarketcap
+  id: '17799'

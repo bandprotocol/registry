@@ -1,0 +1,24 @@
+sources:
+- source_id: binance
+  id: ksmusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: KSM-USD
+- source_id: coingecko
+  id: kusama
+- source_id: coinmarketcap
+  id: '5034'
+- source_id: kraken
+  id: KSM/USD
+- source_id: okx
+  id: KSM-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: KSM-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

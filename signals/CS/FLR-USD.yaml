@@ -1,0 +1,19 @@
+sources:
+- source_id: coinbase
+  id: FLR-USD
+- source_id: coingecko
+  id: flare-networks
+- source_id: coinmarketcap
+  id: '7950'
+- source_id: kraken
+  id: FLR/USD
+- source_id: okx
+  id: FLR-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: FLR-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

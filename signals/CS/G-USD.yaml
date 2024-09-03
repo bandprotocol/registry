@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: gusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: G-USD
+- source_id: coingecko
+  id: g-token
+- source_id: coinmarketcap
+  id: '32120'
+- source_id: okx
+  id: G-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -1,0 +1,29 @@
+sources:
+- source_id: binance
+  id: jtousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: jtousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: JTO-USD
+- source_id: coingecko
+  id: jito-governance-token
+- source_id: coinmarketcap
+  id: '28541'
+- source_id: kraken
+  id: JTO/USD
+- source_id: okx
+  id: JTO-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: JTO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

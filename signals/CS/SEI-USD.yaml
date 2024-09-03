@@ -1,0 +1,19 @@
+sources:
+- source_id: binance
+  id: seiusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: seiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: SEI-USD
+- source_id: coingecko
+  id: sei-network
+- source_id: coinmarketcap
+  id: '23149'
+- source_id: kraken
+  id: SEI/USD

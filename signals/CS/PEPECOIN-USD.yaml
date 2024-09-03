@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: pepecoin-2
+- source_id: coinmarketcap
+  id: '24835'

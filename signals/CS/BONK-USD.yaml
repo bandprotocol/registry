@@ -1,0 +1,24 @@
+sources:
+- source_id: binance
+  id: bonkusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: bonkusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: BONK-USD
+- source_id: coingecko
+  id: bonk
+- source_id: coinmarketcap
+  id: '23095'
+- source_id: kraken
+  id: BONK/USD
+- source_id: okx
+  id: BONK-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

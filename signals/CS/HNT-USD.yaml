@@ -1,0 +1,9 @@
+sources:
+- source_id: coinbase
+  id: HNT-USD
+- source_id: coingecko
+  id: helium
+- source_id: coinmarketcap
+  id: '5665'
+- source_id: kraken
+  id: HNT/USD
