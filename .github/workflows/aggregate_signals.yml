@@ -22,7 +22,7 @@ jobs:
         pip install pyyaml
 
     - name: Aggregate Signals
-      run: python .github/scripts/merge_all.py ./signals .
+      run: python .github/scripts/merge_all.py ./signals ./registry
 
     - name: Cache Rust-Script
       uses: actions/cache@v4

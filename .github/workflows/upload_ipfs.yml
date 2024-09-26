@@ -1,0 +1,18 @@
+name: Upload IPFS
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  upload-ipfs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: aquiladev/ipfs-action@master
+      with:
+        path: ./signals
+        service: pinata
+        pinata_api_key: ${{ secrets.PINATA_API_KEY }}
+        pinata_secret_api_key: ${{ secrets.PINATA_SECRET_API_KEY }}
+        verbose: false
