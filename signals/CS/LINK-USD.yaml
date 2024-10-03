@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: LINKUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: LINKUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: LINK-USD
 - source_id: coinbase
@@ -20,12 +30,14 @@ sources:
   id: chainlink
 - source_id: coinmarketcap
   id: '1975'
+- source_id: cryptocompare
+  id: LINK
 - source_id: kraken
   id: LINK/USD
 - source_id: kraken
   id: LINK/USDT
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: USDT-USD
     operation: '*'
 - source_id: okx
   id: LINK-USDC

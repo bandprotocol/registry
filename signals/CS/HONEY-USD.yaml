@@ -1,7 +1,0 @@
-sources:
-- source_id: coinbase
-  id: HONEY-USD
-- source_id: coinmarketcap
-  id: '22850'
-- source_id: kraken
-  id: HONEY/USD

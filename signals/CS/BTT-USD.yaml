@@ -1,8 +1,15 @@
 sources:
+- source_id: bybit
+  id: BTTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: bittorrent
 - source_id: coinmarketcap
   id: '16086'
+- source_id: cryptocompare
+  id: BTT
 - source_id: kraken
   id: BTT/USD
 - source_id: okx

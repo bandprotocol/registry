@@ -1,10 +1,7 @@
 sources:
-- source_id: binance
-  id: fdusdusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: first-digital-usd
 - source_id: coinmarketcap
   id: '26081'
+- source_id: cryptocompare
+  id: FDUSD

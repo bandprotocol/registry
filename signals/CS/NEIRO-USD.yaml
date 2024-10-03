@@ -1,0 +1,17 @@
+sources:
+- source_id: binance
+  id: neirousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: NEIROUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: neiro-3
+- source_id: coinmarketcap
+  id: '32521'
+- source_id: cryptocompare
+  id: NEIRO

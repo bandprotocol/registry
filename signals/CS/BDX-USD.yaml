@@ -3,3 +3,5 @@ sources:
   id: beldex
 - source_id: coinmarketcap
   id: '3987'
+- source_id: cryptocompare
+  id: BDX

@@ -9,10 +9,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: BOMEUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: book-of-meme
 - source_id: coinmarketcap
   id: '29870'
+- source_id: cryptocompare
+  id: BOME
 - source_id: okx
   id: BOME-USDT
   routes:

@@ -1,13 +1,30 @@
 sources:
 - source_id: binance
+  id: trxusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: trxusdt
   routes:
   - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: TRXUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: TRXUSDT
+  routes:
+  - signal_id: USDT-USD
     operation: '*'
 - source_id: coingecko
   id: tron
 - source_id: coinmarketcap
   id: '1958'
+- source_id: cryptocompare
+  id: TRX
 - source_id: kraken
   id: TRX/USD
 - source_id: okx

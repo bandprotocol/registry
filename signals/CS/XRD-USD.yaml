@@ -1,5 +1,0 @@
-sources:
-- source_id: coingecko
-  id: radix
-- source_id: coinmarketcap
-  id: '11948'

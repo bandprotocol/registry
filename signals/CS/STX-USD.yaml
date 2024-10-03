@@ -9,6 +9,11 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: STXUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: STX-USD
 - source_id: coinbase
@@ -20,6 +25,8 @@ sources:
   id: blockstack
 - source_id: coinmarketcap
   id: '4847'
+- source_id: cryptocompare
+  id: STX
 - source_id: kraken
   id: STX/USD
 - source_id: okx

@@ -9,7 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ALTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: altlayer
 - source_id: coinmarketcap
   id: '29073'
+- source_id: cryptocompare
+  id: ALT
 - source_id: kraken
   id: ALT/USD

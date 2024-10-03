@@ -4,12 +4,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: EGLDUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: EGLD-USD
 - source_id: coingecko
   id: elrond-erd-2
 - source_id: coinmarketcap
   id: '6892'
+- source_id: cryptocompare
+  id: EGLD
 - source_id: kraken
   id: EGLD/USD
 - source_id: okx

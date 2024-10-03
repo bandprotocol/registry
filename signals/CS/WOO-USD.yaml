@@ -4,10 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: WOOUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: woo-network
 - source_id: coinmarketcap
   id: '7501'
+- source_id: cryptocompare
+  id: WOO
 - source_id: kraken
   id: WOO/USD
 - source_id: okx

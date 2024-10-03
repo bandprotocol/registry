@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: AVAXUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: AVAXUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: AVAX-USD
 - source_id: coinbase
@@ -20,12 +30,14 @@ sources:
   id: avalanche-2
 - source_id: coinmarketcap
   id: '5805'
+- source_id: cryptocompare
+  id: AVAX
 - source_id: kraken
   id: AVAX/USD
 - source_id: kraken
   id: AVAX/USDT
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: USDT-USD
     operation: '*'
 - source_id: okx
   id: AVAX-USDC

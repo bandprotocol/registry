@@ -3,5 +3,7 @@ sources:
   id: usd-coin
 - source_id: coinmarketcap
   id: '3408'
+- source_id: cryptocompare
+  id: USDC
 - source_id: kraken
   id: USDC/USD

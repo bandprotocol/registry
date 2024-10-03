@@ -1,13 +1,35 @@
 sources:
 - source_id: binance
+  id: dogsusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: dogsusdt
   routes:
   - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: DOGSUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: DOGSUSDT
+  routes:
+  - signal_id: USDT-USD
     operation: '*'
 - source_id: coingecko
   id: dogs-2
 - source_id: coinmarketcap
   id: '32698'
+- source_id: cryptocompare
+  id: DOGS
+- source_id: okx
+  id: DOGS-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: okx
   id: DOGS-USDT
   routes:

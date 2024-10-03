@@ -10,5 +10,7 @@ sources:
   id: zcash
 - source_id: coinmarketcap
   id: '1437'
+- source_id: cryptocompare
+  id: ZEC
 - source_id: kraken
   id: ZEC/USD

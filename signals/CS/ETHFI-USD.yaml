@@ -9,10 +9,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ETHFIUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: ether-fi
 - source_id: coinmarketcap
   id: '29814'
+- source_id: cryptocompare
+  id: ETHFI
 - source_id: kraken
   id: ETHFI/USD
 - source_id: okx

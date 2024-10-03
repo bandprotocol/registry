@@ -3,10 +3,12 @@ sources:
   id: monero
 - source_id: coinmarketcap
   id: '328'
+- source_id: cryptocompare
+  id: XMR
 - source_id: kraken
   id: XMR/USD
 - source_id: kraken
   id: XMR/USDT
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: USDT-USD
     operation: '*'

@@ -4,10 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: JSTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: just
 - source_id: coinmarketcap
   id: '5488'
+- source_id: cryptocompare
+  id: JST
 - source_id: okx
   id: JST-USDT
   routes:

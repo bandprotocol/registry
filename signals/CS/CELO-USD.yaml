@@ -4,10 +4,22 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: CELOUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: celo
 - source_id: coinmarketcap
   id: '5567'
+- source_id: cryptocompare
+  id: CELO
+- source_id: okx
+  id: CELO-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: okx
   id: CELO-USDT
   routes:

@@ -4,7 +4,12 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coingecko
-  id: sun-token
+- source_id: bybit
+  id: SUNUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinmarketcap
   id: '10529'
+- source_id: cryptocompare
+  id: SUN

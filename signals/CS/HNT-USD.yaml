@@ -1,9 +1,16 @@
 sources:
+- source_id: bybit
+  id: HNTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: HNT-USD
 - source_id: coingecko
   id: helium
 - source_id: coinmarketcap
   id: '5665'
+- source_id: cryptocompare
+  id: HNT
 - source_id: kraken
   id: HNT/USD

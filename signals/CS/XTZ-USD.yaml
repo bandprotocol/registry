@@ -4,18 +4,25 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: XTZUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: XTZ-USD
 - source_id: coingecko
   id: tezos
 - source_id: coinmarketcap
   id: '2011'
+- source_id: cryptocompare
+  id: XTZ
 - source_id: kraken
   id: XTZ/USD
 - source_id: kraken
   id: XTZ/USDT
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: USDT-USD
     operation: '*'
 - source_id: okx
   id: XTZ-USDC

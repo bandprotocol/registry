@@ -1,10 +1,17 @@
 sources:
+- source_id: bybit
+  id: SAFEUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: SAFE-USD
 - source_id: coingecko
   id: safe
 - source_id: coinmarketcap
   id: '21585'
+- source_id: cryptocompare
+  id: SAFE
 - source_id: kraken
   id: SAFE/USD
 - source_id: okx

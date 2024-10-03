@@ -4,6 +4,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: JASMYUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: JASMYUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: JASMY-USD
 - source_id: coinbase
@@ -15,5 +25,7 @@ sources:
   id: jasmycoin
 - source_id: coinmarketcap
   id: '8425'
+- source_id: cryptocompare
+  id: JASMY
 - source_id: kraken
   id: JASMY/USD

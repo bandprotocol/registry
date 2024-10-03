@@ -1,27 +1,29 @@
 sources:
 - source_id: binance
-  id: lrcusdt
+  id: sushiusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: LRC-USD
-- source_id: coinbase
-  id: LRC-USDT
+- source_id: bybit
+  id: SUSHIUSDT
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: SUSHI-USD
 - source_id: coinmarketcap
-  id: '1934'
+  id: '6758'
+- source_id: cryptocompare
+  id: SUSHI
 - source_id: kraken
-  id: LRC/USD
+  id: SUSHI/USD
 - source_id: okx
-  id: LRC-USDC
+  id: SUSHI-USDC
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
-  id: LRC-USDT
+  id: SUSHI-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

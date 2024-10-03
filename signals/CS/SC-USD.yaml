@@ -4,10 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: SCUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: siacoin
 - source_id: coinmarketcap
   id: '1042'
+- source_id: cryptocompare
+  id: SC
 - source_id: kraken
   id: SC/USD
 - source_id: okx

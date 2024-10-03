@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: OPUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: OPUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: OP-USD
 - source_id: coinbase
@@ -20,6 +30,8 @@ sources:
   id: optimism
 - source_id: coinmarketcap
   id: '11840'
+- source_id: cryptocompare
+  id: OP
 - source_id: kraken
   id: OP/USD
 - source_id: okx

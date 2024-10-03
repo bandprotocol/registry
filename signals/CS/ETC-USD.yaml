@@ -4,12 +4,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ETCUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ETC-USD
 - source_id: coingecko
   id: ethereum-classic
 - source_id: coinmarketcap
   id: '1321'
+- source_id: cryptocompare
+  id: ETC
 - source_id: kraken
   id: ETC/USD
 - source_id: okx

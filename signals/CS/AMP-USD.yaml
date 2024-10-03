@@ -10,3 +10,5 @@ sources:
   id: amp-token
 - source_id: coinmarketcap
   id: '6945'
+- source_id: cryptocompare
+  id: AMP

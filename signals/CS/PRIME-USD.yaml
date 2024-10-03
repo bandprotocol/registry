@@ -1,9 +1,16 @@
 sources:
+- source_id: bybit
+  id: PRIMEUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: PRIME-USD
 - source_id: coingecko
   id: echelon-prime
 - source_id: coinmarketcap
   id: '23711'
+- source_id: cryptocompare
+  id: PRIME
 - source_id: kraken
   id: PRIME/USD

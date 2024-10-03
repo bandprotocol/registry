@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: APTUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: APTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: APT-USD
 - source_id: coinbase
@@ -20,6 +30,8 @@ sources:
   id: aptos
 - source_id: coinmarketcap
   id: '21794'
+- source_id: cryptocompare
+  id: APT
 - source_id: kraken
   id: APT/USD
 - source_id: okx

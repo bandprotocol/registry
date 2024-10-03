@@ -9,10 +9,22 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: PEPEUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: PEPEUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: pepe
 - source_id: coinmarketcap
   id: '24478'
+- source_id: cryptocompare
+  id: PEPE
 - source_id: kraken
   id: PEPE/USD
 - source_id: okx

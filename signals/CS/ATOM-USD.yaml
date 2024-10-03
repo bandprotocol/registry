@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ATOMUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: ATOMUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ATOM-USD
 - source_id: coinbase
@@ -20,12 +30,14 @@ sources:
   id: cosmos
 - source_id: coinmarketcap
   id: '3794'
+- source_id: cryptocompare
+  id: ATOM
 - source_id: kraken
   id: ATOM/USD
 - source_id: kraken
   id: ATOM/USDT
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: USDT-USD
     operation: '*'
 - source_id: okx
   id: ATOM-USDC

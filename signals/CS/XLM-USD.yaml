@@ -4,6 +4,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: XLMUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: XLMUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: XLM-USD
 - source_id: coinbase
@@ -15,6 +25,8 @@ sources:
   id: stellar
 - source_id: coinmarketcap
   id: '512'
+- source_id: cryptocompare
+  id: XLM
 - source_id: kraken
   id: XLM/USD
 - source_id: okx

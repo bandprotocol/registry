@@ -1,8 +1,13 @@
 sources:
-- source_id: coingecko
-  id: aethir
+- source_id: bybit
+  id: ATHUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinmarketcap
   id: '30083'
+- source_id: cryptocompare
+  id: ATH
 - source_id: okx
   id: ATH-USDT
   routes:

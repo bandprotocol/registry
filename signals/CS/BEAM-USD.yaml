@@ -1,7 +1,14 @@
 sources:
+- source_id: bybit
+  id: BEAMUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: beam-2
 - source_id: coinmarketcap
   id: '28298'
+- source_id: cryptocompare
+  id: BEAM
 - source_id: kraken
   id: BEAM/USD

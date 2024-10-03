@@ -9,10 +9,22 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: TONUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: TONUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: the-open-network
 - source_id: coinmarketcap
   id: '11419'
+- source_id: cryptocompare
+  id: TON
 - source_id: okx
   id: TON-USDC
   routes:

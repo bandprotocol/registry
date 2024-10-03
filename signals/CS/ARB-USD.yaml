@@ -9,12 +9,24 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ARBUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: ARBUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ARB-USD
 - source_id: coingecko
   id: arbitrum
 - source_id: coinmarketcap
   id: '11841'
+- source_id: cryptocompare
+  id: ARB
 - source_id: kraken
   id: ARB/USD
 - source_id: okx

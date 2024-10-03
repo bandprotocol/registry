@@ -1,5 +1,17 @@
 sources:
+- source_id: bybit
+  id: KASUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: KASUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: kaspa
 - source_id: coinmarketcap
   id: '20396'
+- source_id: cryptocompare
+  id: KAS

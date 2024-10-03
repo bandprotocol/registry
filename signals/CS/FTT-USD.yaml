@@ -4,5 +4,12 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: FTTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinmarketcap
   id: '4195'
+- source_id: cryptocompare
+  id: FTT

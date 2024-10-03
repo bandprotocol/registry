@@ -1,0 +1,26 @@
+sources:
+- source_id: binance
+  id: eigenusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: EIGENUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: EIGEN-USD
+- source_id: coingecko
+  id: eigenlayer
+- source_id: coinmarketcap
+  id: '30494'
+- source_id: cryptocompare
+  id: EIGEN
+- source_id: kraken
+  id: EIGEN/USD
+- source_id: okx
+  id: EIGEN-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

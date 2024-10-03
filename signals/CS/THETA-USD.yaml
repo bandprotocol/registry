@@ -4,10 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: THETAUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: theta-token
 - source_id: coinmarketcap
   id: '2416'
+- source_id: cryptocompare
+  id: THETA
 - source_id: okx
   id: THETA-USDT
   routes:

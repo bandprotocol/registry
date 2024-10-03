@@ -3,3 +3,5 @@ sources:
   id: frax
 - source_id: coinmarketcap
   id: '6952'
+- source_id: cryptocompare
+  id: FRAX

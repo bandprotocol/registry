@@ -1,5 +1,14 @@
 sources:
+- source_id: bybit
+  id: POPCATUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: popcat
 - source_id: coinmarketcap
   id: '28782'
+- source_id: cryptocompare
+  id: POPCAT
+- source_id: kraken
+  id: POPCAT/USD

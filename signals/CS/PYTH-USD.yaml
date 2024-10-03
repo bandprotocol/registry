@@ -4,10 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: PYTHUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: pyth-network
 - source_id: coinmarketcap
   id: '28177'
+- source_id: cryptocompare
+  id: PYTH
 - source_id: kraken
   id: PYTH/USD
 - source_id: okx

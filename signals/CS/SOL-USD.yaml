@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: SOLUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: SOLUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: SOL-USD
 - source_id: coinbase
@@ -20,12 +30,14 @@ sources:
   id: solana
 - source_id: coinmarketcap
   id: '5426'
+- source_id: cryptocompare
+  id: SOL
 - source_id: kraken
   id: SOL/USD
 - source_id: kraken
   id: SOL/USDT
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: USDT-USD
     operation: '*'
 - source_id: okx
   id: SOL-USDC

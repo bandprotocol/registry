@@ -1,8 +1,20 @@
 sources:
+- source_id: bybit
+  id: MEWUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: MEWUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: cat-in-a-dogs-world
 - source_id: coinmarketcap
   id: '30126'
+- source_id: cryptocompare
+  id: MEW
 - source_id: okx
   id: MEW-USDT
   routes:

@@ -3,6 +3,8 @@ sources:
   id: leo-token
 - source_id: coinmarketcap
   id: '3957'
+- source_id: cryptocompare
+  id: LEO
 - source_id: okx
   id: LEO-USDT
   routes:

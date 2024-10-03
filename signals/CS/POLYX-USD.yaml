@@ -8,3 +8,5 @@ sources:
   id: polymesh
 - source_id: coinmarketcap
   id: '20362'
+- source_id: cryptocompare
+  id: POLYX

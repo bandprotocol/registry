@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ICPUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: ICPUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ICP-USD
 - source_id: coinbase
@@ -20,6 +30,8 @@ sources:
   id: internet-computer
 - source_id: coinmarketcap
   id: '8916'
+- source_id: cryptocompare
+  id: ICP
 - source_id: kraken
   id: ICP/USD
 - source_id: okx

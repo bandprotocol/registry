@@ -1,5 +1,12 @@
 sources:
+- source_id: bybit
+  id: BLASTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: BLAST-USD
 - source_id: coinmarketcap
   id: '28480'
+- source_id: cryptocompare
+  id: BLAST

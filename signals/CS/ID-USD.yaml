@@ -4,8 +4,15 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: IDUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinmarketcap
   id: '21846'
+- source_id: cryptocompare
+  id: ID
 - source_id: okx
   id: ID-USDT
   routes:

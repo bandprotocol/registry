@@ -4,6 +4,11 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: HBARUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: HBAR-USD
 - source_id: coinbase
@@ -15,6 +20,8 @@ sources:
   id: hedera-hashgraph
 - source_id: coinmarketcap
   id: '4642'
+- source_id: cryptocompare
+  id: HBAR
 - source_id: okx
   id: HBAR-USDC
   routes:

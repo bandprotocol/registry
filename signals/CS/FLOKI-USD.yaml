@@ -9,10 +9,22 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: FLOKIUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: FLOKIUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: floki
 - source_id: coinmarketcap
   id: '10804'
+- source_id: cryptocompare
+  id: FLOKI
 - source_id: kraken
   id: FLOKI/USD
 - source_id: okx

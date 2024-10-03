@@ -1,5 +1,12 @@
 sources:
+- source_id: bybit
+  id: SUNDOGUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: sundog
 - source_id: coinmarketcap
   id: '32717'
+- source_id: cryptocompare
+  id: SUNDOG

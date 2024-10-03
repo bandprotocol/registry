@@ -1,5 +1,17 @@
 sources:
+- source_id: bybit
+  id: BRETTUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: BRETTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: based-brett
 - source_id: coinmarketcap
   id: '29743'
+- source_id: cryptocompare
+  id: BRETT

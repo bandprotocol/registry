@@ -3,6 +3,8 @@ sources:
   id: bitcoin-cash-sv
 - source_id: coinmarketcap
   id: '3602'
+- source_id: cryptocompare
+  id: BSV
 - source_id: okx
   id: BSV-USDC
   routes:

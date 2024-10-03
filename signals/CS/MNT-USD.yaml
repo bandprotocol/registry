@@ -1,4 +1,14 @@
 sources:
+- source_id: bybit
+  id: MNTUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: MNTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: mantle
 - source_id: coinmarketcap

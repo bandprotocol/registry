@@ -10,6 +10,8 @@ sources:
   id: livepeer
 - source_id: coinmarketcap
   id: '3640'
+- source_id: cryptocompare
+  id: LPT
 - source_id: kraken
   id: LPT/USD
 - source_id: okx

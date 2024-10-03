@@ -9,12 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: JTOUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: JTO-USD
 - source_id: coingecko
   id: jito-governance-token
 - source_id: coinmarketcap
   id: '28541'
+- source_id: cryptocompare
+  id: JTO
 - source_id: kraken
   id: JTO/USD
 - source_id: okx

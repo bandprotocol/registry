@@ -1,10 +1,14 @@
 sources:
 - source_id: binance
-  id: vthousdt
+  id: cotiusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
-  id: VTHO-USD
+  id: COTI-USD
 - source_id: coinmarketcap
-  id: '3012'
+  id: '3992'
+- source_id: cryptocompare
+  id: COTI
+- source_id: kraken
+  id: COTI/USD

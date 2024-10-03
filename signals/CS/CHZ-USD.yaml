@@ -4,6 +4,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: CHZUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: CHZUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: CHZ-USD
 - source_id: coinbase
@@ -15,6 +25,8 @@ sources:
   id: chiliz
 - source_id: coinmarketcap
   id: '4066'
+- source_id: cryptocompare
+  id: CHZ
 - source_id: kraken
   id: CHZ/USD
 - source_id: okx

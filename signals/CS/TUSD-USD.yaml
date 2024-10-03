@@ -1,10 +1,9 @@
 sources:
-- source_id: binance
-  id: tusdusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: true-usd
 - source_id: coinmarketcap
   id: '2563'
+- source_id: cryptocompare
+  id: TUSD
+- source_id: kraken
+  id: TUSD/USD

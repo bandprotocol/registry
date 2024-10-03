@@ -9,10 +9,22 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: WIFUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: WIFUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: dogwifcoin
 - source_id: coinmarketcap
   id: '28752'
+- source_id: cryptocompare
+  id: WIF
 - source_id: kraken
   id: WIF/USD
 - source_id: okx

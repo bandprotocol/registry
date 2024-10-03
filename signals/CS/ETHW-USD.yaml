@@ -1,8 +1,15 @@
 sources:
+- source_id: bybit
+  id: ETHWUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: ethereum-pow-iou
 - source_id: coinmarketcap
   id: '21296'
+- source_id: cryptocompare
+  id: ETHW
 - source_id: kraken
   id: ETHW/USD
 - source_id: okx

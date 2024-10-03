@@ -4,6 +4,11 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: AXSUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: AXS-USD
 - source_id: coinbase
@@ -15,6 +20,8 @@ sources:
   id: axie-infinity
 - source_id: coinmarketcap
   id: '6783'
+- source_id: cryptocompare
+  id: AXS
 - source_id: kraken
   id: AXS/USD
 - source_id: okx

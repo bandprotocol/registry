@@ -4,7 +4,14 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: HOTUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: holotoken
 - source_id: coinmarketcap
   id: '2682'
+- source_id: cryptocompare
+  id: HOT

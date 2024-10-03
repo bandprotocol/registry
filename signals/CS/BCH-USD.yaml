@@ -9,18 +9,30 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: BCHUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: BCHUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: BCH-USD
 - source_id: coingecko
   id: bitcoin-cash
 - source_id: coinmarketcap
   id: '1831'
+- source_id: cryptocompare
+  id: BCH
 - source_id: kraken
   id: BCH/USD
 - source_id: kraken
   id: BCH/USDT
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: USDT-USD
     operation: '*'
 - source_id: okx
   id: BCH-USDC

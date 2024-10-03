@@ -9,12 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: RENDERUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: RENDER-USD
 - source_id: coingecko
   id: render-token
 - source_id: coinmarketcap
   id: '5690'
+- source_id: cryptocompare
+  id: RENDER
 - source_id: kraken
   id: RENDER/USD
 - source_id: okx

@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: XRPUSDC
+  routes:
+  - signal_id: USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: XRPUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: XRP-USD
 - source_id: coinbase
@@ -20,12 +30,14 @@ sources:
   id: ripple
 - source_id: coinmarketcap
   id: '52'
+- source_id: cryptocompare
+  id: XRP
 - source_id: kraken
   id: XRP/USD
 - source_id: kraken
   id: XRP/USDT
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: USDT-USD
     operation: '*'
 - source_id: okx
   id: XRP-USDC

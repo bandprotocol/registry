@@ -9,12 +9,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ARKMUSDT
+  routes:
+  - signal_id: USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ARKM-USD
 - source_id: coingecko
   id: arkham
 - source_id: coinmarketcap
   id: '27565'
+- source_id: cryptocompare
+  id: ARKM
 - source_id: kraken
   id: ARKM/USD
 - source_id: okx
