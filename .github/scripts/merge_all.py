@@ -30,6 +30,9 @@ def main(input_path: str, output_path: str):
                 signal_ids[prefixed_signal_id].update(yaml.safe_load(f))
                 signal_ids[prefixed_signal_id].update(shared_prefix_traits[prefix])
 
+        if not os.path.exists(output_path):
+            os.makedirs(output_path)
+
         with open(f"{output_path}/registry.json", 'w') as f:
             json.dump(signal_ids, f, indent=4)
 
