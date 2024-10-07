@@ -7,12 +7,12 @@ sources:
 - source_id: bybit
   id: MANAUSDC
   routes:
-  - signal_id: USDC-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: MANAUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
   id: MANA-USD
@@ -27,7 +27,7 @@ sources:
 - source_id: kraken
   id: MANA/USDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
   id: MANA-USDC

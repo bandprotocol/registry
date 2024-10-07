@@ -12,7 +12,7 @@ sources:
 - source_id: bybit
   id: ALGOUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
   id: ALGO-USD
@@ -27,7 +27,7 @@ sources:
 - source_id: kraken
   id: ALGO/USDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
   id: ALGO-USDC

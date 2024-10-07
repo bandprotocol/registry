@@ -7,12 +7,12 @@ sources:
 - source_id: bybit
   id: APEUSDC
   routes:
-  - signal_id: USDC-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: APEUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
   id: APE-USD
@@ -32,7 +32,7 @@ sources:
 - source_id: kraken
   id: APE/USDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
   id: APE-USDC

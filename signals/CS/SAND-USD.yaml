@@ -7,12 +7,12 @@ sources:
 - source_id: bybit
   id: SANDUSDC
   routes:
-  - signal_id: USDC-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: SANDUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
   id: SAND-USD

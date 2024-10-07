@@ -12,7 +12,7 @@ sources:
 - source_id: bybit
   id: BOMEUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
   id: book-of-meme

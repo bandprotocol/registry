@@ -7,7 +7,7 @@ sources:
 - source_id: bybit
   id: XTZUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
   id: XTZ-USD
@@ -22,7 +22,7 @@ sources:
 - source_id: kraken
   id: XTZ/USDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
   id: XTZ-USDC

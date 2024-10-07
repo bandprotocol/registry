@@ -12,12 +12,12 @@ sources:
 - source_id: bybit
   id: NOTUSDC
   routes:
-  - signal_id: USDC-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: NOTUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
   id: notcoin

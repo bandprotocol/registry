@@ -12,12 +12,12 @@ sources:
 - source_id: bybit
   id: UNIUSDC
   routes:
-  - signal_id: USDC-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: UNIUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
   id: UNI-USD

@@ -10,5 +10,5 @@ sources:
 - source_id: kraken
   id: XMR/USDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'

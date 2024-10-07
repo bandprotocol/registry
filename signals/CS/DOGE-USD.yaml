@@ -12,12 +12,12 @@ sources:
 - source_id: bybit
   id: DOGEUSDC
   routes:
-  - signal_id: USDC-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: DOGEUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
   id: DOGE-USD
@@ -37,7 +37,7 @@ sources:
 - source_id: kraken
   id: DOGE/USDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
   id: DOGE-USDC

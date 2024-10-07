@@ -2,12 +2,12 @@ sources:
 - source_id: bybit
   id: MEWUSDC
   routes:
-  - signal_id: USDC-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: MEWUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
   id: cat-in-a-dogs-world

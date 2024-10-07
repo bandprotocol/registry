@@ -17,5 +17,5 @@ sources:
 - source_id: kraken
   id: MATIC/USDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'

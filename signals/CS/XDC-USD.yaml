@@ -2,7 +2,7 @@ sources:
 - source_id: bybit
   id: XDCUSDT
   routes:
-  - signal_id: USDT-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
   id: xdce-crowd-sale
