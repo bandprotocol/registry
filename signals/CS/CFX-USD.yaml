@@ -13,6 +13,8 @@ sources:
   id: conflux-token
 - source_id: coinmarketcap
   id: '7334'
+- source_id: cryptocompare
+  id: CFX
 - source_id: okx
   id: CFX-USDC
   routes:

@@ -3,5 +3,5 @@ sources:
   id: aragon
 - source_id: coinmarketcap
   id: '1680'
-- source_id: kraken
-  id: ANT/USD
+- source_id: cryptocompare
+  id: ANT

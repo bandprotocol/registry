@@ -4,10 +4,17 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: DYDXUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: dydx-chain
 - source_id: coinmarketcap
   id: '28324'
+- source_id: cryptocompare
+  id: DYDX
 - source_id: kraken
   id: DYDX/USD
 - source_id: okx

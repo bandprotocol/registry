@@ -1,20 +1,19 @@
 sources:
 - source_id: binance
-  id: trbusdc
+  id: sagausdc
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: binance
-  id: trbusdt
+  id: sagausdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: TRB-USD
+- source_id: coingecko
+  id: saga-2
 - source_id: coinmarketcap
-  id: '4944'
-- source_id: okx
-  id: TRB-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+  id: '30372'
+- source_id: cryptocompare
+  id: SAGA
+- source_id: kraken
+  id: SAGA/USD

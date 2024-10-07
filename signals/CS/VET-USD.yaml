@@ -10,3 +10,5 @@ sources:
   id: vechain
 - source_id: coinmarketcap
   id: '3077'
+- source_id: cryptocompare
+  id: VET

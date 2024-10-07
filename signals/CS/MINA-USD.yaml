@@ -4,6 +4,11 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: MINAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: MINA-USD
 - source_id: coinbase
@@ -15,6 +20,8 @@ sources:
   id: mina-protocol
 - source_id: coinmarketcap
   id: '8646'
+- source_id: cryptocompare
+  id: MINA
 - source_id: kraken
   id: MINA/USD
 - source_id: okx

@@ -3,3 +3,5 @@ sources:
   id: pepecoin-2
 - source_id: coinmarketcap
   id: '24835'
+- source_id: cryptocompare
+  id: PEPECOIN

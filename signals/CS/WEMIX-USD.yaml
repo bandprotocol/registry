@@ -1,5 +1,12 @@
 sources:
+- source_id: bybit
+  id: WEMIXUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: wemix-token
 - source_id: coinmarketcap
   id: '7548'
+- source_id: cryptocompare
+  id: WEMIX

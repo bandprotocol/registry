@@ -4,6 +4,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: SANDUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: SANDUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: SAND-USD
 - source_id: coinbase
@@ -15,6 +25,8 @@ sources:
   id: the-sandbox
 - source_id: coinmarketcap
   id: '6210'
+- source_id: cryptocompare
+  id: SAND
 - source_id: kraken
   id: SAND/USD
 - source_id: okx

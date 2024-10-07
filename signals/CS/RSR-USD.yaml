@@ -8,6 +8,8 @@ sources:
   id: reserve-rights-token
 - source_id: coinmarketcap
   id: '3964'
+- source_id: cryptocompare
+  id: RSR
 - source_id: okx
   id: RSR-USDT
   routes:

@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ETHUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: ETHUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ETH-USD
 - source_id: coinbase
@@ -20,6 +30,8 @@ sources:
   id: ethereum
 - source_id: coinmarketcap
   id: '1027'
+- source_id: cryptocompare
+  id: ETH
 - source_id: kraken
   id: ETH/USD
 - source_id: kraken

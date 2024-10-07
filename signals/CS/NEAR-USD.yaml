@@ -9,6 +9,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: NEARUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: NEARUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: NEAR-USD
 - source_id: coinbase
@@ -20,6 +30,8 @@ sources:
   id: near
 - source_id: coinmarketcap
   id: '6535'
+- source_id: cryptocompare
+  id: NEAR
 - source_id: kraken
   id: NEAR/USD
 - source_id: okx

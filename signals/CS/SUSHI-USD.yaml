@@ -1,22 +1,29 @@
 sources:
 - source_id: binance
-  id: bandusdt
+  id: sushiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: SUSHIUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
-  id: BAND-USD
+  id: SUSHI-USD
 - source_id: coinmarketcap
-  id: '4679'
+  id: '6758'
+- source_id: cryptocompare
+  id: SUSHI
 - source_id: kraken
-  id: BAND/USD
+  id: SUSHI/USD
 - source_id: okx
-  id: BAND-USDC
+  id: SUSHI-USDC
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
-  id: BAND-USDT
+  id: SUSHI-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

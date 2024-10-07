@@ -1,8 +1,15 @@
 sources:
+- source_id: binance
+  id: turbousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: turbo
 - source_id: coinmarketcap
   id: '24911'
+- source_id: cryptocompare
+  id: TURBO
 - source_id: kraken
   id: TURBO/USD
 - source_id: okx

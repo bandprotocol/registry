@@ -8,5 +8,7 @@ sources:
   id: bittensor
 - source_id: coinmarketcap
   id: '22974'
+- source_id: cryptocompare
+  id: TAO
 - source_id: kraken
   id: TAO/USD

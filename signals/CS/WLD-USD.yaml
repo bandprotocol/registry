@@ -9,10 +9,22 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: WLDUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: WLDUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: worldcoin-wld
 - source_id: coinmarketcap
   id: '13502'
+- source_id: cryptocompare
+  id: WLD
 - source_id: okx
   id: WLD-USDC
   routes:

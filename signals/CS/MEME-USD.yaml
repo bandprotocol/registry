@@ -4,10 +4,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: MEMEUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: memecoin-2
 - source_id: coinmarketcap
   id: '28301'
+- source_id: cryptocompare
+  id: MEME
+- source_id: kraken
+  id: MEME/USD
 - source_id: okx
   id: MEME-USDT
   routes:

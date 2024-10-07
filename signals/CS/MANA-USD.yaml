@@ -4,12 +4,24 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: MANAUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: MANAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: MANA-USD
 - source_id: coingecko
   id: decentraland
 - source_id: coinmarketcap
   id: '1966'
+- source_id: cryptocompare
+  id: MANA
 - source_id: kraken
   id: MANA/USD
 - source_id: kraken

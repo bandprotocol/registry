@@ -1,8 +1,15 @@
 sources:
 - source_id: coinmarketcap
   id: '6748'
+- source_id: cryptocompare
+  id: CFG
 - source_id: kraken
   id: CFG/USD
+- source_id: okx
+  id: CFG-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: okx
   id: CFG-USDT
   routes:

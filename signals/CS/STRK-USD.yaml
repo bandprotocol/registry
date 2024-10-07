@@ -9,12 +9,24 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: STRKUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: STRKUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: STRK-USD
 - source_id: coingecko
   id: starknet
 - source_id: coinmarketcap
   id: '22691'
+- source_id: cryptocompare
+  id: STRK
 - source_id: kraken
   id: STRK/USD
 - source_id: okx

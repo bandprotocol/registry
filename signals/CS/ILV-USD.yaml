@@ -10,6 +10,8 @@ sources:
   id: illuvium
 - source_id: coinmarketcap
   id: '8719'
+- source_id: cryptocompare
+  id: ILV
 - source_id: okx
   id: ILV-USDT
   routes:

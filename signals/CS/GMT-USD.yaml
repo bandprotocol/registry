@@ -4,6 +4,16 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: GMTUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: GMTUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: GMT-USD
 - source_id: coinbase
@@ -15,6 +25,8 @@ sources:
   id: stepn
 - source_id: coinmarketcap
   id: '18069'
+- source_id: cryptocompare
+  id: GMT
 - source_id: kraken
   id: GMT/USD
 - source_id: okx

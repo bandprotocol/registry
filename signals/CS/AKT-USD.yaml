@@ -5,5 +5,7 @@ sources:
   id: akash-network
 - source_id: coinmarketcap
   id: '7431'
+- source_id: cryptocompare
+  id: AKT
 - source_id: kraken
   id: AKT/USD

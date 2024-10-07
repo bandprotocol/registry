@@ -6,3 +6,5 @@ sources:
     operation: '*'
 - source_id: coinmarketcap
   id: '24613'
+- source_id: cryptocompare
+  id: EDU

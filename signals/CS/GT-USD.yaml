@@ -3,3 +3,5 @@ sources:
   id: gatechain-token
 - source_id: coinmarketcap
   id: '4269'
+- source_id: cryptocompare
+  id: GT

@@ -1,5 +1,12 @@
 sources:
+- source_id: bybit
+  id: BTGUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: bitcoin-gold
 - source_id: coinmarketcap
   id: '2083'
+- source_id: cryptocompare
+  id: BTG

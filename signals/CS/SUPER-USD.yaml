@@ -10,5 +10,7 @@ sources:
   id: superfarm
 - source_id: coinmarketcap
   id: '8290'
+- source_id: cryptocompare
+  id: SUPER
 - source_id: kraken
   id: SUPER/USD

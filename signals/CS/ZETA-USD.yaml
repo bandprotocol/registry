@@ -1,8 +1,17 @@
 sources:
+- source_id: bybit
+  id: ZETAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ZETA-USD
+- source_id: coingecko
+  id: zetachain
 - source_id: coinmarketcap
   id: '21259'
+- source_id: cryptocompare
+  id: ZETA
 - source_id: kraken
   id: ZETA/USD
 - source_id: okx

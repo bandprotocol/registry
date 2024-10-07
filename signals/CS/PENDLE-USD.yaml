@@ -9,9 +9,21 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: PENDLEUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: pendle
 - source_id: coinmarketcap
   id: '9481'
+- source_id: cryptocompare
+  id: PENDLE
 - source_id: kraken
   id: PENDLE/USD
+- source_id: okx
+  id: PENDLE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -8,6 +8,8 @@ sources:
   id: astar
 - source_id: coinmarketcap
   id: '12885'
+- source_id: cryptocompare
+  id: ASTR
 - source_id: kraken
   id: ASTR/USD
 - source_id: okx

@@ -9,12 +9,24 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: LTCUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: LTCUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: LTC-USD
 - source_id: coingecko
   id: litecoin
 - source_id: coinmarketcap
   id: '2'
+- source_id: cryptocompare
+  id: LTC
 - source_id: kraken
   id: LTC/USD
 - source_id: kraken

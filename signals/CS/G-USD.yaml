@@ -4,12 +4,24 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: GUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: G-USD
 - source_id: coingecko
   id: g-token
 - source_id: coinmarketcap
   id: '32120'
+- source_id: cryptocompare
+  id: G
+- source_id: okx
+  id: G-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: okx
   id: G-USDT
   routes:

@@ -1,8 +1,15 @@
 sources:
+- source_id: bybit
+  id: NFTUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: apenft
 - source_id: coinmarketcap
   id: '9816'
+- source_id: cryptocompare
+  id: NFT
 - source_id: okx
   id: NFT-USDT
   routes:

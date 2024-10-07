@@ -10,5 +10,7 @@ sources:
   id: dash
 - source_id: coinmarketcap
   id: '131'
+- source_id: cryptocompare
+  id: DASH
 - source_id: kraken
   id: DASH/USD

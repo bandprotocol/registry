@@ -5,5 +5,7 @@ sources:
   id: dai
 - source_id: coinmarketcap
   id: '4943'
+- source_id: cryptocompare
+  id: DAI
 - source_id: kraken
   id: DAI/USD

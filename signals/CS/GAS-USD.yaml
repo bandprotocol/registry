@@ -8,6 +8,8 @@ sources:
   id: gas
 - source_id: coinmarketcap
   id: '1785'
+- source_id: cryptocompare
+  id: GAS
 - source_id: okx
   id: GAS-USDT
   routes:
