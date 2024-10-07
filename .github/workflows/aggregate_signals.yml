@@ -22,7 +22,7 @@ jobs:
         pip install pyyaml
 
     - name: Aggregate Signals
-      run: python .github/scripts/aggregate_signals.py ./signals ./registry
+      run: python .github/scripts/merge_all.py ./signals .
 
     - name: Cache Rust-Script
       uses: actions/cache@v4
@@ -42,9 +42,4 @@ jobs:
       run: sudo apt update && sudo apt-get install clang -y
 
     - name: Validate Aggregated Signals
-      run: .github/scripts/validate.rs registry/registry.json
-
-    - name: Commit
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: aggregated signals
+      run: .github/scripts/validate.rs registry.json

@@ -10,11 +10,24 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11.2'
+
+    - name: Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml
+
+    - name: Aggregate Signals
+      run: python .github/scripts/merge_all.py ./signals ./output
+
     - name: Upload to IPFS
       id: upload
       uses: aquiladev/ipfs-action@0.3.1
       with:
-        path: ./signals
+        path: ./output
         service: pinata
         pinata_api_key: ${{ secrets.PINATA_API_KEY }}
         pinata_secret_api_key: ${{ secrets.PINATA_SECRET_API_KEY }}
@@ -26,4 +39,6 @@ jobs:
       uses: softprops/action-gh-release@v2
       if: startsWith(github.ref, 'refs/tags/')
       with:
-        files: checksum.txt
+        files: |
+          checksum.txt
+          ./output/registry.json
