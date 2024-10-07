@@ -63,7 +63,8 @@ sources:
 
 # Prefix
 
-The metadata in these files represents the processor used for all signals with the corresponding prefix. For more details
+The metadata in these files represents the processor used for all signals with the corresponding prefix. For more
+details
 on the structure of the `prefix.yaml` and its fields, please refer to the schema file located in
 [`schema/prefix.schema.yaml`](/schema/prefix.schema.yaml).
 
@@ -99,7 +100,8 @@ For example:
   called `BTC-USD.yaml`. If a signal already exists, and you want to modify it, edit the existing file.
 - In the file, define the sources and their corresponding routes (if any) to compute the signal.
 - Assure that any referenced prerequisite signals already exist in the registry. If they do not, please add them as
-  well.
+  well. Also, make sure that the dependencies used do not form a circular dependency. For example, if `CS:BTC-USD`
+  references `CS:USDT-USD`, `CS:USDT-USD` cannot reference `CS:BTC-USD`
 
 ### Example: Adding a New Signal `CS:BTC-USD`
 
