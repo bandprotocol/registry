@@ -1,0 +1,50 @@
+name: Aggregate Signals
+
+on:
+  push:
+
+jobs:
+  aggregate-signal:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11.2'
+
+    - name: Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml
+
+    - name: Aggregate Signals
+      run: python .github/scripts/aggregate_signals.py ./signals ./registry
+
+    - name: Cache Rust-Script
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/rust-script
+        key: ${{ runner.os }}-rust-script-${{ hashFiles('.github/scripts/validate.rs') }}
+        restore-keys: |
+          ${{ runner.os }}-rust-script-${{ hashFiles('.github/scripts/validate.rs') }}
+
+    - name: Setup Rust Toolchain
+      uses: actions-rust-lang/setup-rust-toolchain@v1
+
+    - name: Install Rust Script
+      run: cargo install rust-script
+
+    - name: Install Dependencies
+      run: sudo apt update && sudo apt-get install clang -y
+
+    - name: Validate Aggregated Signals
+      run: .github/scripts/validate.rs registry/registry.json
+
+    - name: Commit
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: aggregated signals
