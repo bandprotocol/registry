@@ -1,0 +1,29 @@
+name: Upload IPFS
+on:
+  push:
+    tags:
+    - "v*"
+
+jobs:
+  upload-ipfs:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Upload to IPFS
+      id: upload
+      uses: aquiladev/ipfs-action@0.3.1
+      with:
+        path: ./signals
+        service: pinata
+        pinata_api_key: ${{ secrets.PINATA_API_KEY }}
+        pinata_secret_api_key: ${{ secrets.PINATA_SECRET_API_KEY }}
+
+    - name: Create Checksum File
+      run: echo $ {{ steps.upload.outputs.hash }} > checksum.txt && cat checksum.txt
+
+    - name: Add Checksum File
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: checksum.txt
