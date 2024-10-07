@@ -1,0 +1,42 @@
+%YAML 1.2
+---
+title: "Signal Schema"
+description: "Schema for defining the signal with their sources and optional routes"
+type: "object"
+properties:
+  sources:
+    type: "array"
+    description: "A list of sources"
+    items:
+      type: "object"
+      properties:
+        source_id:
+          type: "string"
+          description: "The unique identifier for the source"
+        id:
+          type: "string"
+          description: "The specific ID for the asset in the source"
+        routes:
+          type: "array"
+          description: "Optional list of routes for signals"
+          items:
+            type: "object"
+            properties:
+              signal_id:
+                type: "string"
+                description: "The ID of the signal output (B) that will be used in combination with the source output (A) in a calculation (A op B)"
+              operation:
+                type: "string"
+                enum: ["*", "+", "-", "/"]
+                description: "The mathematical operation to apply between the source output (A) and the signal value (B)"
+            required:
+            - signal_id
+            - operation
+            additionalProperties: false
+      required:
+      - source_id
+      - id
+      additionalProperties: false
+required:
+- sources
+additionalProperties: false

@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+title: "Prefix Schema"
+description: "Schema for defining a prefix processor configuration"
+properties:
+  processor:
+    type: "object"
+    description: "The processor configuration"
+    properties:
+      function:
+        type: "string"
+        description: "The function used in the processor"
+        enum: ["median"]
+      params:
+        type: "object"
+        anyOf:
+        - properties:
+            min_source_count:
+              type: "integer"
+              minimum: 1
+              description: "The minimum number of sources needed to yield a signal result"
+          required:
+          - min_source_count
+          additionalProperties: false
+      required:
+      - function
+      - params
+    additionalProperties: false
+required:
+- processor
+additionalProperties: false
