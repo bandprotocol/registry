@@ -21,7 +21,7 @@ jobs:
         pip install pyyaml
 
     - name: Aggregate Signals
-      run: python .github/scripts/merge_all.py ./signals ./output
+      run: python .github/scripts/aggregate_signals.py ./signals ./output
 
     - name: Upload to IPFS
       id: upload
