@@ -54,7 +54,7 @@
                 "id": "1INCHUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -134,7 +134,7 @@
                 "id": "AAVEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -214,7 +214,7 @@
                 "id": "ADAUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -224,7 +224,7 @@
                 "id": "ADAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -264,7 +264,7 @@
                 "id": "ADA/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -340,7 +340,7 @@
                 "id": "AEVOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -386,7 +386,7 @@
                 "id": "AIOZUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -498,7 +498,7 @@
                 "id": "ALGOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -528,7 +528,7 @@
                 "id": "ALGO/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -588,7 +588,7 @@
                 "id": "ALTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -670,7 +670,7 @@
                 "id": "ANKRUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -742,7 +742,7 @@
                 "id": "APEUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -752,7 +752,7 @@
                 "id": "APEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -792,7 +792,7 @@
                 "id": "APE/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -852,7 +852,7 @@
                 "id": "APTUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -862,7 +862,7 @@
                 "id": "APTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -952,7 +952,7 @@
                 "id": "ARUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1024,7 +1024,7 @@
                 "id": "ARBUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -1034,7 +1034,7 @@
                 "id": "ARBUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1114,7 +1114,7 @@
                 "id": "ARKMUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1220,7 +1220,7 @@
                 "id": "ATHUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1278,7 +1278,7 @@
                 "id": "ATOMUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -1288,7 +1288,7 @@
                 "id": "ATOMUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1328,7 +1328,7 @@
                 "id": "ATOM/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1368,7 +1368,7 @@
                 "id": "AVAILUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1420,7 +1420,7 @@
                 "id": "AVAXUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -1430,7 +1430,7 @@
                 "id": "AVAXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1470,7 +1470,7 @@
                 "id": "AVAX/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1520,7 +1520,7 @@
                 "id": "AXLUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1566,7 +1566,7 @@
                 "id": "AXSUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1646,7 +1646,7 @@
                 "id": "BATUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1726,7 +1726,7 @@
                 "id": "BCHUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -1736,7 +1736,7 @@
                 "id": "BCHUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1766,7 +1766,7 @@
                 "id": "BCH/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1828,7 +1828,7 @@
                 "id": "BEAMUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1896,7 +1896,7 @@
                 "id": "BICOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -1952,7 +1952,7 @@
                 "id": "BLASTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2004,7 +2004,7 @@
                 "id": "BLURUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2084,7 +2084,7 @@
                 "id": "BNBUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -2094,7 +2094,7 @@
                 "id": "BNBUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2194,7 +2194,7 @@
                 "id": "BOMEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2256,7 +2256,7 @@
                 "id": "BONKUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -2266,7 +2266,7 @@
                 "id": "BONKUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2316,7 +2316,7 @@
                 "id": "BRETTUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -2326,7 +2326,7 @@
                 "id": "BRETTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2420,7 +2420,7 @@
                 "id": "BTCUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -2430,7 +2430,7 @@
                 "id": "BTCUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2470,7 +2470,7 @@
                 "id": "BTC/USDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -2480,7 +2480,7 @@
                 "id": "BTC/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2520,7 +2520,7 @@
                 "id": "BTGUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2552,7 +2552,7 @@
                 "id": "BTTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2608,7 +2608,7 @@
                 "id": "CAKEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2640,7 +2640,7 @@
                 "id": "CATUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2678,7 +2678,7 @@
                 "id": "CELOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2844,7 +2844,7 @@
                 "id": "CHZUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -2854,7 +2854,7 @@
                 "id": "CHZUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -2976,7 +2976,7 @@
                 "id": "COMPUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3036,7 +3036,7 @@
                 "id": "COREUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3200,7 +3200,7 @@
                 "id": "CRVUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3396,7 +3396,7 @@
                 "id": "DCRUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3498,7 +3498,7 @@
                 "id": "DOGEUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -3508,7 +3508,7 @@
                 "id": "DOGEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3548,7 +3548,7 @@
                 "id": "DOGE/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3608,7 +3608,7 @@
                 "id": "DOGSUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -3618,7 +3618,7 @@
                 "id": "DOGSUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3690,7 +3690,7 @@
                 "id": "DOTUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -3700,7 +3700,7 @@
                 "id": "DOTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3740,7 +3740,7 @@
                 "id": "DOT/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3790,7 +3790,7 @@
                 "id": "DYDXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3856,7 +3856,7 @@
                 "id": "DYMUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -3930,7 +3930,7 @@
                 "id": "EGLDUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4000,7 +4000,7 @@
                 "id": "EIGENUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4112,7 +4112,7 @@
                 "id": "ENAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4158,7 +4158,7 @@
                 "id": "ENJUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4224,7 +4224,7 @@
                 "id": "ENSUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4314,7 +4314,7 @@
                 "id": "EOSUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -4324,7 +4324,7 @@
                 "id": "EOSUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4354,7 +4354,7 @@
                 "id": "EOS/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4404,7 +4404,7 @@
                 "id": "ETCUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4484,7 +4484,7 @@
                 "id": "ETHUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -4494,7 +4494,7 @@
                 "id": "ETHUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4534,7 +4534,7 @@
                 "id": "ETH/USDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -4544,7 +4544,7 @@
                 "id": "ETH/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4604,7 +4604,7 @@
                 "id": "ETHFIUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4650,7 +4650,7 @@
                 "id": "ETHWUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4748,7 +4748,7 @@
                 "id": "FETUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -4758,7 +4758,7 @@
                 "id": "FETUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4838,7 +4838,7 @@
                 "id": "FILUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -4848,7 +4848,7 @@
                 "id": "FILUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -4928,7 +4928,7 @@
                 "id": "FLOKIUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -4938,7 +4938,7 @@
                 "id": "FLOKIUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5004,7 +5004,7 @@
                 "id": "FLOWUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5074,7 +5074,7 @@
                 "id": "FLRUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5204,7 +5204,7 @@
                 "id": "FTMUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -5214,7 +5214,7 @@
                 "id": "FTMUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5302,7 +5302,7 @@
                 "id": "FTTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5340,7 +5340,7 @@
                 "id": "GUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5416,7 +5416,7 @@
                 "id": "GALAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5580,7 +5580,7 @@
                 "id": "GMTUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -5590,7 +5590,7 @@
                 "id": "GMTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5670,7 +5670,7 @@
                 "id": "GMXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5762,7 +5762,7 @@
                 "id": "GRTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5854,7 +5854,7 @@
                 "id": "HBARUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5930,7 +5930,7 @@
                 "id": "HMSTRUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -5940,7 +5940,7 @@
                 "id": "HMSTRUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -5982,7 +5982,7 @@
                 "id": "HNTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6032,7 +6032,7 @@
                 "id": "HOTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6084,7 +6084,7 @@
                 "id": "ICPUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -6094,7 +6094,7 @@
                 "id": "ICPUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6174,7 +6174,7 @@
                 "id": "IDUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6268,7 +6268,7 @@
                 "id": "IMXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6358,7 +6358,7 @@
                 "id": "INJUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -6368,7 +6368,7 @@
                 "id": "INJUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6438,7 +6438,7 @@
                 "id": "IOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6560,7 +6560,7 @@
                 "id": "JASMYUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -6570,7 +6570,7 @@
                 "id": "JASMYUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6630,7 +6630,7 @@
                 "id": "JSTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6692,7 +6692,7 @@
                 "id": "JTOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6772,7 +6772,7 @@
                 "id": "JUPUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6818,7 +6818,7 @@
                 "id": "KASUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -6828,7 +6828,7 @@
                 "id": "KASUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6870,7 +6870,7 @@
                 "id": "KAVAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6910,7 +6910,7 @@
                 "id": "KCSUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -6952,7 +6952,7 @@
                 "id": "KLAYUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7014,7 +7014,7 @@
                 "id": "KSMUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7094,7 +7094,7 @@
                 "id": "LDOUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -7104,7 +7104,7 @@
                 "id": "LDOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7216,7 +7216,7 @@
                 "id": "LINKUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -7226,7 +7226,7 @@
                 "id": "LINKUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7266,7 +7266,7 @@
                 "id": "LINK/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7386,7 +7386,7 @@
                 "id": "LTCUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -7396,7 +7396,7 @@
                 "id": "LTCUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7426,7 +7426,7 @@
                 "id": "LTC/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7476,7 +7476,7 @@
                 "id": "LUNAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7542,7 +7542,7 @@
                 "id": "LUNCUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -7552,7 +7552,7 @@
                 "id": "LUNCUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7614,7 +7614,7 @@
                 "id": "MANAUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -7624,7 +7624,7 @@
                 "id": "MANAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7654,7 +7654,7 @@
                 "id": "MANA/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7714,7 +7714,7 @@
                 "id": "MANTAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7756,7 +7756,7 @@
                 "id": "MASKUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7852,7 +7852,7 @@
                 "id": "MATIC/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7882,7 +7882,7 @@
                 "id": "MEMEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -7980,7 +7980,7 @@
                 "id": "MEWUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -7990,7 +7990,7 @@
                 "id": "MEWUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8042,7 +8042,7 @@
                 "id": "MINAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8122,7 +8122,7 @@
                 "id": "MKRUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8182,7 +8182,7 @@
                 "id": "MNTUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -8192,7 +8192,7 @@
                 "id": "MNTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8224,7 +8224,7 @@
                 "id": "MOGUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8260,7 +8260,7 @@
                 "id": "MXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8312,7 +8312,7 @@
                 "id": "NEARUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -8322,7 +8322,7 @@
                 "id": "NEARUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8402,7 +8402,7 @@
                 "id": "NEIROUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8506,7 +8506,7 @@
                 "id": "NEXOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8538,7 +8538,7 @@
                 "id": "NFTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8600,7 +8600,7 @@
                 "id": "NOTUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -8610,7 +8610,7 @@
                 "id": "NOTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8756,7 +8756,7 @@
                 "id": "ONDOUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -8766,7 +8766,7 @@
                 "id": "ONDOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8836,7 +8836,7 @@
                 "id": "ONEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8894,7 +8894,7 @@
                 "id": "OPUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -8904,7 +8904,7 @@
                 "id": "OPUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -8994,7 +8994,7 @@
                 "id": "ORDIUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9118,7 +9118,7 @@
                 "id": "PAXGUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9174,7 +9174,7 @@
                 "id": "PENDLEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9240,7 +9240,7 @@
                 "id": "PEOPLEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9312,7 +9312,7 @@
                 "id": "PEPEUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -9322,7 +9322,7 @@
                 "id": "PEPEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9420,7 +9420,7 @@
                 "id": "POLUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9512,7 +9512,7 @@
                 "id": "POPCATUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9548,7 +9548,7 @@
                 "id": "PRIMEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9598,7 +9598,7 @@
                 "id": "PYTHUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9694,7 +9694,7 @@
                 "id": "QNTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9754,7 +9754,7 @@
                 "id": "QTUMUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9876,7 +9876,7 @@
                 "id": "RENDERUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -9984,7 +9984,7 @@
                 "id": "ROSEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10040,7 +10040,7 @@
                 "id": "RPLUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10158,7 +10158,7 @@
                 "id": "RUNEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10204,7 +10204,7 @@
                 "id": "RVNUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10256,7 +10256,7 @@
                 "id": "SAFEUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10362,7 +10362,7 @@
                 "id": "SANDUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -10372,7 +10372,7 @@
                 "id": "SANDUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10452,7 +10452,7 @@
                 "id": "SCUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10528,7 +10528,7 @@
                 "id": "SEIUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -10538,7 +10538,7 @@
                 "id": "SEIUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10630,7 +10630,7 @@
                 "id": "SHIBUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -10640,7 +10640,7 @@
                 "id": "SHIBUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10680,7 +10680,7 @@
                 "id": "SHIB/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10772,7 +10772,7 @@
                 "id": "SNXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10852,7 +10852,7 @@
                 "id": "SOLUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -10862,7 +10862,7 @@
                 "id": "SOLUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10902,7 +10902,7 @@
                 "id": "SOL/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -10952,7 +10952,7 @@
                 "id": "SSVUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11010,7 +11010,7 @@
                 "id": "STRKUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -11020,7 +11020,7 @@
                 "id": "STRKUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11100,7 +11100,7 @@
                 "id": "STXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11190,7 +11190,7 @@
                 "id": "SUIUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -11200,7 +11200,7 @@
                 "id": "SUIUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11270,7 +11270,7 @@
                 "id": "SUNUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11298,7 +11298,7 @@
                 "id": "SUNDOGUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11380,7 +11380,7 @@
                 "id": "SUSHIUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11446,7 +11446,7 @@
                 "id": "TUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11580,7 +11580,7 @@
                 "id": "THETAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11642,7 +11642,7 @@
                 "id": "TIAUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -11652,7 +11652,7 @@
                 "id": "TIAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11732,7 +11732,7 @@
                 "id": "TONUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -11742,7 +11742,7 @@
                 "id": "TONUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11840,7 +11840,7 @@
                 "id": "TRXUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -11850,7 +11850,7 @@
                 "id": "TRXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -11988,7 +11988,7 @@
                 "id": "TWTUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12030,7 +12030,7 @@
                 "id": "UMAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12106,7 +12106,7 @@
                 "id": "UNIUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -12116,7 +12116,7 @@
                 "id": "UNIUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12344,7 +12344,7 @@
                 "id": "WUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12400,7 +12400,7 @@
                 "id": "WEMIXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12452,7 +12452,7 @@
                 "id": "WIFUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -12462,7 +12462,7 @@
                 "id": "WIFUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12538,7 +12538,7 @@
                 "id": "WLDUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -12548,7 +12548,7 @@
                 "id": "WLDUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12610,7 +12610,7 @@
                 "id": "WOOUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12694,7 +12694,7 @@
                 "id": "XDCUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12736,7 +12736,7 @@
                 "id": "XECUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12778,7 +12778,7 @@
                 "id": "XLMUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -12788,7 +12788,7 @@
                 "id": "XLMUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12874,7 +12874,7 @@
                 "id": "XMR/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12914,7 +12914,7 @@
                 "id": "XRPUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -12924,7 +12924,7 @@
                 "id": "XRPUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -12964,7 +12964,7 @@
                 "id": "XRP/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -13014,7 +13014,7 @@
                 "id": "XTZUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -13044,7 +13044,7 @@
                 "id": "XTZ/USDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -13124,7 +13124,7 @@
                 "id": "ZETAUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -13184,7 +13184,7 @@
                 "id": "ZILUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -13256,7 +13256,7 @@
                 "id": "ZKUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -13266,7 +13266,7 @@
                 "id": "ZKUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -13346,7 +13346,7 @@
                 "id": "ZROUSDC",
                 "routes": [
                     {
-                        "signal_id": "USDC-USD",
+                        "signal_id": "CS:USDC-USD",
                         "operation": "*"
                     }
                 ]
@@ -13356,7 +13356,7 @@
                 "id": "ZROUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
@@ -13426,7 +13426,7 @@
                 "id": "ZRXUSDT",
                 "routes": [
                     {
-                        "signal_id": "USDT-USD",
+                        "signal_id": "CS:USDT-USD",
                         "operation": "*"
                     }
                 ]
