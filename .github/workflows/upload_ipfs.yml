@@ -34,7 +34,7 @@ jobs:
         pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}
 
     - name: Create Checksum File
-      run: echo $ {{ steps.upload.outputs.hash }} > checksum.txt && cat checksum.txt
+      run: echo ${{ steps.upload.outputs.hash }} > checksum.txt && cat checksum.txt
 
     - name: Add Checksum File
       uses: softprops/action-gh-release@v2
