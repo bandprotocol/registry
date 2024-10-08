@@ -15,6 +15,11 @@ sources:
   id: '29587'
 - source_id: cryptocompare
   id: W
+- source_id: htx
+  id: wusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: W/USD
 - source_id: okx

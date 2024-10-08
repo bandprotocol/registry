@@ -27,5 +27,10 @@ sources:
   id: '23149'
 - source_id: cryptocompare
   id: SEI
+- source_id: htx
+  id: seiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SEI/USD

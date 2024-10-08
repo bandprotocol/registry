@@ -15,3 +15,8 @@ sources:
   id: '4948'
 - source_id: cryptocompare
   id: CKB
+- source_id: htx
+  id: ckbusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

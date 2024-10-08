@@ -15,3 +15,8 @@ sources:
   id: '29743'
 - source_id: cryptocompare
   id: BRETT
+- source_id: htx
+  id: brettusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

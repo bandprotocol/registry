@@ -13,6 +13,11 @@ sources:
   id: '12999'
 - source_id: cryptocompare
   id: SSV
+- source_id: htx
+  id: ssvusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: SSV-USDT
   routes:

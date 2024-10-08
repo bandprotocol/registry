@@ -20,6 +20,11 @@ sources:
   id: '7080'
 - source_id: cryptocompare
   id: GALA
+- source_id: htx
+  id: galausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: GALA/USD
 - source_id: okx

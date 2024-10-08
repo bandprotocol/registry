@@ -17,5 +17,10 @@ sources:
   id: '4846'
 - source_id: cryptocompare
   id: KAVA
+- source_id: htx
+  id: kavausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: KAVA/USD

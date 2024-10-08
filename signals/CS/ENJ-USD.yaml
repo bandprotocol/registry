@@ -15,6 +15,11 @@ sources:
   id: '2130'
 - source_id: cryptocompare
   id: ENJ
+- source_id: htx
+  id: enjusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ENJ/USD
 - source_id: okx

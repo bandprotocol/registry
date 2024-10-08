@@ -20,5 +20,10 @@ sources:
   id: '29073'
 - source_id: cryptocompare
   id: ALT
+- source_id: htx
+  id: altusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ALT/USD

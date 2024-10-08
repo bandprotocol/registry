@@ -27,6 +27,11 @@ sources:
   id: '22861'
 - source_id: cryptocompare
   id: TIA
+- source_id: htx
+  id: tiausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: TIA/USD
 - source_id: okx

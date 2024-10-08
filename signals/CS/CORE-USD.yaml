@@ -10,6 +10,11 @@ sources:
   id: '23254'
 - source_id: cryptocompare
   id: CORE
+- source_id: htx
+  id: coreusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: CORE-USDC
   routes:

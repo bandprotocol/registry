@@ -15,6 +15,11 @@ sources:
   id: '7501'
 - source_id: cryptocompare
   id: WOO
+- source_id: htx
+  id: woousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: WOO/USD
 - source_id: okx

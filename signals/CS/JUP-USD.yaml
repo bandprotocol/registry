@@ -20,6 +20,11 @@ sources:
   id: '29210'
 - source_id: cryptocompare
   id: JUP
+- source_id: htx
+  id: jupusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: JUP/USD
 - source_id: okx

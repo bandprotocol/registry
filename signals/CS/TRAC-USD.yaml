@@ -5,5 +5,10 @@ sources:
   id: '2467'
 - source_id: cryptocompare
   id: TRAC
+- source_id: htx
+  id: tracusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: TRAC/USD

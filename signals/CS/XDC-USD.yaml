@@ -10,3 +10,8 @@ sources:
   id: '2634'
 - source_id: cryptocompare
   id: XDC
+- source_id: htx
+  id: xdcusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

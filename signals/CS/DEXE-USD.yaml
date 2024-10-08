@@ -10,3 +10,8 @@ sources:
   id: '7326'
 - source_id: cryptocompare
   id: DEXE
+- source_id: htx
+  id: dexeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

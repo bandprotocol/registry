@@ -27,5 +27,10 @@ sources:
   id: '8425'
 - source_id: cryptocompare
   id: JASMY
+- source_id: htx
+  id: jasmyusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: JASMY/USD

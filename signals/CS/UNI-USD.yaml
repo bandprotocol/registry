@@ -27,6 +27,11 @@ sources:
   id: '7083'
 - source_id: cryptocompare
   id: UNI
+- source_id: htx
+  id: uniusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: UNI/USD
 - source_id: okx

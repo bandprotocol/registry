@@ -15,6 +15,11 @@ sources:
   id: '9543'
 - source_id: cryptocompare
   id: BICO
+- source_id: htx
+  id: bicousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: BICO/USD
 - source_id: okx

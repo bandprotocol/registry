@@ -32,6 +32,16 @@ sources:
   id: '1'
 - source_id: cryptocompare
   id: BTC
+- source_id: htx
+  id: btcusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: htx
+  id: btcusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: BTC/USD
 - source_id: kraken

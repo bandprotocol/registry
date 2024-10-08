@@ -12,3 +12,8 @@ sources:
   id: '3077'
 - source_id: cryptocompare
   id: VET
+- source_id: htx
+  id: vetusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

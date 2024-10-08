@@ -12,3 +12,8 @@ sources:
   id: '9104'
 - source_id: cryptocompare
   id: AIOZ
+- source_id: htx
+  id: aiozusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -15,6 +15,11 @@ sources:
   id: '4256'
 - source_id: cryptocompare
   id: KLAY
+- source_id: htx
+  id: klayusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: KLAY-USDC
   routes:

@@ -15,6 +15,11 @@ sources:
   id: '2577'
 - source_id: cryptocompare
   id: RVN
+- source_id: htx
+  id: rvnusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: RVN-USDC
   routes:

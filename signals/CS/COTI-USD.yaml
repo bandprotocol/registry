@@ -10,5 +10,10 @@ sources:
   id: '3992'
 - source_id: cryptocompare
   id: COTI
+- source_id: htx
+  id: cotiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: COTI/USD

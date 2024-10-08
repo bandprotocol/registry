@@ -15,6 +15,11 @@ sources:
   id: '6758'
 - source_id: cryptocompare
   id: SUSHI
+- source_id: htx
+  id: sushiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SUSHI/USD
 - source_id: okx

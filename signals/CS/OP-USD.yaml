@@ -32,6 +32,11 @@ sources:
   id: '11840'
 - source_id: cryptocompare
   id: OP
+- source_id: htx
+  id: opusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: OP/USD
 - source_id: okx

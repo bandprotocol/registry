@@ -12,5 +12,10 @@ sources:
   id: '131'
 - source_id: cryptocompare
   id: DASH
+- source_id: htx
+  id: dashusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: DASH/USD

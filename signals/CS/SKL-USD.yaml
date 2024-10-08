@@ -10,6 +10,11 @@ sources:
   id: '5691'
 - source_id: cryptocompare
   id: SKL
+- source_id: htx
+  id: sklusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: SKL-USDT
   routes:

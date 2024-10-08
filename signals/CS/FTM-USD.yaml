@@ -25,6 +25,11 @@ sources:
   id: '3513'
 - source_id: cryptocompare
   id: FTM
+- source_id: htx
+  id: ftmusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: FTM/USD
 - source_id: okx

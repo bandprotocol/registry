@@ -17,6 +17,11 @@ sources:
   id: '8104'
 - source_id: cryptocompare
   id: 1INCH
+- source_id: htx
+  id: 1inchusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: 1INCH/USD
 - source_id: okx

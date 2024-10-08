@@ -10,3 +10,8 @@ sources:
   id: '7548'
 - source_id: cryptocompare
   id: WEMIX
+- source_id: htx
+  id: wemixusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

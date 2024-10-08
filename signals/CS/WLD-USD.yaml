@@ -25,6 +25,11 @@ sources:
   id: '13502'
 - source_id: cryptocompare
   id: WLD
+- source_id: htx
+  id: wldusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: WLD-USDC
   routes:

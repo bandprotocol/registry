@@ -27,6 +27,11 @@ sources:
   id: '512'
 - source_id: cryptocompare
   id: XLM
+- source_id: htx
+  id: xlmusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: XLM/USD
 - source_id: okx

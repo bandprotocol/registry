@@ -10,3 +10,8 @@ sources:
   id: '32717'
 - source_id: cryptocompare
   id: SUNDOG
+- source_id: htx
+  id: sundogusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

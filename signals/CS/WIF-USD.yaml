@@ -25,6 +25,11 @@ sources:
   id: '28752'
 - source_id: cryptocompare
   id: WIF
+- source_id: htx
+  id: wifusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: WIF/USD
 - source_id: okx

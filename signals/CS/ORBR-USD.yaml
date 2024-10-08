@@ -1,15 +1,10 @@
 sources:
-- source_id: binance
-  id: fluxusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coinmarketcap
-  id: '3029'
+  id: '17520'
 - source_id: cryptocompare
-  id: FLUX
+  id: ORBR
 - source_id: htx
-  id: fluxusdt
+  id: orbrusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

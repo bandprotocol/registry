@@ -13,6 +13,11 @@ sources:
   id: '21846'
 - source_id: cryptocompare
   id: ID
+- source_id: htx
+  id: idusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: ID-USDT
   routes:

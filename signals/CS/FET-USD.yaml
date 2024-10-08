@@ -32,6 +32,11 @@ sources:
   id: '3773'
 - source_id: cryptocompare
   id: FET
+- source_id: htx
+  id: fetusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: FET/USD
 - source_id: okx

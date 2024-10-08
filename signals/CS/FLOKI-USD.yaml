@@ -25,6 +25,11 @@ sources:
   id: '10804'
 - source_id: cryptocompare
   id: FLOKI
+- source_id: htx
+  id: flokiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: FLOKI/USD
 - source_id: okx

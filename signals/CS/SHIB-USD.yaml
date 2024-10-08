@@ -32,6 +32,11 @@ sources:
   id: '5994'
 - source_id: cryptocompare
   id: SHIB
+- source_id: htx
+  id: shibusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SHIB/USD
 - source_id: kraken

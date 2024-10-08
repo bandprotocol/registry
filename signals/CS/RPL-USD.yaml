@@ -15,6 +15,11 @@ sources:
   id: '2943'
 - source_id: cryptocompare
   id: RPL
+- source_id: htx
+  id: rplusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: RPL/USD
 - source_id: okx

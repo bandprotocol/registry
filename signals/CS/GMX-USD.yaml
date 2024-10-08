@@ -13,6 +13,11 @@ sources:
   id: '11857'
 - source_id: cryptocompare
   id: GMX
+- source_id: htx
+  id: gmxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: GMX/USD
 - source_id: okx

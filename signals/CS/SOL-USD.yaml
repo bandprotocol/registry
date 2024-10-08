@@ -32,6 +32,11 @@ sources:
   id: '5426'
 - source_id: cryptocompare
   id: SOL
+- source_id: htx
+  id: solusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SOL/USD
 - source_id: kraken

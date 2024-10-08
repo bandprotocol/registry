@@ -27,6 +27,11 @@ sources:
   id: '2'
 - source_id: cryptocompare
   id: LTC
+- source_id: htx
+  id: ltcusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: LTC/USD
 - source_id: kraken

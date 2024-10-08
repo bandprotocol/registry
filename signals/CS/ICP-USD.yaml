@@ -32,6 +32,11 @@ sources:
   id: '8916'
 - source_id: cryptocompare
   id: ICP
+- source_id: htx
+  id: icpusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ICP/USD
 - source_id: okx

@@ -10,6 +10,11 @@ sources:
   id: '3964'
 - source_id: cryptocompare
   id: RSR
+- source_id: htx
+  id: rsrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: RSR-USDT
   routes:

@@ -15,6 +15,11 @@ sources:
   id: '28301'
 - source_id: cryptocompare
   id: MEME
+- source_id: htx
+  id: memeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: MEME/USD
 - source_id: okx

@@ -15,6 +15,11 @@ sources:
   id: '1376'
 - source_id: cryptocompare
   id: NEO
+- source_id: htx
+  id: neousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: NEO-USDC
   routes:

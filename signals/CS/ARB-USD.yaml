@@ -27,6 +27,11 @@ sources:
   id: '11841'
 - source_id: cryptocompare
   id: ARB
+- source_id: htx
+  id: arbusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ARB/USD
 - source_id: okx

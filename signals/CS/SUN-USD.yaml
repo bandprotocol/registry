@@ -13,3 +13,8 @@ sources:
   id: '10529'
 - source_id: cryptocompare
   id: SUN
+- source_id: htx
+  id: sunusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

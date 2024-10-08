@@ -12,5 +12,10 @@ sources:
   id: '1659'
 - source_id: cryptocompare
   id: GNO
+- source_id: htx
+  id: gnousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: GNO/USD

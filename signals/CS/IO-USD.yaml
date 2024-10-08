@@ -18,3 +18,8 @@ sources:
   id: '29835'
 - source_id: cryptocompare
   id: IO
+- source_id: htx
+  id: iousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

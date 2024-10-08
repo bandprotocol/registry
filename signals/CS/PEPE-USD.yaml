@@ -25,6 +25,11 @@ sources:
   id: '24478'
 - source_id: cryptocompare
   id: PEPE
+- source_id: htx
+  id: pepeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: PEPE/USD
 - source_id: okx

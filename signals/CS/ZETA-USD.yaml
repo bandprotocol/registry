@@ -12,6 +12,11 @@ sources:
   id: '21259'
 - source_id: cryptocompare
   id: ZETA
+- source_id: htx
+  id: zetausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ZETA/USD
 - source_id: okx

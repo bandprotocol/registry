@@ -22,6 +22,11 @@ sources:
   id: '7278'
 - source_id: cryptocompare
   id: AAVE
+- source_id: htx
+  id: aaveusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: AAVE/USD
 - source_id: okx

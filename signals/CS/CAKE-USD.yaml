@@ -15,3 +15,8 @@ sources:
   id: '7186'
 - source_id: cryptocompare
   id: CAKE
+- source_id: htx
+  id: cakeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
