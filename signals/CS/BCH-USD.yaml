@@ -27,6 +27,11 @@ sources:
   id: '1831'
 - source_id: cryptocompare
   id: BCH
+- source_id: htx
+  id: bchusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: BCH/USD
 - source_id: kraken

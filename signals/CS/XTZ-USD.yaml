@@ -17,6 +17,11 @@ sources:
   id: '2011'
 - source_id: cryptocompare
   id: XTZ
+- source_id: htx
+  id: xtzusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: XTZ/USD
 - source_id: kraken

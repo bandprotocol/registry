@@ -15,3 +15,8 @@ sources:
   id: '32521'
 - source_id: cryptocompare
   id: NEIRO
+- source_id: htx
+  id: neirousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

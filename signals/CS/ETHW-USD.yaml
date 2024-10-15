@@ -10,6 +10,11 @@ sources:
   id: '21296'
 - source_id: cryptocompare
   id: ETHW
+- source_id: htx
+  id: ethwusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ETHW/USD
 - source_id: okx

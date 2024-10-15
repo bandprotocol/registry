@@ -22,6 +22,11 @@ sources:
   id: '27565'
 - source_id: cryptocompare
   id: ARKM
+- source_id: htx
+  id: arkmusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ARKM/USD
 - source_id: okx

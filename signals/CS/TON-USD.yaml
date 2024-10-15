@@ -25,6 +25,11 @@ sources:
   id: '11419'
 - source_id: cryptocompare
   id: TON
+- source_id: htx
+  id: tonusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: TON-USDC
   routes:

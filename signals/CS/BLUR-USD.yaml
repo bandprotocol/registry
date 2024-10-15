@@ -22,6 +22,11 @@ sources:
   id: '23121'
 - source_id: cryptocompare
   id: BLUR
+- source_id: htx
+  id: blurusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: BLUR/USD
 - source_id: okx

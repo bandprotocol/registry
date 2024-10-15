@@ -12,3 +12,8 @@ sources:
   id: '2777'
 - source_id: cryptocompare
   id: IOTX
+- source_id: htx
+  id: iotxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

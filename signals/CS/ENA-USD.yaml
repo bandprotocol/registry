@@ -20,5 +20,10 @@ sources:
   id: '30171'
 - source_id: cryptocompare
   id: ENA
+- source_id: htx
+  id: enausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ENA/USD

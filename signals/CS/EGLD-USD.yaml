@@ -17,6 +17,11 @@ sources:
   id: '6892'
 - source_id: cryptocompare
   id: EGLD
+- source_id: htx
+  id: egldusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: EGLD/USD
 - source_id: okx

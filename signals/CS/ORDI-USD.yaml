@@ -20,6 +20,11 @@ sources:
   id: '25028'
 - source_id: cryptocompare
   id: ORDI
+- source_id: htx
+  id: ordiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: ORDI-USDC
   routes:

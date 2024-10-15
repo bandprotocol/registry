@@ -25,6 +25,11 @@ sources:
   id: '1839'
 - source_id: cryptocompare
   id: BNB
+- source_id: htx
+  id: bnbusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: BNB-USDC
   routes:

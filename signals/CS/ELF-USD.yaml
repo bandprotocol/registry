@@ -10,6 +10,11 @@ sources:
   id: '2299'
 - source_id: cryptocompare
   id: ELF
+- source_id: htx
+  id: elfusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: ELF-USDT
   routes:

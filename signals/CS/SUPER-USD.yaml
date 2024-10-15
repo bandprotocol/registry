@@ -12,5 +12,10 @@ sources:
   id: '8290'
 - source_id: cryptocompare
   id: SUPER
+- source_id: htx
+  id: superusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SUPER/USD

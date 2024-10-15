@@ -8,3 +8,8 @@ sources:
   id: '32724'
 - source_id: cryptocompare
   id: CAT
+- source_id: htx
+  id: catusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -7,5 +7,10 @@ sources:
   id: '7431'
 - source_id: cryptocompare
   id: AKT
+- source_id: htx
+  id: aktusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: AKT/USD

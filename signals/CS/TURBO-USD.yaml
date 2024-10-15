@@ -10,6 +10,11 @@ sources:
   id: '24911'
 - source_id: cryptocompare
   id: TURBO
+- source_id: htx
+  id: turbousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: TURBO/USD
 - source_id: okx

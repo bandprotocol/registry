@@ -32,6 +32,16 @@ sources:
   id: '1027'
 - source_id: cryptocompare
   id: ETH
+- source_id: htx
+  id: ethusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: htx
+  id: ethusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ETH/USD
 - source_id: kraken

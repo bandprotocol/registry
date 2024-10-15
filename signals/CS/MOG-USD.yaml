@@ -10,5 +10,10 @@ sources:
   id: '27659'
 - source_id: cryptocompare
   id: MOG
+- source_id: htx
+  id: mogusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: MOG/USD

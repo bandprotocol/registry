@@ -3,6 +3,11 @@ sources:
   id: '9258'
 - source_id: cryptocompare
   id: XCH
+- source_id: htx
+  id: xchusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: XCH-USDC
   routes:

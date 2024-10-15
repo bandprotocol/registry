@@ -20,6 +20,11 @@ sources:
   id: '29814'
 - source_id: cryptocompare
   id: ETHFI
+- source_id: htx
+  id: ethfiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ETHFI/USD
 - source_id: okx

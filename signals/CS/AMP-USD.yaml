@@ -12,3 +12,8 @@ sources:
   id: '6945'
 - source_id: cryptocompare
   id: AMP
+- source_id: htx
+  id: ampusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

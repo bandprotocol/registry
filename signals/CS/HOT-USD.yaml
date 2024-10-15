@@ -15,3 +15,8 @@ sources:
   id: '2682'
 - source_id: cryptocompare
   id: HOT
+- source_id: htx
+  id: hotusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

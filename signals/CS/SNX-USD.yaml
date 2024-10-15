@@ -17,6 +17,11 @@ sources:
   id: '2586'
 - source_id: cryptocompare
   id: SNX
+- source_id: htx
+  id: snxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SNX/USD
 - source_id: okx

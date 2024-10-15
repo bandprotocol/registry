@@ -22,6 +22,11 @@ sources:
   id: '4030'
 - source_id: cryptocompare
   id: ALGO
+- source_id: htx
+  id: algousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ALGO/USD
 - source_id: kraken

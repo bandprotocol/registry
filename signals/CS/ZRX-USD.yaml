@@ -17,6 +17,11 @@ sources:
   id: '1896'
 - source_id: cryptocompare
   id: ZRX
+- source_id: htx
+  id: zrxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ZRX/USD
 - source_id: okx

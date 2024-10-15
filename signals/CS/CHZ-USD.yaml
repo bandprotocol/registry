@@ -27,6 +27,11 @@ sources:
   id: '4066'
 - source_id: cryptocompare
   id: CHZ
+- source_id: htx
+  id: chzusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: CHZ/USD
 - source_id: okx

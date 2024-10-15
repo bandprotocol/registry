@@ -15,6 +15,11 @@ sources:
   id: '17751'
 - source_id: cryptocompare
   id: T
+- source_id: htx
+  id: tusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: T/USD
 - source_id: okx

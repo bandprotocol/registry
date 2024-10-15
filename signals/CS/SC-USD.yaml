@@ -15,6 +15,11 @@ sources:
   id: '1042'
 - source_id: cryptocompare
   id: SC
+- source_id: htx
+  id: scusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SC/USD
 - source_id: okx

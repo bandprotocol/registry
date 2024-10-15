@@ -10,3 +10,8 @@ sources:
   id: '20362'
 - source_id: cryptocompare
   id: POLYX
+- source_id: htx
+  id: polyxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -27,6 +27,11 @@ sources:
   id: '26997'
 - source_id: cryptocompare
   id: ZRO
+- source_id: htx
+  id: zrousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ZRO/USD
 - source_id: okx

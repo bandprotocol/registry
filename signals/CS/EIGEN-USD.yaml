@@ -17,6 +17,11 @@ sources:
   id: '30494'
 - source_id: cryptocompare
   id: EIGEN
+- source_id: htx
+  id: eigenusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: EIGEN/USD
 - source_id: okx

@@ -10,3 +10,8 @@ sources:
   id: '28480'
 - source_id: cryptocompare
   id: BLAST
+- source_id: htx
+  id: blastusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

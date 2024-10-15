@@ -5,3 +5,8 @@ sources:
   id: '4269'
 - source_id: cryptocompare
   id: GT
+- source_id: htx
+  id: gtusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

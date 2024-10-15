@@ -13,3 +13,8 @@ sources:
   id: '1168'
 - source_id: cryptocompare
   id: DCR
+- source_id: htx
+  id: dcrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

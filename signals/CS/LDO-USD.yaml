@@ -27,6 +27,11 @@ sources:
   id: '8000'
 - source_id: cryptocompare
   id: LDO
+- source_id: htx
+  id: ldousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: LDO/USD
 - source_id: okx

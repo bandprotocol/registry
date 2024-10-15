@@ -17,6 +17,11 @@ sources:
   id: '5034'
 - source_id: cryptocompare
   id: KSM
+- source_id: htx
+  id: ksmusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: KSM/USD
 - source_id: okx

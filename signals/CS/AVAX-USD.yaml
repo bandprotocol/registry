@@ -32,6 +32,11 @@ sources:
   id: '5805'
 - source_id: cryptocompare
   id: AVAX
+- source_id: htx
+  id: avaxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: AVAX/USD
 - source_id: kraken

@@ -10,3 +10,8 @@ sources:
   id: '4041'
 - source_id: cryptocompare
   id: MX
+- source_id: htx
+  id: mxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

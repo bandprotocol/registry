@@ -15,3 +15,8 @@ sources:
   id: '10791'
 - source_id: cryptocompare
   id: XEC
+- source_id: htx
+  id: xecusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -10,6 +10,11 @@ sources:
   id: '9816'
 - source_id: cryptocompare
   id: NFT
+- source_id: htx
+  id: nftusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: NFT-USDT
   routes:

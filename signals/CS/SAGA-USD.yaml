@@ -15,5 +15,10 @@ sources:
   id: '30372'
 - source_id: cryptocompare
   id: SAGA
+- source_id: htx
+  id: sagausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SAGA/USD

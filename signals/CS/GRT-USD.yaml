@@ -17,6 +17,11 @@ sources:
   id: '6719'
 - source_id: cryptocompare
   id: GRT
+- source_id: htx
+  id: grtusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: GRT/USD
 - source_id: okx

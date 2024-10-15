@@ -20,3 +20,8 @@ sources:
   id: '13631'
 - source_id: cryptocompare
   id: MANTA
+- source_id: htx
+  id: mantausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -32,6 +32,11 @@ sources:
   id: '1975'
 - source_id: cryptocompare
   id: LINK
+- source_id: htx
+  id: linkusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: LINK/USD
 - source_id: kraken

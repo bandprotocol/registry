@@ -22,6 +22,11 @@ sources:
   id: '4558'
 - source_id: cryptocompare
   id: FLOW
+- source_id: htx
+  id: flowusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: FLOW/USD
 - source_id: okx

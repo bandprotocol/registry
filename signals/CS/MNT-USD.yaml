@@ -13,5 +13,10 @@ sources:
   id: mantle
 - source_id: coinmarketcap
   id: '27075'
+- source_id: htx
+  id: mntusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: MNT/USD

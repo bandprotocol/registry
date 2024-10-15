@@ -32,6 +32,11 @@ sources:
   id: '2010'
 - source_id: cryptocompare
   id: ADA
+- source_id: htx
+  id: adausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ADA/USD
 - source_id: kraken

@@ -5,6 +5,11 @@ sources:
   id: '328'
 - source_id: cryptocompare
   id: XMR
+- source_id: htx
+  id: xmrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: XMR/USD
 - source_id: kraken

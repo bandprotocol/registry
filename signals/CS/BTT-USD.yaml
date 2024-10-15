@@ -10,6 +10,16 @@ sources:
   id: '16086'
 - source_id: cryptocompare
   id: BTT
+- source_id: htx
+  id: bttusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: htx
+  id: bttusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: BTT/USD
 - source_id: okx

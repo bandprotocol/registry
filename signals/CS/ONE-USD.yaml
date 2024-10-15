@@ -13,6 +13,11 @@ sources:
   id: '3945'
 - source_id: cryptocompare
   id: ONE
+- source_id: htx
+  id: oneusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: ONE-USDT
   routes:

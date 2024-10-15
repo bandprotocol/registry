@@ -17,5 +17,10 @@ sources:
   id: '3783'
 - source_id: cryptocompare
   id: ANKR
+- source_id: htx
+  id: ankrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: ANKR/USD

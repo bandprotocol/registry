@@ -20,6 +20,11 @@ sources:
   id: '4172'
 - source_id: cryptocompare
   id: LUNC
+- source_id: htx
+  id: luncusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: LUNC-USDC
   routes:

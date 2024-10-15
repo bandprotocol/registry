@@ -22,6 +22,11 @@ sources:
   id: '8646'
 - source_id: cryptocompare
   id: MINA
+- source_id: htx
+  id: minausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: MINA/USD
 - source_id: okx

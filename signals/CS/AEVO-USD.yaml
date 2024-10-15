@@ -15,6 +15,11 @@ sources:
   id: '29676'
 - source_id: cryptocompare
   id: AEVO
+- source_id: htx
+  id: aevousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: AEVO/USD
 - source_id: okx

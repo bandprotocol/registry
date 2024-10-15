@@ -15,5 +15,10 @@ sources:
   id: '28932'
 - source_id: cryptocompare
   id: DYM
+- source_id: htx
+  id: dymusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: DYM/USD
