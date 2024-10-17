@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '2299'
 - source_id: cryptocompare
-  id: ELF
+  id: ELF-USD
 - source_id: htx
   id: elfusdt
   routes:

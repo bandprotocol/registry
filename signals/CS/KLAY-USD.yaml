@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '4256'
 - source_id: cryptocompare
-  id: KLAY
+  id: KLAY-USD
 - source_id: htx
   id: klayusdt
   routes:

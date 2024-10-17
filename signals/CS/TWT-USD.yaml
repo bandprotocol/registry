@@ -14,4 +14,4 @@ sources:
 - source_id: coinmarketcap
   id: '5964'
 - source_id: cryptocompare
-  id: TWT
+  id: TWT-USD

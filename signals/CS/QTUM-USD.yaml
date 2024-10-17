@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '1684'
 - source_id: cryptocompare
-  id: QTUM
+  id: QTUM-USD
 - source_id: htx
   id: qtumusdt
   routes:

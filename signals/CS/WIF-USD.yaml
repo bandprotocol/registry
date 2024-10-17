@@ -24,7 +24,7 @@ sources:
 - source_id: coinmarketcap
   id: '28752'
 - source_id: cryptocompare
-  id: WIF
+  id: WIF-USD
 - source_id: htx
   id: wifusdt
   routes:

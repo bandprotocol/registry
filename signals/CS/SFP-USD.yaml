@@ -9,4 +9,4 @@ sources:
 - source_id: coinmarketcap
   id: '8119'
 - source_id: cryptocompare
-  id: SFP
+  id: SFP-USD

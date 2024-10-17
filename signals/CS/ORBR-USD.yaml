@@ -2,7 +2,7 @@ sources:
 - source_id: coinmarketcap
   id: '17520'
 - source_id: cryptocompare
-  id: ORBR
+  id: ORBR-USD
 - source_id: htx
   id: orbrusdt
   routes:

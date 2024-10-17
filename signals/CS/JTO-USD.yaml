@@ -21,7 +21,7 @@ sources:
 - source_id: coinmarketcap
   id: '28541'
 - source_id: cryptocompare
-  id: JTO
+  id: JTO-USD
 - source_id: htx
   id: jtousdt
   routes:

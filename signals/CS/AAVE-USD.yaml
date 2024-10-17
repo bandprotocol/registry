@@ -21,7 +21,7 @@ sources:
 - source_id: coinmarketcap
   id: '7278'
 - source_id: cryptocompare
-  id: AAVE
+  id: AAVE-USD
 - source_id: htx
   id: aaveusdt
   routes:

@@ -16,7 +16,7 @@ sources:
 - source_id: coinmarketcap
   id: '32120'
 - source_id: cryptocompare
-  id: G
+  id: G-USD
 - source_id: htx
   id: gusdt
   routes:

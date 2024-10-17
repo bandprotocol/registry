@@ -31,7 +31,7 @@ sources:
 - source_id: coinmarketcap
   id: '6636'
 - source_id: cryptocompare
-  id: DOT
+  id: DOT-USD
 - source_id: htx
   id: dotusdt
   routes:

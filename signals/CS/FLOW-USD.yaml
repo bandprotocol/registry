@@ -21,7 +21,7 @@ sources:
 - source_id: coinmarketcap
   id: '4558'
 - source_id: cryptocompare
-  id: FLOW
+  id: FLOW-USD
 - source_id: htx
   id: flowusdt
   routes:

@@ -9,6 +9,6 @@ sources:
 - source_id: coinmarketcap
   id: '22974'
 - source_id: cryptocompare
-  id: TAO
+  id: TAO-USD
 - source_id: kraken
   id: TAO/USD

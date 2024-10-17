@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '28301'
 - source_id: cryptocompare
-  id: MEME
+  id: MEME-USD
 - source_id: htx
   id: memeusdt
   routes:

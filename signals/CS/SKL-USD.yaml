@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '5691'
 - source_id: cryptocompare
-  id: SKL
+  id: SKL-USD
 - source_id: htx
   id: sklusdt
   routes:

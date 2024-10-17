@@ -21,7 +21,7 @@ sources:
 - source_id: coinmarketcap
   id: '8646'
 - source_id: cryptocompare
-  id: MINA
+  id: MINA-USD
 - source_id: htx
   id: minausdt
   routes:

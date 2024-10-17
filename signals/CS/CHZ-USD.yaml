@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '4066'
 - source_id: cryptocompare
-  id: CHZ
+  id: CHZ-USD
 - source_id: htx
   id: chzusdt
   routes:

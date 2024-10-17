@@ -12,7 +12,7 @@ sources:
 - source_id: coinmarketcap
   id: '4195'
 - source_id: cryptocompare
-  id: FTT
+  id: FTT-USD
 - source_id: htx
   id: fttusdt
   routes:

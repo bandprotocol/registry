@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '17751'
 - source_id: cryptocompare
-  id: T
+  id: T-USD
 - source_id: htx
   id: tusdt
   routes:

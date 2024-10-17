@@ -4,7 +4,7 @@ sources:
 - source_id: coinmarketcap
   id: '4269'
 - source_id: cryptocompare
-  id: GT
+  id: GT-USD
 - source_id: htx
   id: gtusdt
   routes:

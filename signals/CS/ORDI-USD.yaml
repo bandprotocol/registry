@@ -19,7 +19,7 @@ sources:
 - source_id: coinmarketcap
   id: '25028'
 - source_id: cryptocompare
-  id: ORDI
+  id: ORDI-USD
 - source_id: htx
   id: ordiusdt
   routes:

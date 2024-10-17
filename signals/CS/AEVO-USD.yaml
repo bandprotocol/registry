@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '29676'
 - source_id: cryptocompare
-  id: AEVO
+  id: AEVO-USD
 - source_id: htx
   id: aevousdt
   routes:

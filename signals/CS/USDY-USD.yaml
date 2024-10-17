@@ -4,4 +4,4 @@ sources:
 - source_id: coinmarketcap
   id: '29256'
 - source_id: cryptocompare
-  id: USDY
+  id: USDY-USD

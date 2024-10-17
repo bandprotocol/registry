@@ -4,7 +4,7 @@ sources:
 - source_id: coinmarketcap
   id: '3602'
 - source_id: cryptocompare
-  id: BSV
+  id: BSV-USD
 - source_id: htx
   id: bsvusdt
   routes:

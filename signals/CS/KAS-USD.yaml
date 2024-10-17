@@ -14,4 +14,4 @@ sources:
 - source_id: coinmarketcap
   id: '20396'
 - source_id: cryptocompare
-  id: KAS
+  id: KAS-USD

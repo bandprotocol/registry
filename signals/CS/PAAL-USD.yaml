@@ -2,7 +2,7 @@ sources:
 - source_id: coinmarketcap
   id: '27178'
 - source_id: cryptocompare
-  id: PAAL
+  id: PAAL-USD
 - source_id: htx
   id: paalusdt
   routes:

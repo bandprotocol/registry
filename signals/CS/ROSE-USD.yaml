@@ -21,4 +21,4 @@ sources:
 - source_id: coinmarketcap
   id: '7653'
 - source_id: cryptocompare
-  id: ROSE
+  id: ROSE-USD

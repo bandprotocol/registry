@@ -19,7 +19,7 @@ sources:
 - source_id: coinmarketcap
   id: '14806'
 - source_id: cryptocompare
-  id: PEOPLE
+  id: PEOPLE-USD
 - source_id: htx
   id: peopleusdt
   routes:

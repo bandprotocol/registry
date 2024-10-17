@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '23095'
 - source_id: cryptocompare
-  id: BONK
+  id: BONK-USD
 - source_id: htx
   id: bonkusdt
   routes:

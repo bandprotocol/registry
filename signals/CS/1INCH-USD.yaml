@@ -16,7 +16,7 @@ sources:
 - source_id: coinmarketcap
   id: '8104'
 - source_id: cryptocompare
-  id: 1INCH
+  id: 1INCH-USD
 - source_id: htx
   id: 1inchusdt
   routes:

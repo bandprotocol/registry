@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '1455'
 - source_id: cryptocompare
-  id: GLM
+  id: GLM-USD
 - source_id: htx
   id: glmusdt
   routes:

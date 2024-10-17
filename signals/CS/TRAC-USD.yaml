@@ -4,7 +4,7 @@ sources:
 - source_id: coinmarketcap
   id: '2467'
 - source_id: cryptocompare
-  id: TRAC
+  id: TRAC-USD
 - source_id: htx
   id: tracusdt
   routes:

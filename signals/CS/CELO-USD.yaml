@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '5567'
 - source_id: cryptocompare
-  id: CELO
+  id: CELO-USD
 - source_id: htx
   id: celousdt
   routes:

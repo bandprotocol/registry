@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '2280'
 - source_id: cryptocompare
-  id: FIL
+  id: FIL-USD
 - source_id: htx
   id: filusdt
   routes:

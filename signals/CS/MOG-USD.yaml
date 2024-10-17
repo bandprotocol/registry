@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '27659'
 - source_id: cryptocompare
-  id: MOG
+  id: MOG-USD
 - source_id: htx
   id: mogusdt
   routes:

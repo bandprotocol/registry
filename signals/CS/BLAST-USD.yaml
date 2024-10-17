@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '28480'
 - source_id: cryptocompare
-  id: BLAST
+  id: BLAST-USD
 - source_id: htx
   id: blastusdt
   routes:

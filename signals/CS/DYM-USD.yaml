@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '28932'
 - source_id: cryptocompare
-  id: DYM
+  id: DYM-USD
 - source_id: htx
   id: dymusdt
   routes:

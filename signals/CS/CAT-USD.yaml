@@ -7,7 +7,7 @@ sources:
 - source_id: coinmarketcap
   id: '32724'
 - source_id: cryptocompare
-  id: CAT
+  id: CAT-USD
 - source_id: htx
   id: catusdt
   routes:

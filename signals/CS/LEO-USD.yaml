@@ -4,7 +4,7 @@ sources:
 - source_id: coinmarketcap
   id: '3957'
 - source_id: cryptocompare
-  id: LEO
+  id: LEO-USD
 - source_id: okx
   id: LEO-USDT
   routes:

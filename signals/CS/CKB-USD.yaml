@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '4948'
 - source_id: cryptocompare
-  id: CKB
+  id: CKB-USD
 - source_id: htx
   id: ckbusdt
   routes:

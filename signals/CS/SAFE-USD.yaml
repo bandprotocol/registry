@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '21585'
 - source_id: cryptocompare
-  id: SAFE
+  id: SAFE-USD
 - source_id: htx
   id: safeusdt
   routes:

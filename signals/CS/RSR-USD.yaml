@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '3964'
 - source_id: cryptocompare
-  id: RSR
+  id: RSR-USD
 - source_id: htx
   id: rsrusdt
   routes:

@@ -12,7 +12,7 @@ sources:
 - source_id: coinmarketcap
   id: '10529'
 - source_id: cryptocompare
-  id: SUN
+  id: SUN-USD
 - source_id: htx
   id: sunusdt
   routes:

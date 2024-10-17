@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '20314'
 - source_id: cryptocompare
-  id: LUNA
+  id: LUNA-USD
 - source_id: htx
   id: lunausdt
   routes:

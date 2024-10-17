@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '3635'
 - source_id: cryptocompare
-  id: CRO
+  id: CRO-USD
 - source_id: okx
   id: CRO-USDC
   routes:

@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '30372'
 - source_id: cryptocompare
-  id: SAGA
+  id: SAGA-USD
 - source_id: htx
   id: sagausdt
   routes:

@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '23149'
 - source_id: cryptocompare
-  id: SEI
+  id: SEI-USD
 - source_id: htx
   id: seiusdt
   routes:

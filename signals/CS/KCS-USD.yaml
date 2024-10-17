@@ -9,4 +9,4 @@ sources:
 - source_id: coinmarketcap
   id: '2087'
 - source_id: cryptocompare
-  id: KCS
+  id: KCS-USD

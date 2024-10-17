@@ -21,6 +21,6 @@ sources:
 - source_id: coinmarketcap
   id: '3155'
 - source_id: cryptocompare
-  id: QNT
+  id: QNT-USD
 - source_id: kraken
   id: QNT/USD

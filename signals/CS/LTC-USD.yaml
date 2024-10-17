@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '2'
 - source_id: cryptocompare
-  id: LTC
+  id: LTC-USD
 - source_id: htx
   id: ltcusdt
   routes:

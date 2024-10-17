@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '24911'
 - source_id: cryptocompare
-  id: TURBO
+  id: TURBO-USD
 - source_id: htx
   id: turbousdt
   routes:

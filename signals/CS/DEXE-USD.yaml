@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '7326'
 - source_id: cryptocompare
-  id: DEXE
+  id: DEXE-USD
 - source_id: htx
   id: dexeusdt
   routes:

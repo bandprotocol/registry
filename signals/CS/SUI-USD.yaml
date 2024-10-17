@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '20947'
 - source_id: cryptocompare
-  id: SUI
+  id: SUI-USD
 - source_id: htx
   id: suiusdt
   routes:

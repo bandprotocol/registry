@@ -31,7 +31,7 @@ sources:
 - source_id: coinmarketcap
   id: '3773'
 - source_id: cryptocompare
-  id: FET
+  id: FET-USD
 - source_id: htx
   id: fetusdt
   routes:

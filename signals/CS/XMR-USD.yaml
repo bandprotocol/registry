@@ -4,7 +4,7 @@ sources:
 - source_id: coinmarketcap
   id: '328'
 - source_id: cryptocompare
-  id: XMR
+  id: XMR-USD
 - source_id: htx
   id: xmrusdt
   routes:

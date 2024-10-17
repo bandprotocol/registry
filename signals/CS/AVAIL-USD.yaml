@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '32376'
 - source_id: cryptocompare
-  id: AVAIL
+  id: AVAIL-USD
 - source_id: htx
   id: availusdt
   routes:

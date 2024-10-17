@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '2943'
 - source_id: cryptocompare
-  id: RPL
+  id: RPL-USD
 - source_id: htx
   id: rplusdt
   routes:

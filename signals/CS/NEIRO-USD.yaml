@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '32521'
 - source_id: cryptocompare
-  id: NEIRO
+  id: NEIRO-USD
 - source_id: htx
   id: neirousdt
   routes:

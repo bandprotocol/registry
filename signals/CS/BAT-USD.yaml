@@ -16,7 +16,7 @@ sources:
 - source_id: coinmarketcap
   id: '1697'
 - source_id: cryptocompare
-  id: BAT
+  id: BAT-USD
 - source_id: htx
   id: batusdt
   routes:

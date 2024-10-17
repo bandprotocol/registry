@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '1437'
 - source_id: cryptocompare
-  id: ZEC
+  id: ZEC-USD
 - source_id: htx
   id: zecusdt
   routes:

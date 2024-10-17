@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '9903'
 - source_id: cryptocompare
-  id: CVX
+  id: CVX-USD
 - source_id: htx
   id: cvxusdt
   routes:

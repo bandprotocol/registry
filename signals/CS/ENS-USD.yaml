@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '13855'
 - source_id: cryptocompare
-  id: ENS
+  id: ENS-USD
 - source_id: htx
   id: ensusdt
   routes:
