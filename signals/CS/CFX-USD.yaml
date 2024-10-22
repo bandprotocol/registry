@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '7334'
 - source_id: cryptocompare
-  id: CFX
+  id: CFX-USD
 - source_id: okx
   id: CFX-USDC
   routes:

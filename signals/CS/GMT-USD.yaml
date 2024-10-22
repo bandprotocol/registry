@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '18069'
 - source_id: cryptocompare
-  id: GMT
+  id: GMT-USD
 - source_id: htx
   id: gmtusdt
   routes:

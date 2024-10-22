@@ -4,4 +4,4 @@ sources:
 - source_id: coinmarketcap
   id: '27533'
 - source_id: cryptocompare
-  id: OSAK
+  id: OSAK-USD

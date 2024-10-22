@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '28324'
 - source_id: cryptocompare
-  id: DYDX
+  id: DYDX-USD
 - source_id: htx
   id: dydxusdt
   routes:

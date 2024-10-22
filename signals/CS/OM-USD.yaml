@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '6536'
 - source_id: cryptocompare
-  id: OM
+  id: OM-USD
 - source_id: okx
   id: OM-USDC
   routes:

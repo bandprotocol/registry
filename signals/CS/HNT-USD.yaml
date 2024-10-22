@@ -11,6 +11,6 @@ sources:
 - source_id: coinmarketcap
   id: '5665'
 - source_id: cryptocompare
-  id: HNT
+  id: HNT-USD
 - source_id: kraken
   id: HNT/USD

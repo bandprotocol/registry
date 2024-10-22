@@ -19,7 +19,7 @@ sources:
 - source_id: coinmarketcap
   id: '13631'
 - source_id: cryptocompare
-  id: MANTA
+  id: MANTA-USD
 - source_id: htx
   id: mantausdt
   routes:

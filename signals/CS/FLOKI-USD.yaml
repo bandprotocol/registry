@@ -24,7 +24,7 @@ sources:
 - source_id: coinmarketcap
   id: '10804'
 - source_id: cryptocompare
-  id: FLOKI
+  id: FLOKI-USD
 - source_id: htx
   id: flokiusdt
   routes:

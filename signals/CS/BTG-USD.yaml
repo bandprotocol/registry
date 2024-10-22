@@ -9,4 +9,4 @@ sources:
 - source_id: coinmarketcap
   id: '2083'
 - source_id: cryptocompare
-  id: BTG
+  id: BTG-USD

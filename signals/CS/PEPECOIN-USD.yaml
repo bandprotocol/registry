@@ -4,4 +4,4 @@ sources:
 - source_id: coinmarketcap
   id: '24835'
 - source_id: cryptocompare
-  id: PEPECOIN
+  id: PEPECOIN-USD

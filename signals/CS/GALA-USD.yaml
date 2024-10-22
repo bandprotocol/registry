@@ -19,7 +19,7 @@ sources:
 - source_id: coinmarketcap
   id: '7080'
 - source_id: cryptocompare
-  id: GALA
+  id: GALA-USD
 - source_id: htx
   id: galausdt
   routes:

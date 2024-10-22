@@ -19,7 +19,7 @@ sources:
 - source_id: coinmarketcap
   id: '9481'
 - source_id: cryptocompare
-  id: PENDLE
+  id: PENDLE-USD
 - source_id: htx
   id: pendleusdt
   routes:

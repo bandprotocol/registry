@@ -19,7 +19,7 @@ sources:
 - source_id: coinmarketcap
   id: '32195'
 - source_id: cryptocompare
-  id: HMSTR
+  id: HMSTR-USD
 - source_id: okx
   id: HMSTR-USDT
   routes:

@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '3992'
 - source_id: cryptocompare
-  id: COTI
+  id: COTI-USD
 - source_id: htx
   id: cotiusdt
   routes:

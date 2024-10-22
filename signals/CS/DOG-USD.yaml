@@ -4,4 +4,4 @@ sources:
 - source_id: coinmarketcap
   id: '30933'
 - source_id: cryptocompare
-  id: DOG
+  id: DOG-USD

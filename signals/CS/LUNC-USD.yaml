@@ -19,7 +19,7 @@ sources:
 - source_id: coinmarketcap
   id: '4172'
 - source_id: cryptocompare
-  id: LUNC
+  id: LUNC-USD
 - source_id: htx
   id: luncusdt
   routes:

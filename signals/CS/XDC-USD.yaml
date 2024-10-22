@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '2634'
 - source_id: cryptocompare
-  id: XDC
+  id: XDC-USD
 - source_id: htx
   id: xdcusdt
   routes:

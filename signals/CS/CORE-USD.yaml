@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '23254'
 - source_id: cryptocompare
-  id: CORE
+  id: CORE-USD
 - source_id: htx
   id: coreusdt
   routes:

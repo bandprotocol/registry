@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '8719'
 - source_id: cryptocompare
-  id: ILV
+  id: ILV-USD
 - source_id: okx
   id: ILV-USDT
   routes:

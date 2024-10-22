@@ -7,7 +7,7 @@ sources:
 - source_id: coinmarketcap
   id: '30083'
 - source_id: cryptocompare
-  id: ATH
+  id: ATH-USD
 - source_id: htx
   id: athusdt
   routes:

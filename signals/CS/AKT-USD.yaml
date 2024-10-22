@@ -6,7 +6,7 @@ sources:
 - source_id: coinmarketcap
   id: '7431'
 - source_id: cryptocompare
-  id: AKT
+  id: AKT-USD
 - source_id: htx
   id: aktusdt
   routes:

@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '1659'
 - source_id: cryptocompare
-  id: GNO
+  id: GNO-USD
 - source_id: htx
   id: gnousdt
   routes:

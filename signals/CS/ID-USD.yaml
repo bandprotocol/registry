@@ -12,7 +12,7 @@ sources:
 - source_id: coinmarketcap
   id: '21846'
 - source_id: cryptocompare
-  id: ID
+  id: ID-USD
 - source_id: htx
   id: idusdt
   routes:

@@ -21,7 +21,7 @@ sources:
 - source_id: coinmarketcap
   id: '28321'
 - source_id: cryptocompare
-  id: POL
+  id: POL-USD
 - source_id: htx
   id: polusdt
   routes:

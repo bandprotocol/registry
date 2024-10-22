@@ -31,7 +31,7 @@ sources:
 - source_id: coinmarketcap
   id: '5805'
 - source_id: cryptocompare
-  id: AVAX
+  id: AVAX-USD
 - source_id: htx
   id: avaxusdt
   routes:

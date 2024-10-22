@@ -24,7 +24,7 @@ sources:
 - source_id: coinmarketcap
   id: '3513'
 - source_id: cryptocompare
-  id: FTM
+  id: FTM-USD
 - source_id: htx
   id: ftmusdt
   routes:

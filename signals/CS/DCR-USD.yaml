@@ -12,7 +12,7 @@ sources:
 - source_id: coinmarketcap
   id: '1168'
 - source_id: cryptocompare
-  id: DCR
+  id: DCR-USD
 - source_id: htx
   id: dcrusdt
   routes:

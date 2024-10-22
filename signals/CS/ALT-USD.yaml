@@ -19,7 +19,7 @@ sources:
 - source_id: coinmarketcap
   id: '29073'
 - source_id: cryptocompare
-  id: ALT
+  id: ALT-USD
 - source_id: htx
   id: altusdt
   routes:

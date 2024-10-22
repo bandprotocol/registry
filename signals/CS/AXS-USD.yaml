@@ -21,7 +21,7 @@ sources:
 - source_id: coinmarketcap
   id: '6783'
 - source_id: cryptocompare
-  id: AXS
+  id: AXS-USD
 - source_id: htx
   id: axsusdt
   routes:

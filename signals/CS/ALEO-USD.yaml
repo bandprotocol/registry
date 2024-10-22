@@ -6,4 +6,4 @@ sources:
 - source_id: coinmarketcap
   id: '32193'
 - source_id: cryptocompare
-  id: ALEO
+  id: ALEO-USD

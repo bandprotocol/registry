@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '9543'
 - source_id: cryptocompare
-  id: BICO
+  id: BICO-USD
 - source_id: htx
   id: bicousdt
   routes:

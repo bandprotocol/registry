@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '20362'
 - source_id: cryptocompare
-  id: POLYX
+  id: POLYX-USD
 - source_id: htx
   id: polyxusdt
   routes:

@@ -16,7 +16,7 @@ sources:
 - source_id: coinmarketcap
   id: '5692'
 - source_id: cryptocompare
-  id: COMP
+  id: COMP-USD
 - source_id: htx
   id: compusdt
   routes:

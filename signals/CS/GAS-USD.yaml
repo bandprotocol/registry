@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '1785'
 - source_id: cryptocompare
-  id: GAS
+  id: GAS-USD
 - source_id: htx
   id: gasusdt
   routes:

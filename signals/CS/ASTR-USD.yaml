@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '12885'
 - source_id: cryptocompare
-  id: ASTR
+  id: ASTR-USD
 - source_id: htx
   id: astrusdt
   routes:

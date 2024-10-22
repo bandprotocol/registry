@@ -16,7 +16,7 @@ sources:
 - source_id: coinmarketcap
   id: '6719'
 - source_id: cryptocompare
-  id: GRT
+  id: GRT-USD
 - source_id: htx
   id: grtusdt
   routes:

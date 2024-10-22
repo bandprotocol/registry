@@ -4,7 +4,7 @@ sources:
 - source_id: coinmarketcap
   id: '3897'
 - source_id: cryptocompare
-  id: OKB
+  id: OKB-USD
 - source_id: okx
   id: OKB-USDC
   routes:

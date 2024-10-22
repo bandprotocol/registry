@@ -6,6 +6,6 @@ sources:
 - source_id: coinmarketcap
   id: '825'
 - source_id: cryptocompare
-  id: USDT
+  id: USDT-USD
 - source_id: kraken
   id: USDT/USD

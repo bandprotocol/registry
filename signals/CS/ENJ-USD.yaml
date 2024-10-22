@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '2130'
 - source_id: cryptocompare
-  id: ENJ
+  id: ENJ-USD
 - source_id: htx
   id: enjusdt
   routes:

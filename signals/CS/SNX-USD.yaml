@@ -16,7 +16,7 @@ sources:
 - source_id: coinmarketcap
   id: '2586'
 - source_id: cryptocompare
-  id: SNX
+  id: SNX-USD
 - source_id: htx
   id: snxusdt
   routes:

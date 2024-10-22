@@ -12,7 +12,7 @@ sources:
 - source_id: coinmarketcap
   id: '11857'
 - source_id: cryptocompare
-  id: GMX
+  id: GMX-USD
 - source_id: htx
   id: gmxusdt
   routes:

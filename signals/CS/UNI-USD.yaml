@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '7083'
 - source_id: cryptocompare
-  id: UNI
+  id: UNI-USD
 - source_id: htx
   id: uniusdt
   routes:

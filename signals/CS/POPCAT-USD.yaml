@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '28782'
 - source_id: cryptocompare
-  id: POPCAT
+  id: POPCAT-USD
 - source_id: htx
   id: popcatusdt
   routes:

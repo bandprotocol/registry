@@ -4,4 +4,4 @@ sources:
 - source_id: coinmarketcap
   id: '11092'
 - source_id: cryptocompare
-  id: BGB
+  id: BGB-USD

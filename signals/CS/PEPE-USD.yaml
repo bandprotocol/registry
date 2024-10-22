@@ -24,7 +24,7 @@ sources:
 - source_id: coinmarketcap
   id: '24478'
 - source_id: cryptocompare
-  id: PEPE
+  id: PEPE-USD
 - source_id: htx
   id: pepeusdt
   routes:

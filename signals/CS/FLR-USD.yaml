@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '7950'
 - source_id: cryptocompare
-  id: FLR
+  id: FLR-USD
 - source_id: htx
   id: flrusdt
   routes:

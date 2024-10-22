@@ -17,7 +17,7 @@ sources:
 - source_id: coinmarketcap
   id: '29835'
 - source_id: cryptocompare
-  id: IO
+  id: IO-USD
 - source_id: htx
   id: iousdt
   routes:

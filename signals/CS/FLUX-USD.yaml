@@ -7,7 +7,7 @@ sources:
 - source_id: coinmarketcap
   id: '3029'
 - source_id: cryptocompare
-  id: FLUX
+  id: FLUX-USD
 - source_id: htx
   id: fluxusdt
   routes:

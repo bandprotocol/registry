@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '8290'
 - source_id: cryptocompare
-  id: SUPER
+  id: SUPER-USD
 - source_id: htx
   id: superusdt
   routes:

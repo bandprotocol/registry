@@ -16,7 +16,7 @@ sources:
 - source_id: coinmarketcap
   id: '1321'
 - source_id: cryptocompare
-  id: ETC
+  id: ETC-USD
 - source_id: htx
   id: etcusdt
   routes:

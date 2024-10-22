@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '9104'
 - source_id: cryptocompare
-  id: AIOZ
+  id: AIOZ-USD
 - source_id: htx
   id: aiozusdt
   routes:

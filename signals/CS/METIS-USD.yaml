@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '9640'
 - source_id: cryptocompare
-  id: METIS
+  id: METIS-USD
 - source_id: htx
   id: metisusdt
   routes:

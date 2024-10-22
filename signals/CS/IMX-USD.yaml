@@ -21,7 +21,7 @@ sources:
 - source_id: coinmarketcap
   id: '10603'
 - source_id: cryptocompare
-  id: IMX
+  id: IMX-USD
 - source_id: htx
   id: imxusdt
   routes:

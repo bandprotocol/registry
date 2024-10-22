@@ -4,4 +4,4 @@ sources:
 - source_id: coinmarketcap
   id: '1680'
 - source_id: cryptocompare
-  id: ANT
+  id: ANT-USD

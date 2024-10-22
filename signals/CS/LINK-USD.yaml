@@ -31,7 +31,7 @@ sources:
 - source_id: coinmarketcap
   id: '1975'
 - source_id: cryptocompare
-  id: LINK
+  id: LINK-USD
 - source_id: htx
   id: linkusdt
   routes:

@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '9816'
 - source_id: cryptocompare
-  id: NFT
+  id: NFT-USD
 - source_id: htx
   id: nftusdt
   routes:

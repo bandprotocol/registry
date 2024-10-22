@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '11841'
 - source_id: cryptocompare
-  id: ARB
+  id: ARB-USD
 - source_id: htx
   id: arbusdt
   routes:

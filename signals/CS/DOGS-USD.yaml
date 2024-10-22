@@ -24,7 +24,7 @@ sources:
 - source_id: coinmarketcap
   id: '32698'
 - source_id: cryptocompare
-  id: DOGS
+  id: DOGS-USD
 - source_id: okx
   id: DOGS-USDC
   routes:

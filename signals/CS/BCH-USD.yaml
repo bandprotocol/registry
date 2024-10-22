@@ -26,7 +26,7 @@ sources:
 - source_id: coinmarketcap
   id: '1831'
 - source_id: cryptocompare
-  id: BCH
+  id: BCH-USD
 - source_id: htx
   id: bchusdt
   routes:

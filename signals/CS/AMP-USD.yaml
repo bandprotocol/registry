@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '6945'
 - source_id: cryptocompare
-  id: AMP
+  id: AMP-USD
 - source_id: htx
   id: ampusdt
   routes:

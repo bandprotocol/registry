@@ -2,7 +2,7 @@ sources:
 - source_id: coinmarketcap
   id: '6748'
 - source_id: cryptocompare
-  id: CFG
+  id: CFG-USD
 - source_id: kraken
   id: CFG/USD
 - source_id: okx

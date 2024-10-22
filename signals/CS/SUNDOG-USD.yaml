@@ -9,7 +9,7 @@ sources:
 - source_id: coinmarketcap
   id: '32717'
 - source_id: cryptocompare
-  id: SUNDOG
+  id: SUNDOG-USD
 - source_id: htx
   id: sundogusdt
   routes:

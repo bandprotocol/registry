@@ -11,7 +11,7 @@ sources:
 - source_id: coinmarketcap
   id: '21259'
 - source_id: cryptocompare
-  id: ZETA
+  id: ZETA-USD
 - source_id: htx
   id: zetausdt
   routes:

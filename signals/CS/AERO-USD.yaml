@@ -6,4 +6,4 @@ sources:
 - source_id: coinmarketcap
   id: '29270'
 - source_id: cryptocompare
-  id: AERO
+  id: AERO-USD

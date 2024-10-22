@@ -4,4 +4,4 @@ sources:
 - source_id: coinmarketcap
   id: '5049'
 - source_id: cryptocompare
-  id: VRSC
+  id: VRSC-USD

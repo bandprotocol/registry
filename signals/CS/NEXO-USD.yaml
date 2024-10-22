@@ -14,7 +14,7 @@ sources:
 - source_id: coinmarketcap
   id: '2694'
 - source_id: cryptocompare
-  id: NEXO
+  id: NEXO-USD
 - source_id: htx
   id: nexousdt
   routes:
