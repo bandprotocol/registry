@@ -2,44 +2,44 @@ name: Upload IPFS
 on:
   push:
     tags:
-    - "v*"
+      - "v*"
 
 jobs:
   upload-ipfs:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11.2'
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11.2"
 
-    - name: Install Python Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pyyaml
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
 
-    - name: Aggregate Signals
-      run: python .github/scripts/aggregate_signals.py ./signals ./output
+      - name: Aggregate Signals
+        run: python .github/scripts/aggregate_signals.py ./signals ./output
 
-    - name: Upload to IPFS
-      id: upload
-      uses: aquiladev/ipfs-action@v0.3.1
+      - name: Upload to IPFS
+        id: upload
+        uses: aquiladev/ipfs-action@v0.3.1
 
-      with:
-        path: ./output
-        service: pinata
-        pinataKey: ${{ secrets.PINATA_API_KEY }}
-        pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}
+        with:
+          path: ./output/registry.json
+          service: pinata
+          pinataKey: ${{ secrets.PINATA_API_KEY }}
+          pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}
 
-    - name: Create Checksum File
-      run: echo ${{ steps.upload.outputs.hash }} > checksum.txt && cat checksum.txt
+      - name: Create Checksum File
+        run: echo ${{ steps.upload.outputs.hash }} > checksum.txt && cat checksum.txt
 
-    - name: Add Checksum File
-      uses: softprops/action-gh-release@v2
-      if: startsWith(github.ref, 'refs/tags/')
-      with:
-        files: |
-          checksum.txt
-          ./output/registry.json
+      - name: Add Checksum File
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            checksum.txt
+            ./output/registry.json
