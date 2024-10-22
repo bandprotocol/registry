@@ -10,22 +10,37 @@ properties:
       function:
         type: "string"
         description: "The function used in the processor"
-        enum: ["median"]
+        enum: ["median", "weighted_median"]
       params:
         type: "object"
         anyOf:
-        - properties:
-            min_source_count:
-              type: "integer"
-              minimum: 1
-              description: "The minimum number of sources needed to yield a signal result"
-          required:
-          - min_source_count
-          additionalProperties: false
+          - properties:
+              min_source_count:
+                type: "integer"
+                minimum: 1
+                description: "The minimum number of sources needed to yield a signal result"
+            required:
+              - min_source_count
+            additionalProperties: false
+          - properties:
+              source_weights:
+                type: "object"
+                additionalProperties:
+                  type: "integer"
+                  minimum: 1
+                description: "Weights associated with each data source"
+              minimum_cumulative_weight:
+                type: "integer"
+                minimum: 1
+                description: "The minimum cumulative weight required to calculate the weighted median"
+            required:
+              - source_weights
+              - minimum_cumulative_weight
+            additionalProperties: false
       required:
-      - function
-      - params
+        - function
+        - params
     additionalProperties: false
 required:
-- processor
+  - processor
 additionalProperties: false
