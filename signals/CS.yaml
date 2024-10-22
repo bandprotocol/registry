@@ -1,4 +1,14 @@
 processor:
-  function: median
+  function: weighted_median
   params:
-    min_source_count: 3
+    source_weights:
+      binance: 1
+      bybit: 1
+      coinbase: 1
+      coingecko: 1
+      coinmarketcap: 1
+      cryptocompare: 1
+      htx: 1
+      kraken: 1
+      okx: 1
+    minimum_cumulative_weight: 1
