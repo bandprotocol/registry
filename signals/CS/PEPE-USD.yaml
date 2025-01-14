@@ -19,6 +19,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: PEPE-USD
 - source_id: coingecko
   id: pepe
 - source_id: coinmarketcap

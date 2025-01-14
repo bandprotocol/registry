@@ -1,0 +1,24 @@
+sources:
+- source_id: bybit
+  id: MORPHOUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: morpho
+- source_id: coinmarketcap
+  id: '34104'
+- source_id: cryptocompare
+  id: MORPHO-USD
+- source_id: kraken
+  id: MORPHO/USD
+- source_id: okx
+  id: MORPHO-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: MORPHO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

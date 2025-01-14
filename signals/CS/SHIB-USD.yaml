@@ -40,6 +40,11 @@ sources:
 - source_id: kraken
   id: SHIB/USD
 - source_id: kraken
+  id: SHIB/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
   id: SHIB/USDT
   routes:
   - signal_id: CS:USDT-USD

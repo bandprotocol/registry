@@ -1,0 +1,14 @@
+sources:
+- source_id: bybit
+  id: SPXUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: spx6900
+- source_id: coinmarketcap
+  id: '28081'
+- source_id: cryptocompare
+  id: SPX-USD
+- source_id: kraken
+  id: SPX/USD

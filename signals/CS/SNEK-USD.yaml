@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: snek
+- source_id: coinmarketcap
+  id: '25264'
+- source_id: cryptocompare
+  id: SNEK-USD

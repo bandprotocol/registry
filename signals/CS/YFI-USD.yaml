@@ -1,0 +1,34 @@
+sources:
+- source_id: binance
+  id: yfiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: YFIUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: YFI-USD
+- source_id: coinmarketcap
+  id: '5864'
+- source_id: cryptocompare
+  id: YFI-USD
+- source_id: htx
+  id: yfiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: YFI/USD
+- source_id: okx
+  id: YFI-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: YFI-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

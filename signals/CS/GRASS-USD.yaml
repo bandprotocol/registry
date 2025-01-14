@@ -1,0 +1,17 @@
+sources:
+- source_id: bybit
+  id: GRASSUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: grass
+- source_id: coinmarketcap
+  id: '32956'
+- source_id: cryptocompare
+  id: GRASS-USD
+- source_id: htx
+  id: grassusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

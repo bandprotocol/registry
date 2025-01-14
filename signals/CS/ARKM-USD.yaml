@@ -30,6 +30,11 @@ sources:
 - source_id: kraken
   id: ARKM/USD
 - source_id: okx
+  id: ARKM-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
   id: ARKM-USDT
   routes:
   - signal_id: CS:USDT-USD

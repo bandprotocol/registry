@@ -19,6 +19,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: WIF-USD
 - source_id: coingecko
   id: dogwifcoin
 - source_id: coinmarketcap

@@ -1,5 +1,10 @@
 sources:
 - source_id: binance
+  id: xtzusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: xtzusdt
   routes:
   - signal_id: CS:USDT-USD
@@ -24,6 +29,11 @@ sources:
     operation: '*'
 - source_id: kraken
   id: XTZ/USD
+- source_id: kraken
+  id: XTZ/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: kraken
   id: XTZ/USDT
   routes:

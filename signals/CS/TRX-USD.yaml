@@ -26,11 +26,6 @@ sources:
 - source_id: cryptocompare
   id: TRX-USD
 - source_id: htx
-  id: trxusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: htx
   id: trxusdt
   routes:
   - signal_id: CS:USDT-USD

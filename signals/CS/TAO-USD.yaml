@@ -1,5 +1,10 @@
 sources:
 - source_id: binance
+  id: taousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: taousdt
   routes:
   - signal_id: CS:USDT-USD

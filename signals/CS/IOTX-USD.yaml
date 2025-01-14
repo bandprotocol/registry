@@ -6,8 +6,6 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: IOTX-USD
-- source_id: coingecko
-  id: iotex
 - source_id: coinmarketcap
   id: '2777'
 - source_id: cryptocompare

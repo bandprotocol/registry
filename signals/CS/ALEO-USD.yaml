@@ -1,9 +1,0 @@
-sources:
-- source_id: coinbase
-  id: ALEO-USD
-- source_id: coingecko
-  id: aleo
-- source_id: coinmarketcap
-  id: '32193'
-- source_id: cryptocompare
-  id: ALEO-USD

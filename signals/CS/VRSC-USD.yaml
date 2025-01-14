@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: verus-coin
-- source_id: coinmarketcap
-  id: '5049'
-- source_id: cryptocompare
-  id: VRSC-USD

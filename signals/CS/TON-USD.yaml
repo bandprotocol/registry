@@ -30,6 +30,13 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: TON/USD
+- source_id: kraken
+  id: TON/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: okx
   id: TON-USDC
   routes:

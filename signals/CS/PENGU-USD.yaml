@@ -1,0 +1,32 @@
+sources:
+- source_id: binance
+  id: penguusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: penguusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: PENGUUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: pudgy-penguins
+- source_id: coinmarketcap
+  id: '34466'
+- source_id: cryptocompare
+  id: PENGU-USD
+- source_id: htx
+  id: penguusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: PENGU-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -9,8 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coingecko
-  id: dymension
 - source_id: coinmarketcap
   id: '28932'
 - source_id: cryptocompare

@@ -1,0 +1,25 @@
+sources:
+- source_id: bybit
+  id: SATSUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinmarketcap
+  id: '28194'
+- source_id: cryptocompare
+  id: SATS-USD
+- source_id: htx
+  id: satsusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: SATS-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: SATS-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

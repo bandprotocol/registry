@@ -1,0 +1,37 @@
+sources:
+- source_id: binance
+  id: kaiausdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: kaiausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: KAIAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: kaia
+- source_id: coinmarketcap
+  id: '32880'
+- source_id: cryptocompare
+  id: KAIA-USD
+- source_id: htx
+  id: kaiausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: KAIA-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: KAIA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

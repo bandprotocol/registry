@@ -4,8 +4,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coingecko
-  id: gas
 - source_id: coinmarketcap
   id: '1785'
 - source_id: cryptocompare
@@ -14,6 +12,11 @@ sources:
   id: gasusdt
   routes:
   - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: GAS-USDC
+  routes:
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: GAS-USDT

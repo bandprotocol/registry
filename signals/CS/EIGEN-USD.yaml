@@ -1,5 +1,10 @@
 sources:
 - source_id: binance
+  id: eigenusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: eigenusdt
   routes:
   - signal_id: CS:USDT-USD
@@ -24,6 +29,11 @@ sources:
     operation: '*'
 - source_id: kraken
   id: EIGEN/USD
+- source_id: okx
+  id: EIGEN-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: okx
   id: EIGEN-USDT
   routes:

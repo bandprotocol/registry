@@ -1,4 +1,9 @@
 sources:
+- source_id: bybit
+  id: PAALUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinmarketcap
   id: '27178'
 - source_id: cryptocompare

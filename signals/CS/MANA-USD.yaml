@@ -30,6 +30,11 @@ sources:
 - source_id: kraken
   id: MANA/USD
 - source_id: kraken
+  id: MANA/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
   id: MANA/USDT
   routes:
   - signal_id: CS:USDT-USD
