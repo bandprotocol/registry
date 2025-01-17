@@ -4,6 +4,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coingecko
+  id: aelf
 - source_id: coinmarketcap
   id: '2299'
 - source_id: cryptocompare

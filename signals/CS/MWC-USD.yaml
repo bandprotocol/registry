@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: mimblewimblecoin
+- source_id: coinmarketcap
+  id: '5031'
+- source_id: cryptocompare
+  id: MWC-USD

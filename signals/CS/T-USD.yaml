@@ -11,6 +11,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: T-USD
+- source_id: coingecko
+  id: threshold-network-token
 - source_id: coinmarketcap
   id: '17751'
 - source_id: cryptocompare

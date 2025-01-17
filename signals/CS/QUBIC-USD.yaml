@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: qubic-network
+- source_id: coinmarketcap
+  id: '29169'
+- source_id: cryptocompare
+  id: QUBIC-USD

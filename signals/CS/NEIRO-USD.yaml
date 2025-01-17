@@ -14,6 +14,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coingecko
+  id: neiro-3
 - source_id: coinmarketcap
   id: '32521'
 - source_id: cryptocompare

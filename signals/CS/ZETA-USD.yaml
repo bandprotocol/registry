@@ -6,6 +6,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: ZETA-USD
+- source_id: coingecko
+  id: zetachain
 - source_id: coinmarketcap
   id: '21259'
 - source_id: cryptocompare

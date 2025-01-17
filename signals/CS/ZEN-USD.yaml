@@ -11,6 +11,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: ZEN-USD
+- source_id: coingecko
+  id: zencash
 - source_id: coinmarketcap
   id: '1698'
 - source_id: cryptocompare

@@ -6,6 +6,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: CVX-USD
+- source_id: coingecko
+  id: convex-finance
 - source_id: coinmarketcap
   id: '9903'
 - source_id: cryptocompare

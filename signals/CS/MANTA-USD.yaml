@@ -14,6 +14,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coingecko
+  id: manta-network
 - source_id: coinmarketcap
   id: '13631'
 - source_id: cryptocompare

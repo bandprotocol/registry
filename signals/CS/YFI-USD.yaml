@@ -11,6 +11,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: YFI-USD
+- source_id: coingecko
+  id: yearn-finance
 - source_id: coinmarketcap
   id: '5864'
 - source_id: cryptocompare

@@ -11,6 +11,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: ME-USD
+- source_id: coingecko
+  id: magic-eden
 - source_id: coinmarketcap
   id: '32197'
 - source_id: cryptocompare
