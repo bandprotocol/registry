@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: hyperliquid
-- source_id: coinmarketcap
-  id: '32196'
-- source_id: cryptocompare
-  id: HYPE-USD

@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: peaq-2
-- source_id: coinmarketcap
-  id: '14588'
-- source_id: cryptocompare
-  id: PEAQ-USD

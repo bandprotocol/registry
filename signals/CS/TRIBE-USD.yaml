@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: tribe-2
-- source_id: coinmarketcap
-  id: '9025'
-- source_id: cryptocompare
-  id: TRIBE-USD

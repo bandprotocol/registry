@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: ondo-us-dollar-yield
-- source_id: coinmarketcap
-  id: '29256'
-- source_id: cryptocompare
-  id: USDY-USD

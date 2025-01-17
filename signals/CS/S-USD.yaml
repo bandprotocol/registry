@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: sonic-3
-- source_id: coinmarketcap
-  id: '32684'
-- source_id: cryptocompare
-  id: S-USD

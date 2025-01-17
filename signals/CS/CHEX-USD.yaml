@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: chex-token
-- source_id: coinmarketcap
-  id: '8534'
-- source_id: cryptocompare
-  id: CHEX-USD

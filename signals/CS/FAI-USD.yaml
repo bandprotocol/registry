@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: freysa-ai
-- source_id: coinmarketcap
-  id: '34330'
-- source_id: cryptocompare
-  id: FAI-USD
