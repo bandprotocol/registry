@@ -1,0 +1,22 @@
+sources:
+- source_id: binance
+  id: alphausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinmarketcap
+  id: '7232'
+- source_id: cryptocompare
+  id: ALPHA-USD
+- source_id: kraken
+  id: ALPHA/USD
+- source_id: okx
+  id: ALPHA-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: ALPHA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

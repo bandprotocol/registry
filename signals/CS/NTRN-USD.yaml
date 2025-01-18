@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: ntrnusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinmarketcap
+  id: '26680'
+- source_id: cryptocompare
+  id: NTRN-USD
+- source_id: kraken
+  id: NTRN/USD
