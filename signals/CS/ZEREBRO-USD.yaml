@@ -1,0 +1,17 @@
+sources:
+- source_id: bybit
+  id: ZEREBROUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: zerebro
+- source_id: coinmarketcap
+  id: '34083'
+- source_id: cryptocompare
+  id: ZEREBRO-USD
+- source_id: htx
+  id: zerebrousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

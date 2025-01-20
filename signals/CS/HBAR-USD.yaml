@@ -1,5 +1,10 @@
 sources:
 - source_id: binance
+  id: hbarusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: hbarusdt
   routes:
   - signal_id: CS:USDT-USD

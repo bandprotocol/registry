@@ -21,6 +21,11 @@ sources:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
+  id: THETA-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
   id: THETA-USDT
   routes:
   - signal_id: CS:USDT-USD

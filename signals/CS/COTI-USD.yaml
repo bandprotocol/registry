@@ -6,6 +6,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: COTI-USD
+- source_id: coingecko
+  id: coti
 - source_id: coinmarketcap
   id: '3992'
 - source_id: cryptocompare

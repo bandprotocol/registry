@@ -35,6 +35,11 @@ sources:
 - source_id: kraken
   id: EOS/USD
 - source_id: kraken
+  id: EOS/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
   id: EOS/USDT
   routes:
   - signal_id: CS:USDT-USD

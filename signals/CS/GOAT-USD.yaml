@@ -1,0 +1,24 @@
+sources:
+- source_id: bybit
+  id: GOATUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: goatseus-maximus
+- source_id: coinmarketcap
+  id: '33440'
+- source_id: cryptocompare
+  id: GOAT-USD
+- source_id: htx
+  id: goatusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: GOAT/USD
+- source_id: okx
+  id: GOAT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

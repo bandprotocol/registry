@@ -1,4 +1,6 @@
 sources:
+- source_id: coingecko
+  id: chia
 - source_id: coinmarketcap
   id: '9258'
 - source_id: cryptocompare

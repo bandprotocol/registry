@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: fasttoken
-- source_id: coinmarketcap
-  id: '22615'
-- source_id: cryptocompare
-  id: FTN-USD

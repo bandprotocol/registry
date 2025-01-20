@@ -1,0 +1,21 @@
+sources:
+- source_id: bybit
+  id: DRIFTUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: DRIFT-USD
+- source_id: coingecko
+  id: drift-protocol
+- source_id: coinmarketcap
+  id: '31278'
+- source_id: cryptocompare
+  id: DRIFT-USD
+- source_id: htx
+  id: driftusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: DRIFT/USD

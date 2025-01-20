@@ -16,6 +16,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coingecko
+  id: mask-network
 - source_id: coinmarketcap
   id: '8536'
 - source_id: cryptocompare

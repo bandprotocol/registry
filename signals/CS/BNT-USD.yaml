@@ -1,0 +1,34 @@
+sources:
+- source_id: binance
+  id: bntusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: BNTUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: BNT-USD
+- source_id: coinmarketcap
+  id: '1727'
+- source_id: cryptocompare
+  id: BNT-USD
+- source_id: htx
+  id: bntusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: BNT/USD
+- source_id: okx
+  id: BNT-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: BNT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

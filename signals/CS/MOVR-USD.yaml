@@ -1,0 +1,32 @@
+sources:
+- source_id: binance
+  id: movrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: MOVRUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinmarketcap
+  id: '9285'
+- source_id: cryptocompare
+  id: MOVR-USD
+- source_id: htx
+  id: movrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: MOVR/USD
+- source_id: okx
+  id: MOVR-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
+  id: MOVR-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

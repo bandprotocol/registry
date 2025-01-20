@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: first-digital-usd
-- source_id: coinmarketcap
-  id: '26081'
-- source_id: cryptocompare
-  id: FDUSD-USD

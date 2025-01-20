@@ -1,0 +1,29 @@
+sources:
+- source_id: binance
+  id: meusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: MEUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ME-USD
+- source_id: coingecko
+  id: magic-eden
+- source_id: coinmarketcap
+  id: '32197'
+- source_id: cryptocompare
+  id: ME-USD
+- source_id: htx
+  id: meusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: ME-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

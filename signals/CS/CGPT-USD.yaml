@@ -1,0 +1,27 @@
+sources:
+- source_id: binance
+  id: cgptusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: cgptusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: CGPTUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: chaingpt
+- source_id: coinmarketcap
+  id: '23756'
+- source_id: cryptocompare
+  id: CGPT-USD
+- source_id: htx
+  id: cgptusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

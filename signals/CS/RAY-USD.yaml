@@ -1,5 +1,10 @@
 sources:
 - source_id: binance
+  id: rayusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: rayusdt
   routes:
   - signal_id: CS:USDT-USD
@@ -10,6 +15,11 @@ sources:
   id: '8526'
 - source_id: cryptocompare
   id: RAY-USD
+- source_id: htx
+  id: rayusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: RAY/USD
 - source_id: okx

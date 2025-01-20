@@ -28,6 +28,11 @@ sources:
 - source_id: kraken
   id: JUP/USD
 - source_id: okx
+  id: JUP-USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: okx
   id: JUP-USDT
   routes:
   - signal_id: CS:USDT-USD

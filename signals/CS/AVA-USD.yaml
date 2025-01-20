@@ -1,0 +1,22 @@
+sources:
+- source_id: binance
+  id: avausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: AVAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: ava-ai
+- source_id: coinmarketcap
+  id: '34116'
+- source_id: cryptocompare
+  id: AVA-USD
+- source_id: htx
+  id: avausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

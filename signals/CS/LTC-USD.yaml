@@ -35,6 +35,11 @@ sources:
 - source_id: kraken
   id: LTC/USD
 - source_id: kraken
+  id: LTC/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
   id: LTC/USDT
   routes:
   - signal_id: CS:USDT-USD

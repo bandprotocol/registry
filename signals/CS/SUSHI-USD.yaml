@@ -11,6 +11,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: SUSHI-USD
+- source_id: coingecko
+  id: sushi
 - source_id: coinmarketcap
   id: '6758'
 - source_id: cryptocompare

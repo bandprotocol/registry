@@ -40,6 +40,11 @@ sources:
 - source_id: kraken
   id: DOT/USD
 - source_id: kraken
+  id: DOT/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
   id: DOT/USDT
   routes:
   - signal_id: CS:USDT-USD
