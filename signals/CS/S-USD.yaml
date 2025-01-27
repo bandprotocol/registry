@@ -1,29 +1,30 @@
 sources:
 - source_id: binance
-  id: fxsusdt
+  id: susdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: susdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: FXSUSDT
+  id: SUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: frax-share
+  id: sonic-3
 - source_id: coinmarketcap
-  id: '6953'
-- source_id: cryptocompare
-  id: FXS-USD
+  id: '32684'
 - source_id: htx
-  id: fxsusdt
+  id: susdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: FXS/USD
 - source_id: okx
-  id: FXS-USDT
+  id: S-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

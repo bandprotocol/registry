@@ -10,8 +10,6 @@ sources:
   id: livepeer
 - source_id: coinmarketcap
   id: '3640'
-- source_id: cryptocompare
-  id: LPT-USD
 - source_id: htx
   id: lptusdt
   routes:

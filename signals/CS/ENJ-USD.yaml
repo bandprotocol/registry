@@ -13,8 +13,6 @@ sources:
   id: enjincoin
 - source_id: coinmarketcap
   id: '2130'
-- source_id: cryptocompare
-  id: ENJ-USD
 - source_id: htx
   id: enjusdt
   routes:

@@ -8,8 +8,6 @@ sources:
   id: xdce-crowd-sale
 - source_id: coinmarketcap
   id: '2634'
-- source_id: cryptocompare
-  id: XDC-USD
 - source_id: htx
   id: xdcusdt
   routes:

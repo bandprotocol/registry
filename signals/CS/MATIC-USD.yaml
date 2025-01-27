@@ -10,8 +10,6 @@ sources:
   id: matic-network
 - source_id: coinmarketcap
   id: '3890'
-- source_id: cryptocompare
-  id: MATIC-USD
 - source_id: kraken
   id: MATIC/USD
 - source_id: kraken

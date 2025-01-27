@@ -30,8 +30,6 @@ sources:
   id: solana
 - source_id: coinmarketcap
   id: '5426'
-- source_id: cryptocompare
-  id: SOL-USD
 - source_id: htx
   id: solusdt
   routes:

@@ -15,8 +15,6 @@ sources:
   id: havven
 - source_id: coinmarketcap
   id: '2586'
-- source_id: cryptocompare
-  id: SNX-USD
 - source_id: htx
   id: snxusdt
   routes:

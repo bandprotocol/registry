@@ -23,8 +23,6 @@ sources:
   id: the-open-network
 - source_id: coinmarketcap
   id: '11419'
-- source_id: cryptocompare
-  id: TON-USD
 - source_id: htx
   id: tonusdt
   routes:

@@ -8,8 +8,6 @@ sources:
   id: mx-token
 - source_id: coinmarketcap
   id: '4041'
-- source_id: cryptocompare
-  id: MX-USD
 - source_id: htx
   id: mxusdt
   routes:

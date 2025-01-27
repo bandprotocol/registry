@@ -1,12 +1,12 @@
 sources:
-- source_id: bybit
-  id: KCSUSDT
+- source_id: binance
+  id: vthousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: VTHO-USD
 - source_id: coingecko
-  id: kucoin-shares
+  id: vethor-token
 - source_id: coinmarketcap
-  id: '2087'
-- source_id: cryptocompare
-  id: KCS-USD
+  id: '3012'

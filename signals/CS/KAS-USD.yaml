@@ -13,7 +13,5 @@ sources:
   id: kaspa
 - source_id: coinmarketcap
   id: '20396'
-- source_id: cryptocompare
-  id: KAS-USD
 - source_id: kraken
   id: KAS/USD

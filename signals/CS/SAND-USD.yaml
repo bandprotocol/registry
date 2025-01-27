@@ -30,8 +30,6 @@ sources:
   id: the-sandbox
 - source_id: coinmarketcap
   id: '6210'
-- source_id: cryptocompare
-  id: SAND-USD
 - source_id: htx
   id: sandusdt
   routes:

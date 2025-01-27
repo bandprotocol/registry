@@ -15,8 +15,6 @@ sources:
   id: ondo-finance
 - source_id: coinmarketcap
   id: '21159'
-- source_id: cryptocompare
-  id: ONDO-USD
 - source_id: htx
   id: ondousdt
   routes:

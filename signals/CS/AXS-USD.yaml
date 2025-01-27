@@ -20,8 +20,6 @@ sources:
   id: axie-infinity
 - source_id: coinmarketcap
   id: '6783'
-- source_id: cryptocompare
-  id: AXS-USD
 - source_id: htx
   id: axsusdt
   routes:

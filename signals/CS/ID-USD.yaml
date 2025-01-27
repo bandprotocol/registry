@@ -13,8 +13,6 @@ sources:
   id: space-id
 - source_id: coinmarketcap
   id: '21846'
-- source_id: cryptocompare
-  id: ID-USD
 - source_id: htx
   id: idusdt
   routes:

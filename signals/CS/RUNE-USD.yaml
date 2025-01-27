@@ -18,8 +18,6 @@ sources:
   id: thorchain
 - source_id: coinmarketcap
   id: '4157'
-- source_id: cryptocompare
-  id: RUNE-USD
 - source_id: htx
   id: runeusdt
   routes:

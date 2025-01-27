@@ -30,8 +30,6 @@ sources:
   id: apecoin
 - source_id: coinmarketcap
   id: '18876'
-- source_id: cryptocompare
-  id: APE-USD
 - source_id: htx
   id: apeusdt
   routes:

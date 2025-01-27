@@ -15,8 +15,6 @@ sources:
   id: elrond-erd-2
 - source_id: coinmarketcap
   id: '6892'
-- source_id: cryptocompare
-  id: EGLD-USD
 - source_id: htx
   id: egldusdt
   routes:

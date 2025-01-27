@@ -13,8 +13,6 @@ sources:
   id: cat-in-a-dogs-world
 - source_id: coinmarketcap
   id: '30126'
-- source_id: cryptocompare
-  id: MEW-USD
 - source_id: htx
   id: mewusdt
   routes:

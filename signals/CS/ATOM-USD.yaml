@@ -30,8 +30,6 @@ sources:
   id: cosmos
 - source_id: coinmarketcap
   id: '3794'
-- source_id: cryptocompare
-  id: ATOM-USD
 - source_id: htx
   id: atomusdt
   routes:
