@@ -13,8 +13,6 @@ sources:
   id: conflux-token
 - source_id: coinmarketcap
   id: '7334'
-- source_id: cryptocompare
-  id: CFX-USD
 - source_id: htx
   id: cfxusdt
   routes:

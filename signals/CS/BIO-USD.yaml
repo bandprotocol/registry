@@ -1,34 +1,25 @@
 sources:
 - source_id: binance
-  id: aevousdt
+  id: biousdc
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
-- source_id: bybit
-  id: AEVOUSDT
+- source_id: binance
+  id: biousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: aevo-exchange
+  id: bio-protocol
 - source_id: coinmarketcap
-  id: '29676'
-- source_id: cryptocompare
-  id: AEVO-USD
+  id: '34812'
 - source_id: htx
-  id: aevousdt
+  id: biousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: AEVO/USD
 - source_id: okx
-  id: AEVO-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: AEVO-USDT
+  id: BIO-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

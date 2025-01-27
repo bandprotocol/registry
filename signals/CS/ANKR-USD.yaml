@@ -15,8 +15,6 @@ sources:
   id: ankr
 - source_id: coinmarketcap
   id: '3783'
-- source_id: cryptocompare
-  id: ANKR-USD
 - source_id: htx
   id: ankrusdt
   routes:

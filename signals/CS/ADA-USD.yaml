@@ -30,8 +30,6 @@ sources:
   id: cardano
 - source_id: coinmarketcap
   id: '2010'
-- source_id: cryptocompare
-  id: ADA-USD
 - source_id: htx
   id: adausdt
   routes:

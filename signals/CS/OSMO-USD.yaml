@@ -10,8 +10,6 @@ sources:
   id: osmosis
 - source_id: coinmarketcap
   id: '12220'
-- source_id: cryptocompare
-  id: OSMO-USD
 - source_id: htx
   id: osmousdt
   routes:

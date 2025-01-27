@@ -20,8 +20,6 @@ sources:
   id: jito-governance-token
 - source_id: coinmarketcap
   id: '28541'
-- source_id: cryptocompare
-  id: JTO-USD
 - source_id: htx
   id: jtousdt
   routes:

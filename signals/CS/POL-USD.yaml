@@ -20,8 +20,6 @@ sources:
   id: polygon-ecosystem-token
 - source_id: coinmarketcap
   id: '28321'
-- source_id: cryptocompare
-  id: POL-USD
 - source_id: htx
   id: polusdt
   routes:

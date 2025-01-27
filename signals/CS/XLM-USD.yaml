@@ -30,8 +30,6 @@ sources:
   id: stellar
 - source_id: coinmarketcap
   id: '512'
-- source_id: cryptocompare
-  id: XLM-USD
 - source_id: htx
   id: xlmusdt
   routes:

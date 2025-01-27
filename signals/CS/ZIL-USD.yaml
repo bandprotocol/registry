@@ -13,8 +13,6 @@ sources:
   id: zilliqa
 - source_id: coinmarketcap
   id: '2469'
-- source_id: cryptocompare
-  id: ZIL-USD
 - source_id: htx
   id: zilusdt
   routes:

@@ -8,8 +8,6 @@ sources:
   id: wemix-token
 - source_id: coinmarketcap
   id: '7548'
-- source_id: cryptocompare
-  id: WEMIX-USD
 - source_id: htx
   id: wemixusdt
   routes:

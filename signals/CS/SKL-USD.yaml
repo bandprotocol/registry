@@ -1,41 +1,27 @@
 sources:
 - source_id: binance
-  id: maskusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: MASKUSDT
+  id: sklusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
-  id: MASK-USD
-- source_id: coinbase
-  id: MASK-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+  id: SKL-USD
 - source_id: coingecko
-  id: mask-network
+  id: skale
 - source_id: coinmarketcap
-  id: '8536'
-- source_id: cryptocompare
-  id: MASK-USD
+  id: '5691'
 - source_id: htx
-  id: maskusdt
+  id: sklusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: MASK/USD
 - source_id: okx
-  id: MASK-USDC
+  id: SKL-USDC
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
-  id: MASK-USDT
+  id: SKL-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

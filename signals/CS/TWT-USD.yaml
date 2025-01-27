@@ -13,5 +13,3 @@ sources:
   id: trust-wallet-token
 - source_id: coinmarketcap
   id: '5964'
-- source_id: cryptocompare
-  id: TWT-USD

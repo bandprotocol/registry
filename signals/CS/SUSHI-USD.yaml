@@ -15,8 +15,6 @@ sources:
   id: sushi
 - source_id: coinmarketcap
   id: '6758'
-- source_id: cryptocompare
-  id: SUSHI-USD
 - source_id: htx
   id: sushiusdt
   routes:

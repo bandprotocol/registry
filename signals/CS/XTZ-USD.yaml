@@ -20,8 +20,6 @@ sources:
   id: tezos
 - source_id: coinmarketcap
   id: '2011'
-- source_id: cryptocompare
-  id: XTZ-USD
 - source_id: htx
   id: xtzusdt
   routes:

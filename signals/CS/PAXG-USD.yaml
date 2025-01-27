@@ -13,7 +13,5 @@ sources:
   id: pax-gold
 - source_id: coinmarketcap
   id: '4705'
-- source_id: cryptocompare
-  id: PAXG-USD
 - source_id: kraken
   id: PAXG/USD

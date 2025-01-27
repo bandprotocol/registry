@@ -1,34 +1,25 @@
 sources:
 - source_id: binance
-  id: lunausdt
+  id: kdausdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: LUNAUSDT
+  id: KDAUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: terra-luna-2
+  id: kadena
 - source_id: coinmarketcap
-  id: '20314'
-- source_id: cryptocompare
-  id: LUNA-USD
-- source_id: htx
-  id: lunausdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: LUNA/USD
+  id: '5647'
 - source_id: okx
-  id: LUNA-USDC
+  id: KDA-USDC
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
-  id: LUNA-USDT
+  id: KDA-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

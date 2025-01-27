@@ -8,5 +8,3 @@ sources:
   id: theta-fuel
 - source_id: coinmarketcap
   id: '3822'
-- source_id: cryptocompare
-  id: TFUEL-USD

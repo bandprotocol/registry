@@ -8,8 +8,6 @@ sources:
   id: mocaverse
 - source_id: coinmarketcap
   id: '31526'
-- source_id: cryptocompare
-  id: MOCA-USD
 - source_id: htx
   id: mocausdt
   routes:

@@ -23,8 +23,6 @@ sources:
   id: tron
 - source_id: coinmarketcap
   id: '1958'
-- source_id: cryptocompare
-  id: TRX-USD
 - source_id: htx
   id: trxusdt
   routes:

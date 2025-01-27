@@ -20,8 +20,6 @@ sources:
   id: algorand
 - source_id: coinmarketcap
   id: '4030'
-- source_id: cryptocompare
-  id: ALGO-USD
 - source_id: htx
   id: algousdt
   routes:

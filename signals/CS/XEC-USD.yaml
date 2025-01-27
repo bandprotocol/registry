@@ -13,8 +13,6 @@ sources:
   id: ecash
 - source_id: coinmarketcap
   id: '10791'
-- source_id: cryptocompare
-  id: XEC-USD
 - source_id: htx
   id: xecusdt
   routes:

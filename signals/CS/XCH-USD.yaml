@@ -3,8 +3,6 @@ sources:
   id: chia
 - source_id: coinmarketcap
   id: '9258'
-- source_id: cryptocompare
-  id: XCH-USD
 - source_id: htx
   id: xchusdt
   routes:

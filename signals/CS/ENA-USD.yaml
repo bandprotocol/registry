@@ -18,8 +18,6 @@ sources:
   id: ethena
 - source_id: coinmarketcap
   id: '30171'
-- source_id: cryptocompare
-  id: ENA-USD
 - source_id: htx
   id: enausdt
   routes:

@@ -8,8 +8,6 @@ sources:
   id: creditcoin-2
 - source_id: coinmarketcap
   id: '5198'
-- source_id: cryptocompare
-  id: CTC-USD
 - source_id: htx
   id: ctcusdt
   routes:

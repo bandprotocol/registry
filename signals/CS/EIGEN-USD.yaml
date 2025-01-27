@@ -20,8 +20,6 @@ sources:
   id: eigenlayer
 - source_id: coinmarketcap
   id: '30494'
-- source_id: cryptocompare
-  id: EIGEN-USD
 - source_id: htx
   id: eigenusdt
   routes:

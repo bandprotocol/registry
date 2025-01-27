@@ -18,8 +18,6 @@ sources:
   id: jupiter-exchange-solana
 - source_id: coinmarketcap
   id: '29210'
-- source_id: cryptocompare
-  id: JUP-USD
 - source_id: htx
   id: jupusdt
   routes:

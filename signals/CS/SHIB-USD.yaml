@@ -30,8 +30,6 @@ sources:
   id: shiba-inu
 - source_id: coinmarketcap
   id: '5994'
-- source_id: cryptocompare
-  id: SHIB-USD
 - source_id: htx
   id: shibusdt
   routes:

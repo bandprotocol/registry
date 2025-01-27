@@ -13,8 +13,6 @@ sources:
   id: woo-network
 - source_id: coinmarketcap
   id: '7501'
-- source_id: cryptocompare
-  id: WOO-USD
 - source_id: htx
   id: woousdt
   routes:

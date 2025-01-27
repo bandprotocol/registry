@@ -30,8 +30,6 @@ sources:
   id: near
 - source_id: coinmarketcap
   id: '6535'
-- source_id: cryptocompare
-  id: NEAR-USD
 - source_id: htx
   id: nearusdt
   routes:

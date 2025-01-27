@@ -18,8 +18,6 @@ sources:
   id: kaia
 - source_id: coinmarketcap
   id: '32880'
-- source_id: cryptocompare
-  id: KAIA-USD
 - source_id: htx
   id: kaiausdt
   routes:

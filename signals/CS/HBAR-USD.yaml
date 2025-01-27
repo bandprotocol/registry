@@ -25,8 +25,6 @@ sources:
   id: hedera-hashgraph
 - source_id: coinmarketcap
   id: '4642'
-- source_id: cryptocompare
-  id: HBAR-USD
 - source_id: htx
   id: hbarusdt
   routes:

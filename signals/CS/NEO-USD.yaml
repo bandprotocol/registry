@@ -13,8 +13,6 @@ sources:
   id: neo
 - source_id: coinmarketcap
   id: '1376'
-- source_id: cryptocompare
-  id: NEO-USD
 - source_id: htx
   id: neousdt
   routes:

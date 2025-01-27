@@ -25,8 +25,6 @@ sources:
   id: jasmycoin
 - source_id: coinmarketcap
   id: '8425'
-- source_id: cryptocompare
-  id: JASMY-USD
 - source_id: htx
   id: jasmyusdt
   routes:

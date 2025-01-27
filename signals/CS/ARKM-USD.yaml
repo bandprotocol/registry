@@ -20,8 +20,6 @@ sources:
   id: arkham
 - source_id: coinmarketcap
   id: '27565'
-- source_id: cryptocompare
-  id: ARKM-USD
 - source_id: htx
   id: arkmusdt
   routes:

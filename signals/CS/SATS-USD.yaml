@@ -8,8 +8,6 @@ sources:
   id: sats-ordinals
 - source_id: coinmarketcap
   id: '28194'
-- source_id: cryptocompare
-  id: SATS-USD
 - source_id: htx
   id: satsusdt
   routes:

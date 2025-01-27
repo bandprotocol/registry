@@ -25,8 +25,6 @@ sources:
   id: layerzero
 - source_id: coinmarketcap
   id: '26997'
-- source_id: cryptocompare
-  id: ZRO-USD
 - source_id: htx
   id: zrousdt
   routes:

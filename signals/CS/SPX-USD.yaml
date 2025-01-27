@@ -8,7 +8,5 @@ sources:
   id: spx6900
 - source_id: coinmarketcap
   id: '28081'
-- source_id: cryptocompare
-  id: SPX-USD
 - source_id: kraken
   id: SPX/USD

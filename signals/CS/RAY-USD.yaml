@@ -13,8 +13,6 @@ sources:
   id: raydium
 - source_id: coinmarketcap
   id: '8526'
-- source_id: cryptocompare
-  id: RAY-USD
 - source_id: htx
   id: rayusdt
   routes:

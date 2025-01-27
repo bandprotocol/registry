@@ -13,8 +13,6 @@ sources:
   id: pancakeswap-token
 - source_id: coinmarketcap
   id: '7186'
-- source_id: cryptocompare
-  id: CAKE-USD
 - source_id: htx
   id: cakeusdt
   routes:

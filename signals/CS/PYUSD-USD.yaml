@@ -5,7 +5,5 @@ sources:
   id: paypal-usd
 - source_id: coinmarketcap
   id: '27772'
-- source_id: cryptocompare
-  id: PYUSD-USD
 - source_id: kraken
   id: PYUSD/USD

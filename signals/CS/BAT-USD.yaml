@@ -15,8 +15,6 @@ sources:
   id: basic-attention-token
 - source_id: coinmarketcap
   id: '1697'
-- source_id: cryptocompare
-  id: BAT-USD
 - source_id: htx
   id: batusdt
   routes:

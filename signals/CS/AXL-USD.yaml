@@ -15,5 +15,3 @@ sources:
   id: axelar
 - source_id: coinmarketcap
   id: '17799'
-- source_id: cryptocompare
-  id: AXL-USD

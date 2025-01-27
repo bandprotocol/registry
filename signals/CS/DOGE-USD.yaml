@@ -30,8 +30,6 @@ sources:
   id: dogecoin
 - source_id: coinmarketcap
   id: '74'
-- source_id: cryptocompare
-  id: DOGE-USD
 - source_id: htx
   id: dogeusdt
   routes:

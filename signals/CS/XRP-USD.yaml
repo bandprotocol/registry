@@ -30,8 +30,6 @@ sources:
   id: ripple
 - source_id: coinmarketcap
   id: '52'
-- source_id: cryptocompare
-  id: XRP-USD
 - source_id: htx
   id: xrpusdt
   routes:

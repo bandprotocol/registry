@@ -30,8 +30,6 @@ sources:
   id: bitcoin
 - source_id: coinmarketcap
   id: '1'
-- source_id: cryptocompare
-  id: BTC-USD
 - source_id: htx
   id: btcusdc
   routes:

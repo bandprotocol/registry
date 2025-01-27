@@ -8,10 +8,20 @@ sources:
   id: ai16z
 - source_id: coinmarketcap
   id: '34026'
-- source_id: cryptocompare
-  id: AI16Z-USD
 - source_id: htx
   id: ai16zusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: AI16Z/USD
+- source_id: kraken
+  id: AI16Z/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
+  id: AI16Z/USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

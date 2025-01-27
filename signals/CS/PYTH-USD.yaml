@@ -18,8 +18,6 @@ sources:
   id: pyth-network
 - source_id: coinmarketcap
   id: '28177'
-- source_id: cryptocompare
-  id: PYTH-USD
 - source_id: htx
   id: pythusdt
   routes:

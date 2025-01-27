@@ -13,8 +13,6 @@ sources:
   id: siacoin
 - source_id: coinmarketcap
   id: '1042'
-- source_id: cryptocompare
-  id: SC-USD
 - source_id: htx
   id: scusdt
   routes:

@@ -1,27 +1,29 @@
 sources:
 - source_id: binance
-  id: cgptusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
-  id: cgptusdt
+  id: achusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: CGPTUSDT
+  id: ACHUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: ACH-USD
 - source_id: coingecko
-  id: chaingpt
+  id: alchemy-pay
 - source_id: coinmarketcap
-  id: '23756'
-- source_id: cryptocompare
-  id: CGPT-USD
+  id: '6958'
 - source_id: htx
-  id: cgptusdt
+  id: achusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: ACH/USD
+- source_id: okx
+  id: ACH-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

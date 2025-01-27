@@ -10,8 +10,6 @@ sources:
   id: band-protocol
 - source_id: coinmarketcap
   id: '4679'
-- source_id: cryptocompare
-  id: BAND-USD
 - source_id: htx
   id: bandusdt
   routes:
@@ -19,11 +17,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: BAND/USD
-- source_id: okx
-  id: BAND-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: BAND-USDT
   routes:

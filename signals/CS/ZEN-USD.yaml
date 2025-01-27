@@ -15,8 +15,6 @@ sources:
   id: zencash
 - source_id: coinmarketcap
   id: '1698'
-- source_id: cryptocompare
-  id: ZEN-USD
 - source_id: htx
   id: zenusdt
   routes:

@@ -18,8 +18,6 @@ sources:
   id: ether-fi
 - source_id: coinmarketcap
   id: '29814'
-- source_id: cryptocompare
-  id: ETHFI-USD
 - source_id: htx
   id: ethfiusdt
   routes:

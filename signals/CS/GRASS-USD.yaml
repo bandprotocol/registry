@@ -8,8 +8,6 @@ sources:
   id: grass
 - source_id: coinmarketcap
   id: '32956'
-- source_id: cryptocompare
-  id: GRASS-USD
 - source_id: htx
   id: grassusdt
   routes:

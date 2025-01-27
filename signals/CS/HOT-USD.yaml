@@ -13,8 +13,6 @@ sources:
   id: holotoken
 - source_id: coinmarketcap
   id: '2682'
-- source_id: cryptocompare
-  id: HOT-USD
 - source_id: htx
   id: hotusdt
   routes:

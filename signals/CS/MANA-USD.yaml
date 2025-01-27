@@ -20,8 +20,6 @@ sources:
   id: decentraland
 - source_id: coinmarketcap
   id: '1966'
-- source_id: cryptocompare
-  id: MANA-USD
 - source_id: htx
   id: manausdt
   routes:

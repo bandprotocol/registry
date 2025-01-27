@@ -1,8 +1,6 @@
 sources:
 - source_id: coinmarketcap
   id: '20787'
-- source_id: cryptocompare
-  id: FLZ-USD
 - source_id: htx
   id: flzusdc
   routes:

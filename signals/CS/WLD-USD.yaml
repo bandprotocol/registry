@@ -23,8 +23,6 @@ sources:
   id: worldcoin-wld
 - source_id: coinmarketcap
   id: '13502'
-- source_id: cryptocompare
-  id: WLD-USD
 - source_id: htx
   id: wldusdt
   routes:

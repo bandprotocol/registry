@@ -15,8 +15,6 @@ sources:
   id: coin98
 - source_id: coinmarketcap
   id: '10903'
-- source_id: cryptocompare
-  id: C98-USD
 - source_id: htx
   id: c98usdt
   routes:

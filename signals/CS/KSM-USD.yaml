@@ -15,8 +15,6 @@ sources:
   id: kusama
 - source_id: coinmarketcap
   id: '5034'
-- source_id: cryptocompare
-  id: KSM-USD
 - source_id: htx
   id: ksmusdt
   routes:
