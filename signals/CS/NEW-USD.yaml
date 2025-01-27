@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: newton-project
+- source_id: coinmarketcap
+  id: '3871'
+- source_id: htx
+  id: newusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

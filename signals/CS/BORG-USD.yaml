@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: swissborg
+- source_id: coinmarketcap
+  id: '2499'
+- source_id: htx
+  id: borgusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

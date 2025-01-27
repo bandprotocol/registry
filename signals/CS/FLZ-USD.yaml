@@ -1,0 +1,13 @@
+sources:
+- source_id: coinmarketcap
+  id: '20787'
+- source_id: htx
+  id: flzusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: htx
+  id: flzusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

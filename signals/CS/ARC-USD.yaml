@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: ai-rig-complex
+- source_id: coinmarketcap
+  id: '34926'
+- source_id: htx
+  id: arcusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

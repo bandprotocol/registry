@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: gatechain-token
+- source_id: coinmarketcap
+  id: '4269'
+- source_id: htx
+  id: gtusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
