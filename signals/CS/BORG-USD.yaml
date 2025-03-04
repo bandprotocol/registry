@@ -3,8 +3,6 @@ sources:
   id: swissborg
 - source_id: coinmarketcap
   id: '2499'
-- source_id: cryptocompare
-  id: BORG-USD
 - source_id: htx
   id: borgusdt
   routes:

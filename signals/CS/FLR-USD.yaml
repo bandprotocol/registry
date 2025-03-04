@@ -10,8 +10,6 @@ sources:
   id: flare-networks
 - source_id: coinmarketcap
   id: '7950'
-- source_id: cryptocompare
-  id: FLR-USD
 - source_id: htx
   id: flrusdt
   routes:

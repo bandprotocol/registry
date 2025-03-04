@@ -23,8 +23,6 @@ sources:
   id: binancecoin
 - source_id: coinmarketcap
   id: '1839'
-- source_id: cryptocompare
-  id: BNB-USD
 - source_id: htx
   id: bnbusdt
   routes:

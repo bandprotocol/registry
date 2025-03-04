@@ -30,8 +30,6 @@ sources:
   id: optimism
 - source_id: coinmarketcap
   id: '11840'
-- source_id: cryptocompare
-  id: OP-USD
 - source_id: htx
   id: opusdt
   routes:

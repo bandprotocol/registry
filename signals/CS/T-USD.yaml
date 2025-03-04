@@ -15,8 +15,6 @@ sources:
   id: threshold-network-token
 - source_id: coinmarketcap
   id: '17751'
-- source_id: cryptocompare
-  id: T-USD
 - source_id: htx
   id: tusdt
   routes:

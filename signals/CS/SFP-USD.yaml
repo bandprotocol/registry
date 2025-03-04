@@ -8,5 +8,3 @@ sources:
   id: safepal
 - source_id: coinmarketcap
   id: '8119'
-- source_id: cryptocompare
-  id: SFP-USD

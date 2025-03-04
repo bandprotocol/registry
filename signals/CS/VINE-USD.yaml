@@ -1,0 +1,15 @@
+sources:
+- source_id: coingecko
+  id: vine
+- source_id: coinmarketcap
+  id: '35421'
+- source_id: htx
+  id: vineusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: VINE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

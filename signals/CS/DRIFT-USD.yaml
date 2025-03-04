@@ -10,8 +10,6 @@ sources:
   id: drift-protocol
 - source_id: coinmarketcap
   id: '31278'
-- source_id: cryptocompare
-  id: DRIFT-USD
 - source_id: htx
   id: driftusdt
   routes:

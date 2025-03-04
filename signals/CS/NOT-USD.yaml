@@ -23,8 +23,6 @@ sources:
   id: notcoin
 - source_id: coinmarketcap
   id: '28850'
-- source_id: cryptocompare
-  id: NOT-USD
 - source_id: okx
   id: NOT-USDC
   routes:

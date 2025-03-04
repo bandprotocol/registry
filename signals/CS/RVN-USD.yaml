@@ -13,8 +13,6 @@ sources:
   id: ravencoin
 - source_id: coinmarketcap
   id: '2577'
-- source_id: cryptocompare
-  id: RVN-USD
 - source_id: htx
   id: rvnusdt
   routes:

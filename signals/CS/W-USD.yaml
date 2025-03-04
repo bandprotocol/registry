@@ -18,8 +18,6 @@ sources:
   id: wormhole
 - source_id: coinmarketcap
   id: '29587'
-- source_id: cryptocompare
-  id: W-USD
 - source_id: htx
   id: wusdt
   routes:

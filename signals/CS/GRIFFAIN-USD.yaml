@@ -1,0 +1,12 @@
+sources:
+- source_id: coingecko
+  id: griffain
+- source_id: coinmarketcap
+  id: '34792'
+- source_id: htx
+  id: griffainusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: GRIFFAIN/USD

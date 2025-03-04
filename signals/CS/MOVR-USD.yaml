@@ -9,10 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinmarketcap
-  id: '9285'
-- source_id: cryptocompare
-  id: MOVR-USD
 - source_id: htx
   id: movrusdt
   routes:

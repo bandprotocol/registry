@@ -30,8 +30,6 @@ sources:
   id: internet-computer
 - source_id: coinmarketcap
   id: '8916'
-- source_id: cryptocompare
-  id: ICP-USD
 - source_id: htx
   id: icpusdt
   routes:

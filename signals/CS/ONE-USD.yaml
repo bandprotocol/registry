@@ -13,8 +13,6 @@ sources:
   id: harmony
 - source_id: coinmarketcap
   id: '3945'
-- source_id: cryptocompare
-  id: ONE-USD
 - source_id: htx
   id: oneusdt
   routes:

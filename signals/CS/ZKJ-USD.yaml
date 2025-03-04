@@ -4,10 +4,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coingecko
+  id: polyhedra-network
 - source_id: coinmarketcap
   id: '29779'
-- source_id: cryptocompare
-  id: ZKJ-USD
 - source_id: okx
   id: ZKJ-USDT
   routes:

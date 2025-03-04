@@ -15,8 +15,6 @@ sources:
   id: 0x
 - source_id: coinmarketcap
   id: '1896'
-- source_id: cryptocompare
-  id: ZRX-USD
 - source_id: htx
   id: zrxusdt
   routes:

@@ -20,8 +20,6 @@ sources:
   id: movement
 - source_id: coinmarketcap
   id: '32452'
-- source_id: cryptocompare
-  id: MOVE-USD
 - source_id: htx
   id: moveusdt
   routes:

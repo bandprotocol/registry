@@ -18,8 +18,6 @@ sources:
   id: arweave
 - source_id: coinmarketcap
   id: '5632'
-- source_id: cryptocompare
-  id: AR-USD
 - source_id: htx
   id: arusdt
   routes:

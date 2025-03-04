@@ -13,8 +13,6 @@ sources:
   id: icon
 - source_id: coinmarketcap
   id: '2099'
-- source_id: cryptocompare
-  id: ICX-USD
 - source_id: htx
   id: icxusdt
   routes:
@@ -22,11 +20,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: ICX/USD
-- source_id: okx
-  id: ICX-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: ICX-USDT
   routes:

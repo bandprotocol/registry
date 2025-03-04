@@ -15,8 +15,6 @@ sources:
   id: maker
 - source_id: coinmarketcap
   id: '1518'
-- source_id: cryptocompare
-  id: MKR-USD
 - source_id: htx
   id: mkrusdt
   routes:

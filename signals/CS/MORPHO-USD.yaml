@@ -8,8 +8,6 @@ sources:
   id: morpho
 - source_id: coinmarketcap
   id: '34104'
-- source_id: cryptocompare
-  id: MORPHO-USD
 - source_id: kraken
   id: MORPHO/USD
 - source_id: okx

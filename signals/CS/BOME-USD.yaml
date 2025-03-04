@@ -18,8 +18,6 @@ sources:
   id: book-of-meme
 - source_id: coinmarketcap
   id: '29870'
-- source_id: cryptocompare
-  id: BOME-USD
 - source_id: htx
   id: bomeusdt
   routes:

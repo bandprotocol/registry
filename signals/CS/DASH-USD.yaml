@@ -10,8 +10,6 @@ sources:
   id: dash
 - source_id: coinmarketcap
   id: '131'
-- source_id: cryptocompare
-  id: DASH-USD
 - source_id: htx
   id: dashusdt
   routes:

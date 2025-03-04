@@ -1,12 +1,12 @@
 sources:
 - source_id: binance
-  id: ntrnusdt
+  id: vthousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: VTHO-USD
+- source_id: coingecko
+  id: vethor-token
 - source_id: coinmarketcap
-  id: '26680'
-- source_id: cryptocompare
-  id: NTRN-USD
-- source_id: kraken
-  id: NTRN/USD
+  id: '3012'

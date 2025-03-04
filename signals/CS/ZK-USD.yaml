@@ -25,13 +25,6 @@ sources:
   id: zksync
 - source_id: coinmarketcap
   id: '24091'
-- source_id: cryptocompare
-  id: ZK-USD
-- source_id: htx
-  id: zkusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: kraken
   id: ZK/USD
 - source_id: okx

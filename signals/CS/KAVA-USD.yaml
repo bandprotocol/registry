@@ -15,8 +15,6 @@ sources:
   id: kava
 - source_id: coinmarketcap
   id: '4846'
-- source_id: cryptocompare
-  id: KAVA-USD
 - source_id: htx
   id: kavausdt
   routes:

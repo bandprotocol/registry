@@ -25,8 +25,6 @@ sources:
   id: eos
 - source_id: coinmarketcap
   id: '1765'
-- source_id: cryptocompare
-  id: EOS-USD
 - source_id: htx
   id: eosusdt
   routes:

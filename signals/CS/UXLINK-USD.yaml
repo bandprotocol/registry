@@ -1,17 +1,20 @@
 sources:
 - source_id: bybit
-  id: ZEREBROUSDT
+  id: UXLINKUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: zerebro
+  id: uxlink
 - source_id: coinmarketcap
-  id: '34083'
-- source_id: cryptocompare
-  id: ZEREBRO-USD
+  id: '32257'
 - source_id: htx
-  id: zerebrousdt
+  id: uxlinkusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: UXLINK-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

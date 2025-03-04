@@ -1,8 +1,4 @@
 sources:
-- source_id: coinmarketcap
-  id: '9720'
-- source_id: cryptocompare
-  id: LAT-USD
 - source_id: htx
   id: latusdt
   routes:

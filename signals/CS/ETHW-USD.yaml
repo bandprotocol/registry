@@ -8,8 +8,6 @@ sources:
   id: ethereum-pow-iou
 - source_id: coinmarketcap
   id: '21296'
-- source_id: cryptocompare
-  id: ETHW-USD
 - source_id: htx
   id: ethwusdt
   routes:

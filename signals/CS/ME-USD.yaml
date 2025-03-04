@@ -15,8 +15,6 @@ sources:
   id: magic-eden
 - source_id: coinmarketcap
   id: '32197'
-- source_id: cryptocompare
-  id: ME-USD
 - source_id: htx
   id: meusdt
   routes:

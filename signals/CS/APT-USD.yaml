@@ -30,8 +30,6 @@ sources:
   id: aptos
 - source_id: coinmarketcap
   id: '21794'
-- source_id: cryptocompare
-  id: APT-USD
 - source_id: htx
   id: aptusdt
   routes:

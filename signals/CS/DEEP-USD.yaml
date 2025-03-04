@@ -8,5 +8,3 @@ sources:
   id: deep
 - source_id: coinmarketcap
   id: '33391'
-- source_id: cryptocompare
-  id: DEEP-USD

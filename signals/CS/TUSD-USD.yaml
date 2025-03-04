@@ -3,7 +3,5 @@ sources:
   id: true-usd
 - source_id: coinmarketcap
   id: '2563'
-- source_id: cryptocompare
-  id: TUSD-USD
 - source_id: kraken
   id: TUSD/USD

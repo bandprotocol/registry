@@ -15,8 +15,6 @@ sources:
   id: yearn-finance
 - source_id: coinmarketcap
   id: '5864'
-- source_id: cryptocompare
-  id: YFI-USD
 - source_id: htx
   id: yfiusdt
   routes:

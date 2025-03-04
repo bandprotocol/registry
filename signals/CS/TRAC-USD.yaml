@@ -5,8 +5,6 @@ sources:
   id: origintrail
 - source_id: coinmarketcap
   id: '2467'
-- source_id: cryptocompare
-  id: TRAC-USD
 - source_id: htx
   id: tracusdt
   routes:

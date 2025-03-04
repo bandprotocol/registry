@@ -8,8 +8,6 @@ sources:
   id: aethir
 - source_id: coinmarketcap
   id: '30083'
-- source_id: cryptocompare
-  id: ATH-USD
 - source_id: htx
   id: athusdt
   routes:

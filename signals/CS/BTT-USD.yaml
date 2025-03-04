@@ -8,8 +8,6 @@ sources:
   id: bittorrent
 - source_id: coinmarketcap
   id: '16086'
-- source_id: cryptocompare
-  id: BTT-USD
 - source_id: htx
   id: bttusdc
   routes:

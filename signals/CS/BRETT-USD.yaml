@@ -13,8 +13,6 @@ sources:
   id: based-brett
 - source_id: coinmarketcap
   id: '29743'
-- source_id: cryptocompare
-  id: BRETT-USD
 - source_id: htx
   id: brettusdt
   routes:

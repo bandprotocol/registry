@@ -30,8 +30,6 @@ sources:
   id: ethereum
 - source_id: coinmarketcap
   id: '1027'
-- source_id: cryptocompare
-  id: ETH-USD
 - source_id: htx
   id: ethusdc
   routes:
