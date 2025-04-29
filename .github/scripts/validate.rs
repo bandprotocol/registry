@@ -2,7 +2,7 @@
 //! ```cargo
 //! [dependencies]
 //! serde_json = "1.0.128"
-//! bothan-core = "0.0.1-beta.1"
+//! bothan-lib = "0.0.1-beta.2"
 //! ```
 
 use std::env;
