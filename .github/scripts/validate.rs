@@ -10,7 +10,7 @@ use std::fs::File;
 use std::io::BufReader;
 use std::path::Path;
 
-use bothan_core::registry::{Invalid, Registry};
+use bothan_lib::registry::{Invalid, Registry};
 
 fn main() {
     let args = env::args().collect::<Vec<String>>();
