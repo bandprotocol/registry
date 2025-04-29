@@ -2,7 +2,7 @@
 //! ```cargo
 //! [dependencies]
 //! serde_json = "1.0.128"
-//! bothan-core = "0.0.1-alpha.4"
+//! bothan-lib = "0.0.1-beta.2"
 //! ```
 
 use std::env;
@@ -10,7 +10,7 @@ use std::fs::File;
 use std::io::BufReader;
 use std::path::Path;
 
-use bothan_core::registry::{Invalid, Registry};
+use bothan_lib::registry::{Invalid, Registry};
 
 fn main() {
     let args = env::args().collect::<Vec<String>>();

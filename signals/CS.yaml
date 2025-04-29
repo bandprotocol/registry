@@ -7,7 +7,6 @@ processor:
       coinbase: 1
       coingecko: 1
       coinmarketcap: 1
-      cryptocompare: 1
       htx: 1
       kraken: 1
       okx: 1
