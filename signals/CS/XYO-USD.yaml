@@ -1,12 +1,12 @@
 sources:
+- source_id: coinbase
+  id: XYO-USD
 - source_id: coingecko
-  id: griffain
+  id: xyo-network
 - source_id: coinmarketcap
-  id: '34792'
+  id: '2765'
 - source_id: htx
-  id: griffainusdt
+  id: xyousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: GRIFFAIN/USD

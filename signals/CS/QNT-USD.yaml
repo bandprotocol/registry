@@ -1,5 +1,10 @@
 sources:
 - source_id: binance
+  id: qntusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: qntusdt
   routes:
   - signal_id: CS:USDT-USD

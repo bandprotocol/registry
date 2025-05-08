@@ -11,10 +11,6 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: C98-USD
-- source_id: coingecko
-  id: coin98
-- source_id: coinmarketcap
-  id: '10903'
 - source_id: htx
   id: c98usdt
   routes:

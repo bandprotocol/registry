@@ -1,30 +1,24 @@
 sources:
-- source_id: binance
-  id: aixbtusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
-  id: aixbtusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
-  id: AIXBTUSDT
+  id: IPUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: IP-USD
 - source_id: coingecko
-  id: aixbt
+  id: story-2
 - source_id: coinmarketcap
-  id: '34103'
+  id: '35626'
 - source_id: htx
-  id: aixbtusdt
+  id: ipusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: IP/USD
 - source_id: okx
-  id: AIXBT-USDT
+  id: IP-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

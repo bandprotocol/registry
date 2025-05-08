@@ -1,32 +1,29 @@
 sources:
 - source_id: binance
-  id: enjusdt
+  id: kaitousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: kaitousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bybit
-  id: ENJUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+- source_id: coinbase
+  id: KAITO-USD
 - source_id: coingecko
-  id: enjincoin
+  id: kaito
 - source_id: coinmarketcap
-  id: '2130'
+  id: '35763'
 - source_id: htx
-  id: enjusdt
+  id: kaitousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: kraken
-  id: ENJ/USD
+  id: KAITO/USD
 - source_id: okx
-  id: ENJ-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: ENJ-USDT
+  id: KAITO-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

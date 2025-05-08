@@ -21,11 +21,6 @@ sources:
 - source_id: kraken
   id: SC/USD
 - source_id: okx
-  id: SC-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
   id: SC-USDT
   routes:
   - signal_id: CS:USDT-USD

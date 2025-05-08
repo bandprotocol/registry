@@ -4,6 +4,11 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: VTHOUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: VTHO-USD
 - source_id: coingecko

@@ -18,6 +18,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: JST/USD
 - source_id: okx
   id: JST-USDT
   routes:

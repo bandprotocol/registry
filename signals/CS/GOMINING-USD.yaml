@@ -1,10 +1,10 @@
 sources:
 - source_id: coingecko
-  id: ai-rig-complex
+  id: gmt-token
 - source_id: coinmarketcap
-  id: '34926'
+  id: '10180'
 - source_id: htx
-  id: arcusdt
+  id: gominingusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

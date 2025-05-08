@@ -1,24 +1,19 @@
 sources:
 - source_id: binance
-  id: osmousdc
+  id: syrupusdc
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: binance
-  id: osmousdt
+  id: syrupusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
-  id: OSMO-USD
+  id: SYRUP-USD
 - source_id: coingecko
-  id: osmosis
+  id: syrup
 - source_id: coinmarketcap
-  id: '12220'
-- source_id: htx
-  id: osmousdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+  id: '33824'
 - source_id: kraken
-  id: OSMO/USD
+  id: SYRUP/USD

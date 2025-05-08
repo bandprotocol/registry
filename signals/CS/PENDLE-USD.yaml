@@ -14,6 +14,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: PENDLE-USD
 - source_id: coingecko
   id: pendle
 - source_id: coinmarketcap
@@ -25,11 +27,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: PENDLE/USD
-- source_id: okx
-  id: PENDLE-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: PENDLE-USDT
   routes:

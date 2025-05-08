@@ -1,14 +1,12 @@
 sources:
 - source_id: bybit
-  id: AEROUSDT
+  id: WALUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: AERO-USD
 - source_id: coingecko
-  id: aerodrome-finance
+  id: walrus-2
 - source_id: coinmarketcap
-  id: '29270'
+  id: '36119'
 - source_id: kraken
-  id: AERO/USD
+  id: WAL/USD

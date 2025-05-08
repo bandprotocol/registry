@@ -1,15 +1,15 @@
 sources:
 - source_id: bybit
-  id: WEMIXUSDT
+  id: SAROSUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: wemix-token
+  id: saros-finance
 - source_id: coinmarketcap
-  id: '7548'
+  id: '29082'
 - source_id: htx
-  id: wemixusdt
+  id: sarosusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

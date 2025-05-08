@@ -28,11 +28,6 @@ sources:
 - source_id: kraken
   id: MINA/USD
 - source_id: okx
-  id: MINA-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
   id: MINA-USDT
   routes:
   - signal_id: CS:USDT-USD

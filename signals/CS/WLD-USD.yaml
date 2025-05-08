@@ -19,6 +19,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: WLD-USD
 - source_id: coingecko
   id: worldcoin-wld
 - source_id: coinmarketcap
@@ -28,6 +30,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: WLD/USD
 - source_id: okx
   id: WLD-USDC
   routes:

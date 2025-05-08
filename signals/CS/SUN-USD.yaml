@@ -1,27 +1,22 @@
 sources:
 - source_id: binance
-  id: woousdt
+  id: sunusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: WOOUSDT
+  id: SUNUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: woo-network
+  id: sun-token
 - source_id: coinmarketcap
-  id: '7501'
+  id: '10529'
 - source_id: htx
-  id: woousdt
+  id: sunusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: kraken
-  id: WOO/USD
-- source_id: okx
-  id: WOO-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+  id: SUN/USD

@@ -1,20 +1,15 @@
 sources:
 - source_id: binance
-  id: kdausdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: KDAUSDT
+  id: dcrusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: kadena
+  id: decred
 - source_id: coinmarketcap
-  id: '5647'
-- source_id: okx
-  id: KDA-USDT
+  id: '1168'
+- source_id: htx
+  id: dcrusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

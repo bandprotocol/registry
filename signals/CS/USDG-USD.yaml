@@ -1,0 +1,12 @@
+sources:
+- source_id: coingecko
+  id: global-dollar
+- source_id: coinmarketcap
+  id: '33793'
+- source_id: kraken
+  id: USDG/USD
+- source_id: kraken
+  id: USDG/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'

@@ -4,11 +4,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bybit
-  id: BNTUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coinbase
   id: BNT-USD
 - source_id: htx

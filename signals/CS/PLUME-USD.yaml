@@ -1,20 +1,17 @@
 sources:
-- source_id: binance
-  id: kdausdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
-  id: KDAUSDT
+  id: PLUMEUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: kadena
+  id: plume
 - source_id: coinmarketcap
-  id: '5647'
-- source_id: okx
-  id: KDA-USDT
+  id: '35364'
+- source_id: htx
+  id: plumeusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: PLUME/USD

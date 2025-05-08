@@ -14,12 +14,26 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: PENGU-USD
 - source_id: coingecko
   id: pudgy-penguins
 - source_id: coinmarketcap
   id: '34466'
 - source_id: htx
   id: penguusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: PENGU/USD
+- source_id: kraken
+  id: PENGU/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
+  id: PENGU/USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

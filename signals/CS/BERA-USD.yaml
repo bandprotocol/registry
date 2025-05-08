@@ -1,44 +1,44 @@
 sources:
 - source_id: binance
-  id: gmtusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: GMTUSDC
+  id: berausdc
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
+- source_id: binance
+  id: berausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
-  id: GMTUSDT
+  id: BERAUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
-  id: GMT-USD
-- source_id: coinbase
-  id: GMT-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+  id: BERA-USD
 - source_id: coingecko
-  id: stepn
+  id: berachain-bera
 - source_id: coinmarketcap
-  id: '18069'
+  id: '24647'
 - source_id: htx
-  id: gmtusdt
+  id: berausdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: kraken
-  id: GMT/USD
-- source_id: okx
-  id: GMT-USDC
+  id: BERA/USD
+- source_id: kraken
+  id: BERA/USDC
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
+- source_id: kraken
+  id: BERA/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
-  id: GMT-USDT
+  id: BERA-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

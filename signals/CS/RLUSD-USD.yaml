@@ -1,7 +1,7 @@
 sources:
 - source_id: coingecko
-  id: paypal-usd
+  id: ripple-usd
 - source_id: coinmarketcap
-  id: '27772'
+  id: '34387'
 - source_id: kraken
-  id: PYUSD/USD
+  id: RLUSD/USD
