@@ -14,11 +14,6 @@ sources:
 - source_id: coinmarketcap
   id: '5647'
 - source_id: okx
-  id: KDA-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
   id: KDA-USDT
   routes:
   - signal_id: CS:USDT-USD

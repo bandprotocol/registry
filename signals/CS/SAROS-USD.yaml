@@ -1,22 +1,15 @@
 sources:
-- source_id: binance
-  id: zenusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
-  id: ZENUSDT
+  id: SAROSUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: ZEN-USD
 - source_id: coingecko
-  id: zencash
+  id: saros-finance
 - source_id: coinmarketcap
-  id: '1698'
+  id: '29082'
 - source_id: htx
-  id: zenusdt
+  id: sarosusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

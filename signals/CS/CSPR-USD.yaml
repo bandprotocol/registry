@@ -1,25 +1,20 @@
 sources:
-- source_id: binance
-  id: biousdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
-  id: biousdt
+- source_id: bybit
+  id: CSPRUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: bio-protocol
+  id: casper-network
 - source_id: coinmarketcap
-  id: '34812'
+  id: '5899'
 - source_id: htx
-  id: biousdt
+  id: csprusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
-  id: BIO-USDT
+  id: CSPR-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

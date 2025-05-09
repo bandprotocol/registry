@@ -1,5 +1,10 @@
 sources:
 - source_id: binance
+  id: cakeusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: cakeusdt
   routes:
   - signal_id: CS:USDT-USD
@@ -18,3 +23,5 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: CAKE/USD

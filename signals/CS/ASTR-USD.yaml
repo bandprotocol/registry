@@ -16,11 +16,6 @@ sources:
 - source_id: kraken
   id: ASTR/USD
 - source_id: okx
-  id: ASTR-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
   id: ASTR-USDT
   routes:
   - signal_id: CS:USDT-USD

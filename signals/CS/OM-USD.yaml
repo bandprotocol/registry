@@ -9,15 +9,22 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: OMUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: mantra-dao
 - source_id: coinmarketcap
   id: '6536'
-- source_id: okx
-  id: OM-USDC
+- source_id: htx
+  id: omusdt
   routes:
-  - signal_id: CS:USDC-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: OM/USD
 - source_id: okx
   id: OM-USDT
   routes:

@@ -8,3 +8,8 @@ sources:
   id: iotex
 - source_id: coinmarketcap
   id: '2777'
+- source_id: htx
+  id: iotxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -1,20 +1,13 @@
 sources:
 - source_id: binance
-  id: vanausdc
+  id: formusdc
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: binance
-  id: vanausdt
+  id: formusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bybit
-  id: VANAUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: coingecko
-  id: vana
 - source_id: coinmarketcap
-  id: '34619'
+  id: '23635'

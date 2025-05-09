@@ -28,10 +28,12 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: okx
-  id: BNB-USDC
+- source_id: kraken
+  id: BNB/USD
+- source_id: kraken
+  id: BNB/USDT
   routes:
-  - signal_id: CS:USDC-USD
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
   id: BNB-USDT

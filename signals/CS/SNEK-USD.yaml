@@ -1,7 +1,7 @@
 sources:
 - source_id: coingecko
-  id: paypal-usd
+  id: snek
 - source_id: coinmarketcap
-  id: '27772'
+  id: '25264'
 - source_id: kraken
-  id: PYUSD/USD
+  id: SNEK/USD

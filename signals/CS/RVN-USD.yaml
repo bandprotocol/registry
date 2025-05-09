@@ -19,11 +19,6 @@ sources:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
-  id: RVN-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
   id: RVN-USDT
   routes:
   - signal_id: CS:USDT-USD

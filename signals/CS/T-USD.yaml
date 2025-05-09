@@ -1,11 +1,11 @@
 sources:
 - source_id: binance
-  id: tusdt
+  id: tusdc
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
-- source_id: bybit
-  id: TUSDT
+- source_id: binance
+  id: tusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
@@ -22,11 +22,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: T/USD
-- source_id: okx
-  id: T-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: T-USDT
   routes:

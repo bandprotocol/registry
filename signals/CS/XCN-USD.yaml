@@ -1,10 +1,14 @@
 sources:
+- source_id: coinbase
+  id: XCN-USD
 - source_id: coingecko
-  id: newton-project
+  id: chain-2
 - source_id: coinmarketcap
-  id: '3871'
+  id: '18679'
 - source_id: htx
-  id: newusdt
+  id: xcnusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: XCN/USD

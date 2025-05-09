@@ -1,7 +1,7 @@
 sources:
 - source_id: coingecko
-  id: paypal-usd
+  id: usdd
 - source_id: coinmarketcap
-  id: '27772'
+  id: '19891'
 - source_id: kraken
-  id: PYUSD/USD
+  id: USDD/USD

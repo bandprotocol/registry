@@ -1,14 +1,15 @@
 sources:
 - source_id: bybit
-  id: PRIMEUSDT
+  id: XEMUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: PRIME-USD
 - source_id: coingecko
-  id: echelon-prime
+  id: nem
 - source_id: coinmarketcap
-  id: '23711'
-- source_id: kraken
-  id: PRIME/USD
+  id: '873'
+- source_id: htx
+  id: xemusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

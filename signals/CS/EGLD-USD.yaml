@@ -1,5 +1,10 @@
 sources:
 - source_id: binance
+  id: egldusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: egldusdt
   routes:
   - signal_id: CS:USDT-USD
@@ -22,11 +27,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: EGLD/USD
-- source_id: okx
-  id: EGLD-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: EGLD-USDT
   routes:

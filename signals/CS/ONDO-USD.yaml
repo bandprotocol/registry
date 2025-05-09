@@ -1,4 +1,14 @@
 sources:
+- source_id: binance
+  id: ondousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: ondousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
   id: ONDOUSDC
   routes:

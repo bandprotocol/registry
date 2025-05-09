@@ -28,11 +28,6 @@ sources:
 - source_id: kraken
   id: IMX/USD
 - source_id: okx
-  id: IMX-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
   id: IMX-USDT
   routes:
   - signal_id: CS:USDT-USD

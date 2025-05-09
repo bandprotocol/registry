@@ -1,4 +1,14 @@
 sources:
+- source_id: binance
+  id: virtualusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: virtualusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
   id: VIRTUALUSDT
   routes:
@@ -10,6 +20,18 @@ sources:
   id: '29420'
 - source_id: htx
   id: virtualusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: VIRTUAL/USD
+- source_id: kraken
+  id: VIRTUAL/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
+  id: VIRTUAL/USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

@@ -1,11 +1,11 @@
 sources:
 - source_id: binance
-  id: paxgusdt
+  id: paxgusdc
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
-- source_id: bybit
-  id: PAXGUSDT
+- source_id: binance
+  id: paxgusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

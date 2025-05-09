@@ -1,24 +1,17 @@
 sources:
-- source_id: binance
-  id: c98usdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
-  id: C98USDT
+  id: PLUMEUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: C98-USD
 - source_id: coingecko
-  id: coin98
+  id: plume
 - source_id: coinmarketcap
-  id: '10903'
+  id: '35364'
 - source_id: htx
-  id: c98usdt
+  id: plumeusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: kraken
-  id: C98/USD
+  id: PLUME/USD

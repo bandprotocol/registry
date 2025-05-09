@@ -1,27 +1,22 @@
 sources:
 - source_id: binance
-  id: meusdt
+  id: sunusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: MEUSDT
+  id: SUNUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: ME-USD
 - source_id: coingecko
-  id: magic-eden
+  id: sun-token
 - source_id: coinmarketcap
-  id: '32197'
+  id: '10529'
 - source_id: htx
-  id: meusdt
+  id: sunusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: okx
-  id: ME-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+- source_id: kraken
+  id: SUN/USD

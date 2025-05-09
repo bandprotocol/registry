@@ -1,28 +1,32 @@
 sources:
 - source_id: binance
-  id: movrusdt
+  id: layerusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: layerusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: MOVRUSDT
+  id: LAYERUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coingecko
+  id: solayer
+- source_id: coinmarketcap
+  id: '35429'
 - source_id: htx
-  id: movrusdt
+  id: layerusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: kraken
-  id: MOVR/USD
+  id: LAYER/USD
 - source_id: okx
-  id: MOVR-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: MOVR-USDT
+  id: LAYER-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

@@ -1,6 +1,16 @@
 sources:
 - source_id: binance
+  id: vetusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: vetusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: VETUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

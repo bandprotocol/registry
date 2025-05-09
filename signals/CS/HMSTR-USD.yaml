@@ -1,25 +1,32 @@
 sources:
 - source_id: binance
-  id: animeusdc
+  id: hmstrusdc
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: binance
-  id: animeusdt
+  id: hmstrusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: ANIMEUSDT
+  id: HMSTRUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: HMSTRUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: anime
+  id: hamster-kombat
 - source_id: coinmarketcap
-  id: '35319'
+  id: '32195'
+- source_id: kraken
+  id: HMSTR/USD
 - source_id: okx
-  id: ANIME-USDT
+  id: HMSTR-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

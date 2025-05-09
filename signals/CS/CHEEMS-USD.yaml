@@ -1,7 +1,7 @@
 sources:
 - source_id: coingecko
-  id: paypal-usd
+  id: cheems-token
 - source_id: coinmarketcap
-  id: '27772'
+  id: '33280'
 - source_id: kraken
-  id: PYUSD/USD
+  id: CHEEMS/USD

@@ -1,27 +1,25 @@
 sources:
 - source_id: binance
-  id: sklusdt
+  id: fxsusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: SKL-USD
-- source_id: coingecko
-  id: skale
+- source_id: bybit
+  id: FXSUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinmarketcap
-  id: '5691'
+  id: '6953'
 - source_id: htx
-  id: sklusdt
+  id: fxsusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: FXS/USD
 - source_id: okx
-  id: SKL-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: SKL-USDT
+  id: FXS-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
