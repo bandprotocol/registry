@@ -1,4 +1,6 @@
 sources:
+- source_id: bitfinex
+  id: tUDCUSD
 - source_id: coingecko
   id: usd-coin
 - source_id: coinmarketcap

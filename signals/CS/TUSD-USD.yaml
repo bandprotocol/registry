@@ -1,4 +1,6 @@
 sources:
+- source_id: bitfinex
+  id: tTSDUSD
 - source_id: coingecko
   id: true-usd
 - source_id: coinmarketcap
