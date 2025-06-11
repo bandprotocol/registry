@@ -9,6 +9,13 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bitfinex
+  id: tAPTUSD
+- source_id: bitfinex
+  id: tAPTUST
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
   id: APTUSDC
   routes:

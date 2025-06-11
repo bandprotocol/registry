@@ -4,6 +4,13 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bitfinex
+  id: tSUSHI:USD
+- source_id: bitfinex
+  id: tSUSHI:UST
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
   id: SUSHIUSDT
   routes:

@@ -9,6 +9,13 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bitfinex
+  id: tNEOUSD
+- source_id: bitfinex
+  id: tNEOUST
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: neo
 - source_id: coinmarketcap

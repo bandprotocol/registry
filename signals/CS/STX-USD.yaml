@@ -9,6 +9,13 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bitfinex
+  id: tSTXUSD
+- source_id: bitfinex
+  id: tSTXUST
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
   id: STXUSDT
   routes:

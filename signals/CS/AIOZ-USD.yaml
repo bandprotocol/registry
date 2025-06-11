@@ -1,4 +1,6 @@
 sources:
+- source_id: bitfinex
+  id: tAIOZ:USD
 - source_id: bybit
   id: AIOZUSDT
   routes:

@@ -1,0 +1,7 @@
+sources:
+- source_id: coinbase
+  id: FAI-USD
+- source_id: coingecko
+  id: freysa-ai
+- source_id: coinmarketcap
+  id: '34330'

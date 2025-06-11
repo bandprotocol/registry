@@ -4,6 +4,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bitfinex
+  id: tZRXUSD
 - source_id: bybit
   id: ZRXUSDT
   routes:

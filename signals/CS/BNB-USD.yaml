@@ -31,6 +31,11 @@ sources:
 - source_id: kraken
   id: BNB/USD
 - source_id: kraken
+  id: BNB/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
   id: BNB/USDT
   routes:
   - signal_id: CS:USDT-USD

@@ -1,4 +1,6 @@
 sources:
+- source_id: bitfinex
+  id: tDAIUSD
 - source_id: coinbase
   id: DAI-USD
 - source_id: coingecko

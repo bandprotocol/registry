@@ -1,0 +1,17 @@
+sources:
+- source_id: bybit
+  id: LAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: LA-USD
+- source_id: coingecko
+  id: lagrange
+- source_id: coinmarketcap
+  id: '36510'
+- source_id: htx
+  id: lausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

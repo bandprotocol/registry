@@ -1,4 +1,11 @@
 sources:
+- source_id: bitfinex
+  id: tXMRUSD
+- source_id: bitfinex
+  id: tXMRUST
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: monero
 - source_id: coinmarketcap
