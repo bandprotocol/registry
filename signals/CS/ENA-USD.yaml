@@ -9,11 +9,20 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bitfinex
+  id: tENAUSD
+- source_id: bitfinex
+  id: tENAUST
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
   id: ENAUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: ENA-USD
 - source_id: coingecko
   id: ethena
 - source_id: coinmarketcap

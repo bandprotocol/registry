@@ -1,4 +1,6 @@
 sources:
+- source_id: bitfinex
+  id: tUSTUSD
 - source_id: coinbase
   id: USDT-USD
 - source_id: coingecko

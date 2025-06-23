@@ -1,0 +1,15 @@
+sources:
+- source_id: coingecko
+  id: zebec-network
+- source_id: coinmarketcap
+  id: '30636'
+- source_id: htx
+  id: zbcnusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: ZBCN-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

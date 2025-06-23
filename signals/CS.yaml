@@ -3,6 +3,7 @@ processor:
   params:
     source_weights:
       binance: 1
+      bitfinex: 1
       bybit: 1
       coinbase: 1
       coingecko: 1

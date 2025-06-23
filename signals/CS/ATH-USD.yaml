@@ -1,4 +1,11 @@
 sources:
+- source_id: bitfinex
+  id: tATHUSD
+- source_id: bitfinex
+  id: tATHUST
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
   id: ATHUSDT
   routes:

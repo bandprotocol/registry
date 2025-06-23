@@ -1,0 +1,7 @@
+sources:
+- source_id: coingecko
+  id: sky
+- source_id: coinmarketcap
+  id: '33038'
+- source_id: kraken
+  id: SKY/USD
