@@ -1,4 +1,9 @@
 sources:
+- source_id: bybit
+  id: ATHUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ATH-USD
 - source_id: coingecko

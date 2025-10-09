@@ -1,20 +1,13 @@
 sources:
 - source_id: bybit
-  id: MNTUSDC
+  id: APEXUSDC
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
-  id: MNTUSDT
+  id: APEXUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: mantle
-- source_id: htx
-  id: mntusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: MNT/USD
+  id: apex-token-2

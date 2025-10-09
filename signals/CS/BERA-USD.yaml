@@ -14,6 +14,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: BERA-USD
 - source_id: coingecko
   id: berachain-bera
 - source_id: htx

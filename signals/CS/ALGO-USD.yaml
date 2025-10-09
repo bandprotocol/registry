@@ -25,6 +25,11 @@ sources:
     operation: '*'
 - source_id: kraken
   id: ALGO/USD
+- source_id: kraken
+  id: ALGO/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: okx
   id: ALGO-USDT
   routes:

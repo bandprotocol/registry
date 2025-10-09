@@ -18,11 +18,6 @@ sources:
   id: AVNT-USD
 - source_id: coingecko
   id: avantis
-- source_id: htx
-  id: avntusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: kraken
   id: AVNT/USD
 - source_id: okx

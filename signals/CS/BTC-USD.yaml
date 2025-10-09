@@ -29,11 +29,6 @@ sources:
 - source_id: coingecko
   id: bitcoin
 - source_id: htx
-  id: btcusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: htx
   id: btcusdt
   routes:
   - signal_id: CS:USDT-USD

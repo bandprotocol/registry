@@ -1,15 +1,13 @@
 sources:
 - source_id: binance
-  id: aweusdt
+  id: wanusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: AWE-USD
 - source_id: coingecko
-  id: stp-network
+  id: wanchain
 - source_id: htx
-  id: aweusdt
+  id: wanusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

@@ -1,10 +1,5 @@
 sources:
 - source_id: binance
-  id: iotausdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: iotausdt
   routes:
   - signal_id: CS:USDT-USD

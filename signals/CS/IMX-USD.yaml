@@ -1,10 +1,5 @@
 sources:
 - source_id: binance
-  id: imxusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: imxusdt
   routes:
   - signal_id: CS:USDT-USD

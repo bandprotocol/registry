@@ -1,10 +1,5 @@
 sources:
 - source_id: binance
-  id: morphousdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: morphousdt
   routes:
   - signal_id: CS:USDT-USD
@@ -14,8 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: MORPHO-USD
 - source_id: coingecko
   id: morpho
 - source_id: okx

@@ -9,8 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: JTO-USD
 - source_id: coingecko
   id: jito-governance-token
 - source_id: htx

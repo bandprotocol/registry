@@ -1,0 +1,5 @@
+sources:
+- source_id: coingecko
+  id: usd-coin
+- source_id: kraken
+  id: USDC/USD

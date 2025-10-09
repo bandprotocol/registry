@@ -4,11 +4,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bybit
-  id: AUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: vaulta
 - source_id: htx

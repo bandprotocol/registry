@@ -18,6 +18,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: BIO/USD
 - source_id: okx
   id: BIO-USDT
   routes:

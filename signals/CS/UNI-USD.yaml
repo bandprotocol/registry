@@ -14,8 +14,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: UNI-USD
 - source_id: coingecko
   id: uniswap
 - source_id: htx

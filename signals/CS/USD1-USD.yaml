@@ -4,6 +4,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: USD1-USD
 - source_id: coingecko
   id: usd1-wlfi
 - source_id: kraken
