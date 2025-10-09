@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: usdd
-- source_id: coinmarketcap
-  id: '19891'
-- source_id: kraken
-  id: USDD/USD

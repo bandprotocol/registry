@@ -26,17 +26,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: BTC-USD
-- source_id: coinbase
-  id: BTC-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: bitcoin
-- source_id: coinmarketcap
-  id: '1'
 - source_id: htx
   id: btcusdc
   routes:
@@ -44,28 +35,6 @@ sources:
     operation: '*'
 - source_id: htx
   id: btcusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: BTC/USD
-- source_id: kraken
-  id: BTC/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: BTC/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: BTC-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: BTC-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

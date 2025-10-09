@@ -1,0 +1,13 @@
+sources:
+- source_id: coingecko
+  id: merlin-chain
+- source_id: htx
+  id: merlusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: MERL-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

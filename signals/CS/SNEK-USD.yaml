@@ -1,7 +1,10 @@
 sources:
 - source_id: coingecko
   id: snek
-- source_id: coinmarketcap
-  id: '25264'
+- source_id: htx
+  id: snekusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SNEK/USD

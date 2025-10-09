@@ -1,15 +1,13 @@
 sources:
 - source_id: binance
-  id: twtusdt
+  id: twtusdc
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: CS:USDC-USD
     operation: '*'
-- source_id: bybit
-  id: TWTUSDT
+- source_id: binance
+  id: twtusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
   id: trust-wallet-token
-- source_id: coinmarketcap
-  id: '5964'

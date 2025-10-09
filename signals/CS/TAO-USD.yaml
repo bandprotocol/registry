@@ -9,11 +9,5 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: TAO-USD
 - source_id: coingecko
   id: bittensor
-- source_id: coinmarketcap
-  id: '22974'
-- source_id: kraken
-  id: TAO/USD

@@ -8,15 +8,11 @@ sources:
   id: IP-USD
 - source_id: coingecko
   id: story-2
-- source_id: coinmarketcap
-  id: '35626'
 - source_id: htx
   id: ipusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: IP/USD
 - source_id: okx
   id: IP-USDT
   routes:

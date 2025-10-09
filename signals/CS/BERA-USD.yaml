@@ -14,26 +14,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: BERA-USD
 - source_id: coingecko
   id: berachain-bera
-- source_id: coinmarketcap
-  id: '24647'
 - source_id: htx
   id: berausdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: BERA/USD
-- source_id: kraken
-  id: BERA/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: BERA/USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

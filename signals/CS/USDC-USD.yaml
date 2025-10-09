@@ -1,9 +1,0 @@
-sources:
-- source_id: bitfinex
-  id: tUDCUSD
-- source_id: coingecko
-  id: usd-coin
-- source_id: coinmarketcap
-  id: '3408'
-- source_id: kraken
-  id: USDC/USD

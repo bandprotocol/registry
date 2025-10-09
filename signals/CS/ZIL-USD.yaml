@@ -4,15 +4,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bybit
-  id: ZILUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: zilliqa
-- source_id: coinmarketcap
-  id: '2469'
 - source_id: htx
   id: zilusdt
   routes:

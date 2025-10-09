@@ -1,0 +1,18 @@
+sources:
+- source_id: binance
+  id: asterusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: asterusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: aster-2
+- source_id: htx
+  id: asterusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

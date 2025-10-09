@@ -4,38 +4,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tCOMP:USD
-- source_id: bitfinex
-  id: tCOMP:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: COMPUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: coinbase
-  id: COMP-USD
 - source_id: coingecko
   id: compound-governance-token
-- source_id: coinmarketcap
-  id: '5692'
 - source_id: htx
   id: compusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: COMP/USD
-- source_id: okx
-  id: COMP-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: COMP-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

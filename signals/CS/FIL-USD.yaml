@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tFILUSD
-- source_id: bitfinex
-  id: tFILUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: FILUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: FILUSDT
   routes:
@@ -30,19 +18,10 @@ sources:
   id: FIL-USD
 - source_id: coingecko
   id: filecoin
-- source_id: coinmarketcap
-  id: '2280'
 - source_id: htx
   id: filusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: FIL/USD
-- source_id: okx
-  id: FIL-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: FIL-USDT

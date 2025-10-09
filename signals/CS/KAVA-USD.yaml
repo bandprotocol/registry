@@ -4,28 +4,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tKAVA:USD
-- source_id: bitfinex
-  id: tKAVA:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: KAVAUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: coinbase
-  id: KAVA-USD
 - source_id: coingecko
   id: kava
-- source_id: coinmarketcap
-  id: '4846'
 - source_id: htx
   id: kavausdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: KAVA/USD

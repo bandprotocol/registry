@@ -8,19 +8,10 @@ sources:
   id: ZETA-USD
 - source_id: coingecko
   id: zetachain
-- source_id: coinmarketcap
-  id: '21259'
 - source_id: htx
   id: zetausdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: ZETA/USD
-- source_id: okx
-  id: ZETA-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: ZETA-USDT

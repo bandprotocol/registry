@@ -8,8 +8,6 @@ sources:
   id: POPCAT-USD
 - source_id: coingecko
   id: popcat
-- source_id: coinmarketcap
-  id: '28782'
 - source_id: htx
   id: popcatusdt
   routes:

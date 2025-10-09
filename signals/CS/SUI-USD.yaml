@@ -9,13 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tSUIUSD
-- source_id: bitfinex
-  id: tSUIUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: SUIUSDC
   routes:
@@ -30,8 +23,6 @@ sources:
   id: SUI-USD
 - source_id: coingecko
   id: sui
-- source_id: coinmarketcap
-  id: '20947'
 - source_id: htx
   id: suiusdt
   routes:
@@ -39,11 +30,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: SUI/USD
-- source_id: okx
-  id: SUI-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: SUI-USDT
   routes:

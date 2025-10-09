@@ -9,13 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tJUPUSD
-- source_id: bitfinex
-  id: tJUPUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: JUPUSDT
   routes:
@@ -23,8 +16,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: jupiter-exchange-solana
-- source_id: coinmarketcap
-  id: '29210'
 - source_id: htx
   id: jupusdt
   routes:
@@ -32,11 +23,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: JUP/USD
-- source_id: okx
-  id: JUP-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: JUP-USDT
   routes:

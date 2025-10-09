@@ -1,18 +1,11 @@
 sources:
 - source_id: binance
-  id: ckbusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: ckbusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
   id: nervos-network
-- source_id: coinmarketcap
-  id: '4948'
 - source_id: htx
   id: ckbusdt
   routes:

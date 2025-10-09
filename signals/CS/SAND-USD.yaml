@@ -1,25 +1,8 @@
 sources:
 - source_id: binance
-  id: sandusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: sandusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bitfinex
-  id: tSAND:USD
-- source_id: bitfinex
-  id: tSAND:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: SANDUSDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: SANDUSDT
@@ -28,26 +11,12 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: SAND-USD
-- source_id: coinbase
-  id: SAND-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: the-sandbox
-- source_id: coinmarketcap
-  id: '6210'
 - source_id: htx
   id: sandusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: SAND/USD
-- source_id: okx
-  id: SAND-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: SAND-USDT

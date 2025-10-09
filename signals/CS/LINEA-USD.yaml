@@ -1,0 +1,30 @@
+sources:
+- source_id: binance
+  id: lineausdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: lineausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: LINEAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: linea
+- source_id: htx
+  id: lineausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: LINEA/USD
+- source_id: okx
+  id: LINEA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

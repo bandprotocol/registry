@@ -13,13 +13,6 @@ sources:
   id: RSR-USD
 - source_id: coingecko
   id: reserve-rights-token
-- source_id: coinmarketcap
-  id: '3964'
-- source_id: htx
-  id: rsrusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: kraken
   id: RSR/USD
 - source_id: okx

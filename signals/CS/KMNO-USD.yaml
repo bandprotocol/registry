@@ -1,0 +1,20 @@
+sources:
+- source_id: binance
+  id: kmnousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: KMNOUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: KMNO-USD
+- source_id: coingecko
+  id: kamino
+- source_id: okx
+  id: KMNO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

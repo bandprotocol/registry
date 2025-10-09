@@ -13,12 +13,8 @@ sources:
   id: SYRUP-USD
 - source_id: coingecko
   id: syrup
-- source_id: coinmarketcap
-  id: '33824'
 - source_id: htx
   id: syrupusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: SYRUP/USD

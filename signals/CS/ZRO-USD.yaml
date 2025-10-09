@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tZROUSD
-- source_id: bitfinex
-  id: tZROUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: ZROUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: ZROUSDT
   routes:
@@ -30,20 +18,6 @@ sources:
   id: ZRO-USD
 - source_id: coingecko
   id: layerzero
-- source_id: coinmarketcap
-  id: '26997'
-- source_id: htx
-  id: zrousdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: ZRO/USD
-- source_id: okx
-  id: ZRO-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: ZRO-USDT
   routes:

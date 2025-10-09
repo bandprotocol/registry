@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tPEPE:USD
-- source_id: bitfinex
-  id: tPEPE:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: PEPEUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: PEPEUSDT
   routes:
@@ -30,8 +18,6 @@ sources:
   id: PEPE-USD
 - source_id: coingecko
   id: pepe
-- source_id: coinmarketcap
-  id: '24478'
 - source_id: htx
   id: pepeusdt
   routes:

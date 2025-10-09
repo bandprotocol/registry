@@ -1,0 +1,13 @@
+sources:
+- source_id: binance
+  id: fdusdusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: fdusdusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: first-digital-usd

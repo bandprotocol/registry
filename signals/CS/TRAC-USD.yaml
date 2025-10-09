@@ -3,8 +3,6 @@ sources:
   id: TRAC-USD
 - source_id: coingecko
   id: origintrail
-- source_id: coinmarketcap
-  id: '2467'
 - source_id: htx
   id: tracusdt
   routes:

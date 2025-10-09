@@ -23,8 +23,6 @@ sources:
   id: WLD-USD
 - source_id: coingecko
   id: worldcoin-wld
-- source_id: coinmarketcap
-  id: '13502'
 - source_id: htx
   id: wldusdt
   routes:
@@ -32,11 +30,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: WLD/USD
-- source_id: okx
-  id: WLD-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: WLD-USDT
   routes:

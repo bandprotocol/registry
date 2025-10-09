@@ -9,24 +9,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tENAUSD
-- source_id: bitfinex
-  id: tENAUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: ENAUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coinbase
   id: ENA-USD
 - source_id: coingecko
   id: ethena
-- source_id: coinmarketcap
-  id: '30171'
 - source_id: htx
   id: enausdt
   routes:
@@ -34,3 +20,8 @@ sources:
     operation: '*'
 - source_id: kraken
   id: ENA/USD
+- source_id: okx
+  id: ENA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

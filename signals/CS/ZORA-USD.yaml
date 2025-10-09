@@ -1,0 +1,12 @@
+sources:
+- source_id: bybit
+  id: ZORAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ZORA-USD
+- source_id: coingecko
+  id: zora
+- source_id: kraken
+  id: ZORA/USD

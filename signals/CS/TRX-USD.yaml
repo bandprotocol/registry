@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tTRXUSD
-- source_id: bitfinex
-  id: tTRXUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: TRXUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: TRXUSDT
   routes:
@@ -28,8 +16,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: tron
-- source_id: coinmarketcap
-  id: '1958'
 - source_id: htx
   id: trxusdt
   routes:
@@ -37,11 +23,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: TRX/USD
-- source_id: okx
-  id: TRX-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: TRX-USDT
   routes:

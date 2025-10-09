@@ -9,15 +9,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bybit
-  id: CAKEUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+- source_id: coinbase
+  id: CAKE-USD
 - source_id: coingecko
   id: pancakeswap-token
-- source_id: coinmarketcap
-  id: '7186'
 - source_id: htx
   id: cakeusdt
   routes:

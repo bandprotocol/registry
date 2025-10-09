@@ -1,0 +1,23 @@
+sources:
+- source_id: binance
+  id: 0gusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: 0gusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: 0GUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: zero-gravity
+- source_id: htx
+  id: 0gusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

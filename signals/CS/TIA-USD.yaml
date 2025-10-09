@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tTIAUSD
-- source_id: bitfinex
-  id: tTIAUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: TIAUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: TIAUSDT
   routes:
@@ -30,19 +18,10 @@ sources:
   id: TIA-USD
 - source_id: coingecko
   id: celestia
-- source_id: coinmarketcap
-  id: '22861'
 - source_id: htx
   id: tiausdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: TIA/USD
-- source_id: okx
-  id: TIA-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: TIA-USDT

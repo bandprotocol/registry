@@ -9,24 +9,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tEIGEN:USD
-- source_id: bitfinex
-  id: tEIGEN:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: EIGENUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coinbase
   id: EIGEN-USD
 - source_id: coingecko
   id: eigenlayer
-- source_id: coinmarketcap
-  id: '30494'
 - source_id: htx
   id: eigenusdt
   routes:
@@ -34,11 +20,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: EIGEN/USD
-- source_id: okx
-  id: EIGEN-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: EIGEN-USDT
   routes:

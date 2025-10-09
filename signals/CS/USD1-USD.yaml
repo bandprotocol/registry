@@ -6,10 +6,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: usd1-wlfi
-- source_id: coinmarketcap
-  id: '36148'
-- source_id: htx
-  id: usd1usdt
+- source_id: kraken
+  id: USD1/USD
+- source_id: kraken
+  id: USD1/USDC
   routes:
-  - signal_id: CS:USDT-USD
+  - signal_id: CS:USDC-USD
     operation: '*'

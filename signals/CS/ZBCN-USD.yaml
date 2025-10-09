@@ -1,8 +1,6 @@
 sources:
 - source_id: coingecko
   id: zebec-network
-- source_id: coinmarketcap
-  id: '30636'
 - source_id: htx
   id: zbcnusdt
   routes:

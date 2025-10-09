@@ -6,8 +6,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: decred
-- source_id: coinmarketcap
-  id: '1168'
 - source_id: htx
   id: dcrusdt
   routes:

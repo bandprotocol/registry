@@ -1,0 +1,32 @@
+sources:
+- source_id: binance
+  id: pumpusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: pumpusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: PUMPUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: PUMP-USD
+- source_id: coingecko
+  id: pump-fun
+- source_id: htx
+  id: pumpusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: PUMP/USD
+- source_id: okx
+  id: PUMP-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

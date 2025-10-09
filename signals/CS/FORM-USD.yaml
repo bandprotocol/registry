@@ -9,5 +9,5 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinmarketcap
-  id: '23635'
+- source_id: coingecko
+  id: four

@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tATOUSD
-- source_id: bitfinex
-  id: tATOUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: ATOMUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: ATOMUSDT
   routes:
@@ -28,36 +16,12 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: ATOM-USD
-- source_id: coinbase
-  id: ATOM-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: cosmos
-- source_id: coinmarketcap
-  id: '3794'
 - source_id: htx
   id: atomusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: ATOM/USD
-- source_id: kraken
-  id: ATOM/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: ATOM/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: ATOM-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: ATOM-USDT

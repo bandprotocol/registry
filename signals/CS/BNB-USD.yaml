@@ -21,27 +21,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: binancecoin
-- source_id: coinmarketcap
-  id: '1839'
 - source_id: htx
   id: bnbusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: BNB/USD
-- source_id: kraken
-  id: BNB/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: BNB/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: BNB-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

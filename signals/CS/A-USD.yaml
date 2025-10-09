@@ -1,10 +1,5 @@
 sources:
 - source_id: binance
-  id: ausdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: ausdt
   routes:
   - signal_id: CS:USDT-USD
@@ -16,8 +11,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: vaulta
-- source_id: coinmarketcap
-  id: '36462'
 - source_id: htx
   id: ausdt
   routes:

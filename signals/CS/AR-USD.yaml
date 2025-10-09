@@ -1,32 +1,13 @@
 sources:
 - source_id: binance
-  id: arusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: arusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: ARUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
   id: arweave
-- source_id: coinmarketcap
-  id: '5632'
 - source_id: htx
   id: arusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: AR/USD
-- source_id: okx
-  id: AR-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

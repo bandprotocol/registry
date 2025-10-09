@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tICPUSD
-- source_id: bitfinex
-  id: tICPUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: ICPUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: ICPUSDT
   routes:
@@ -28,26 +16,12 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: ICP-USD
-- source_id: coinbase
-  id: ICP-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: internet-computer
-- source_id: coinmarketcap
-  id: '8916'
 - source_id: htx
   id: icpusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: ICP/USD
-- source_id: okx
-  id: ICP-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: ICP-USDT

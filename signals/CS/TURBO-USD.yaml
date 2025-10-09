@@ -1,10 +1,5 @@
 sources:
 - source_id: binance
-  id: turbousdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: turbousdt
   routes:
   - signal_id: CS:USDT-USD
@@ -13,8 +8,6 @@ sources:
   id: TURBO-USD
 - source_id: coingecko
   id: turbo
-- source_id: coinmarketcap
-  id: '24911'
 - source_id: htx
   id: turbousdt
   routes:
@@ -22,11 +15,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: TURBO/USD
-- source_id: okx
-  id: TURBO-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: TURBO-USDT
   routes:

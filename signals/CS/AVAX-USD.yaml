@@ -11,11 +11,6 @@ sources:
     operation: '*'
 - source_id: bitfinex
   id: tAVAX:USD
-- source_id: bitfinex
-  id: tAVAX:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: AVAXUSDC
   routes:
@@ -28,36 +23,12 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: AVAX-USD
-- source_id: coinbase
-  id: AVAX-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: avalanche-2
-- source_id: coinmarketcap
-  id: '5805'
 - source_id: htx
   id: avaxusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: AVAX/USD
-- source_id: kraken
-  id: AVAX/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: AVAX/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: AVAX-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: AVAX-USDT

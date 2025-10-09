@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tLDOUSD
-- source_id: bitfinex
-  id: tLDOUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: LDOUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: LDOUSDT
   routes:
@@ -30,19 +18,10 @@ sources:
   id: LDO-USD
 - source_id: coingecko
   id: lido-dao
-- source_id: coinmarketcap
-  id: '8000'
 - source_id: htx
   id: ldousdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: LDO/USD
-- source_id: okx
-  id: LDO-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: LDO-USDT

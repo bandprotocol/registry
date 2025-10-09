@@ -9,13 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tCRVUSD
-- source_id: bitfinex
-  id: tCRVUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: CRVUSDT
   routes:
@@ -25,8 +18,6 @@ sources:
   id: CRV-USD
 - source_id: coingecko
   id: curve-dao-token
-- source_id: coinmarketcap
-  id: '6538'
 - source_id: htx
   id: crvusdt
   routes:
@@ -34,11 +25,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: CRV/USD
-- source_id: okx
-  id: CRV-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: CRV-USDT
   routes:

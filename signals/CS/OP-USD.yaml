@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tOPXUSD
-- source_id: bitfinex
-  id: tOPXUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: OPUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: OPUSDT
   routes:
@@ -28,26 +16,12 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: OP-USD
-- source_id: coinbase
-  id: OP-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: optimism
-- source_id: coinmarketcap
-  id: '11840'
 - source_id: htx
   id: opusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: OP/USD
-- source_id: okx
-  id: OP-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: OP-USDT

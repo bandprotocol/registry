@@ -1,0 +1,10 @@
+sources:
+- source_id: coingecko
+  id: alpha-finance
+- source_id: kraken
+  id: ALPHA/USD
+- source_id: okx
+  id: ALPHA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -9,13 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tPOLUSD
-- source_id: bitfinex
-  id: tPOLUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: POLUSDT
   routes:
@@ -25,8 +18,6 @@ sources:
   id: POL-USD
 - source_id: coingecko
   id: polygon-ecosystem-token
-- source_id: coinmarketcap
-  id: '28321'
 - source_id: htx
   id: polusdt
   routes:

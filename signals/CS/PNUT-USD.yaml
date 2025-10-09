@@ -18,8 +18,6 @@ sources:
   id: PNUT-USD
 - source_id: coingecko
   id: peanut-the-squirrel
-- source_id: coinmarketcap
-  id: '33788'
 - source_id: htx
   id: pnutusdt
   routes:
@@ -27,11 +25,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: PNUT/USD
-- source_id: okx
-  id: PNUT-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: PNUT-USDT
   routes:

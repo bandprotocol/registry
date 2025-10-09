@@ -6,8 +6,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: mocaverse
-- source_id: coinmarketcap
-  id: '31526'
 - source_id: htx
   id: mocausdt
   routes:
