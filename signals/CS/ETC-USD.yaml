@@ -4,38 +4,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tETCUSD
-- source_id: bitfinex
-  id: tETCUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: ETCUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: ETC-USD
 - source_id: coingecko
   id: ethereum-classic
-- source_id: coinmarketcap
-  id: '1321'
-- source_id: htx
-  id: etcusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: ETC/USD
-- source_id: okx
-  id: ETC-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: ETC-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'

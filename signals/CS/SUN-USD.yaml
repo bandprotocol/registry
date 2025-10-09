@@ -4,13 +4,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tSUNUSD
-- source_id: bitfinex
-  id: tSUNUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: SUNUSDT
   routes:
@@ -18,8 +11,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: sun-token
-- source_id: coinmarketcap
-  id: '10529'
 - source_id: htx
   id: sunusdt
   routes:

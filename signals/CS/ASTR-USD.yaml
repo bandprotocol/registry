@@ -6,8 +6,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: astar
-- source_id: coinmarketcap
-  id: '12885'
 - source_id: htx
   id: astrusdt
   routes:

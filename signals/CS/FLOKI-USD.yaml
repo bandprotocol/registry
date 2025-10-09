@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tFLOKI:USD
-- source_id: bitfinex
-  id: tFLOKI:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: FLOKIUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: FLOKIUSDT
   routes:
@@ -30,8 +18,6 @@ sources:
   id: FLOKI-USD
 - source_id: coingecko
   id: floki
-- source_id: coinmarketcap
-  id: '10804'
 - source_id: htx
   id: flokiusdt
   routes:

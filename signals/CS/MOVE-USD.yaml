@@ -1,10 +1,5 @@
 sources:
 - source_id: binance
-  id: moveusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: moveusdt
   routes:
   - signal_id: CS:USDT-USD
@@ -16,19 +11,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: movement
-- source_id: coinmarketcap
-  id: '32452'
 - source_id: htx
   id: moveusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: MOVE/USD
-- source_id: okx
-  id: MOVE-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: MOVE-USDT

@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tFETUSD
-- source_id: bitfinex
-  id: tFETUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: FETUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: FETUSDT
   routes:
@@ -28,20 +16,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: FET-USD
-- source_id: coinbase
-  id: FET-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: fetch-ai
-- source_id: coinmarketcap
-  id: '3773'
-- source_id: htx
-  id: fetusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: kraken
   id: FET/USD
 - source_id: okx

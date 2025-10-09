@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tLINK:USD
-- source_id: bitfinex
-  id: tLINK:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: LINKUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: LINKUSDT
   routes:
@@ -28,36 +16,12 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: LINK-USD
-- source_id: coinbase
-  id: LINK-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: chainlink
-- source_id: coinmarketcap
-  id: '1975'
 - source_id: htx
   id: linkusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: LINK/USD
-- source_id: kraken
-  id: LINK/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: LINK/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: LINK-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: LINK-USDT

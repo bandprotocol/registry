@@ -14,10 +14,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: W-USD
 - source_id: coingecko
   id: wormhole
-- source_id: coinmarketcap
-  id: '29587'
 - source_id: htx
   id: wusdt
   routes:

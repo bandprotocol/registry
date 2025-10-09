@@ -1,17 +1,8 @@
 sources:
-- source_id: bitfinex
-  id: tAIOZ:USD
-- source_id: bybit
-  id: AIOZUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coinbase
   id: AIOZ-USD
 - source_id: coingecko
   id: aioz-network
-- source_id: coinmarketcap
-  id: '9104'
 - source_id: htx
   id: aiozusdt
   routes:

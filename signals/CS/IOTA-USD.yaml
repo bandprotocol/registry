@@ -1,20 +1,11 @@
 sources:
 - source_id: binance
-  id: iotausdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: iotausdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tIOTUSD
 - source_id: coingecko
   id: iota
-- source_id: coinmarketcap
-  id: '1720'
 - source_id: htx
   id: iotausdt
   routes:

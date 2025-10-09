@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tAPTUSD
-- source_id: bitfinex
-  id: tAPTUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: APTUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: APTUSDT
   routes:
@@ -28,26 +16,12 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: APT-USD
-- source_id: coinbase
-  id: APT-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: aptos
-- source_id: coinmarketcap
-  id: '21794'
 - source_id: htx
   id: aptusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: APT/USD
-- source_id: okx
-  id: APT-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: APT-USDT

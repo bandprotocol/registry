@@ -1,18 +1,6 @@
 sources:
 - source_id: binance
-  id: kaiausdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: kaiausdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bitfinex
-  id: tKAIA:USD
-- source_id: bitfinex
-  id: tKAIA:UST
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
@@ -23,8 +11,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: kaia
-- source_id: coinmarketcap
-  id: '32880'
 - source_id: htx
   id: kaiausdt
   routes:

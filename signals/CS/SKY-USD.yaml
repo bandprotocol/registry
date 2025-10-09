@@ -1,7 +1,27 @@
 sources:
+- source_id: binance
+  id: skyusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: SKYUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: SKY-USD
 - source_id: coingecko
   id: sky
-- source_id: coinmarketcap
-  id: '33038'
+- source_id: htx
+  id: skyusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: SKY/USD
+- source_id: okx
+  id: SKY-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

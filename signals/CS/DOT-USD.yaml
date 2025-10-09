@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tDOTUSD
-- source_id: bitfinex
-  id: tDOTUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: DOTUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: DOTUSDT
   routes:
@@ -28,36 +16,12 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: DOT-USD
-- source_id: coinbase
-  id: DOT-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: polkadot
-- source_id: coinmarketcap
-  id: '6636'
 - source_id: htx
   id: dotusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: DOT/USD
-- source_id: kraken
-  id: DOT/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: DOT/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: DOT-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: DOT-USDT

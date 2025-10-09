@@ -3,8 +3,6 @@ sources:
   id: XCN-USD
 - source_id: coingecko
   id: chain-2
-- source_id: coinmarketcap
-  id: '18679'
 - source_id: htx
   id: xcnusdt
   routes:

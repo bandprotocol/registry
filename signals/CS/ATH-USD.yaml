@@ -1,11 +1,4 @@
 sources:
-- source_id: bitfinex
-  id: tATHUSD
-- source_id: bitfinex
-  id: tATHUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: ATHUSDT
   routes:
@@ -15,8 +8,6 @@ sources:
   id: ATH-USD
 - source_id: coingecko
   id: aethir
-- source_id: coinmarketcap
-  id: '30083'
 - source_id: htx
   id: athusdt
   routes:
@@ -24,11 +15,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: ATH/USD
-- source_id: okx
-  id: ATH-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: ATH-USDT
   routes:

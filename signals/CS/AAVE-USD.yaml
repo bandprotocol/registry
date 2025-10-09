@@ -9,38 +9,15 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tAAVE:USD
-- source_id: bitfinex
-  id: tAAVE:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: AAVEUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: AAVE-USD
 - source_id: coingecko
   id: aave
-- source_id: coinmarketcap
-  id: '7278'
 - source_id: htx
   id: aaveusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: AAVE/USD
-- source_id: okx
-  id: AAVE-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: AAVE-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

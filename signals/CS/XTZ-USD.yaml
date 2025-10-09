@@ -1,46 +1,18 @@
 sources:
 - source_id: binance
-  id: xtzusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: xtzusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tXTZUSD
 - source_id: bybit
   id: XTZUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: XTZ-USD
 - source_id: coingecko
   id: tezos
-- source_id: coinmarketcap
-  id: '2011'
 - source_id: htx
   id: xtzusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: XTZ/USD
-- source_id: kraken
-  id: XTZ/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: XTZ/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: XTZ-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

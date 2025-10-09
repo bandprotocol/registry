@@ -8,7 +8,3 @@ sources:
   id: AERO-USD
 - source_id: coingecko
   id: aerodrome-finance
-- source_id: coinmarketcap
-  id: '29270'
-- source_id: kraken
-  id: AERO/USD

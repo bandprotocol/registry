@@ -4,22 +4,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tNEXO:USD
-- source_id: bitfinex
-  id: tNEXO:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: NEXOUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: nexo
-- source_id: coinmarketcap
-  id: '2694'
 - source_id: htx
   id: nexousdt
   routes:

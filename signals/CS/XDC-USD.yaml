@@ -1,11 +1,4 @@
 sources:
-- source_id: bitfinex
-  id: tXDCUSD
-- source_id: bitfinex
-  id: tXDCUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: XDCUSDT
   routes:
@@ -13,10 +6,10 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: xdce-crowd-sale
-- source_id: coinmarketcap
-  id: '2634'
 - source_id: htx
   id: xdcusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: XDC/USD

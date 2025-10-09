@@ -1,8 +1,8 @@
 sources:
+- source_id: coinbase
+  id: FARTCOIN-USD
 - source_id: coingecko
   id: fartcoin
-- source_id: coinmarketcap
-  id: '33597'
 - source_id: htx
   id: fartcoinusdt
   routes:
@@ -10,13 +10,3 @@ sources:
     operation: '*'
 - source_id: kraken
   id: FARTCOIN/USD
-- source_id: kraken
-  id: FARTCOIN/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: FARTCOIN/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'

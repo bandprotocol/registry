@@ -28,15 +28,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: XRP-USD
-- source_id: coinbase
-  id: XRP-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: ripple
-- source_id: coinmarketcap
-  id: '52'
 - source_id: htx
   id: xrpusdt
   routes:
@@ -45,19 +38,9 @@ sources:
 - source_id: kraken
   id: XRP/USD
 - source_id: kraken
-  id: XRP/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
   id: XRP/USDT
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: XRP-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: XRP-USDT

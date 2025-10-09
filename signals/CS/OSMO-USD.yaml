@@ -1,0 +1,10 @@
+sources:
+- source_id: coinbase
+  id: OSMO-USD
+- source_id: coingecko
+  id: osmosis
+- source_id: htx
+  id: osmousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

@@ -1,44 +1,13 @@
 sources:
 - source_id: binance
-  id: ensusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: ensusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: ENSUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: coinbase
-  id: ENS-USD
-- source_id: coinbase
-  id: ENS-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
   id: ethereum-name-service
-- source_id: coinmarketcap
-  id: '13855'
 - source_id: htx
   id: ensusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: ENS/USD
-- source_id: okx
-  id: ENS-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: okx
-  id: ENS-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

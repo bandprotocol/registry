@@ -4,9 +4,9 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: SPX-USD
 - source_id: coingecko
   id: spx6900
-- source_id: coinmarketcap
-  id: '28081'
 - source_id: kraken
   id: SPX/USD

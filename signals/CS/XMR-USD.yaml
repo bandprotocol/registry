@@ -8,22 +8,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: monero
-- source_id: coinmarketcap
-  id: '328'
 - source_id: htx
   id: xmrusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: XMR/USD
-- source_id: kraken
-  id: XMR/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: XMR/USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

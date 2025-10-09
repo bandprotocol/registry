@@ -1,9 +1,0 @@
-sources:
-- source_id: coinbase
-  id: GIGA-USD
-- source_id: coingecko
-  id: gigachad-2
-- source_id: coinmarketcap
-  id: '30063'
-- source_id: kraken
-  id: GIGA/USD

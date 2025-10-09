@@ -16,12 +16,3 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: thorchain
-- source_id: coinmarketcap
-  id: '4157'
-- source_id: htx
-  id: runeusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: RUNE/USD

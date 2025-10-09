@@ -6,5 +6,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: euro-coin
-- source_id: coinmarketcap
-  id: '20641'
+- source_id: kraken
+  id: EURC/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'

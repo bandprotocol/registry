@@ -4,18 +4,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tJASMY:USD
-- source_id: bitfinex
-  id: tJASMY:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: JASMYUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: JASMYUSDT
   routes:
@@ -30,8 +18,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: jasmycoin
-- source_id: coinmarketcap
-  id: '8425'
 - source_id: htx
   id: jasmyusdt
   routes:

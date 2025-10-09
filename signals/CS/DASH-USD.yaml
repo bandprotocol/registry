@@ -4,18 +4,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tDSHUSD
-- source_id: coinbase
-  id: DASH-USD
 - source_id: coingecko
   id: dash
-- source_id: coinmarketcap
-  id: '131'
 - source_id: htx
   id: dashusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: DASH/USD

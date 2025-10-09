@@ -4,21 +4,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: LPT-USD
 - source_id: coingecko
   id: livepeer
-- source_id: coinmarketcap
-  id: '3640'
 - source_id: htx
   id: lptusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: LPT/USD
-- source_id: okx
-  id: LPT-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

@@ -18,17 +18,8 @@ sources:
   id: RENDER-USD
 - source_id: coingecko
   id: render-token
-- source_id: coinmarketcap
-  id: '5690'
 - source_id: htx
   id: renderusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: RENDER/USD
-- source_id: okx
-  id: RENDER-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

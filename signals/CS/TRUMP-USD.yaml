@@ -10,11 +10,6 @@ sources:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: TRUMPUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: bybit
   id: TRUMPUSDT
   routes:
   - signal_id: CS:USDT-USD
@@ -23,22 +18,8 @@ sources:
   id: TRUMP-USD
 - source_id: coingecko
   id: official-trump
-- source_id: coinmarketcap
-  id: '35336'
 - source_id: htx
   id: trumpusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: TRUMP/USD
-- source_id: kraken
-  id: TRUMP/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: TRUMP/USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

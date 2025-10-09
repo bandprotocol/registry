@@ -1,0 +1,7 @@
+sources:
+- source_id: coinbase
+  id: USELESS-USD
+- source_id: coingecko
+  id: useless-3
+- source_id: kraken
+  id: USELESS/USD

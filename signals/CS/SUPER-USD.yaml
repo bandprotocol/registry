@@ -8,12 +8,3 @@ sources:
   id: SUPER-USD
 - source_id: coingecko
   id: superfarm
-- source_id: coinmarketcap
-  id: '8290'
-- source_id: htx
-  id: superusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: SUPER/USD

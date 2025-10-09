@@ -9,13 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tXLMUSD
-- source_id: bitfinex
-  id: tXLMUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: XLMUSDC
   routes:
@@ -28,15 +21,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: XLM-USD
-- source_id: coinbase
-  id: XLM-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: stellar
-- source_id: coinmarketcap
-  id: '512'
 - source_id: htx
   id: xlmusdt
   routes:
@@ -44,11 +30,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: XLM/USD
-- source_id: okx
-  id: XLM-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: XLM-USDT
   routes:

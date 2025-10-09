@@ -4,17 +4,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bybit
-  id: BATUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coinbase
   id: BAT-USD
 - source_id: coingecko
   id: basic-attention-token
-- source_id: coinmarketcap
-  id: '1697'
 - source_id: htx
   id: batusdt
   routes:

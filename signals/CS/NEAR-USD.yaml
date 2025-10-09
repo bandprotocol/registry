@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tNEAR:USD
-- source_id: bitfinex
-  id: tNEAR:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: NEARUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: NEARUSDT
   routes:
@@ -28,26 +16,12 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: NEAR-USD
-- source_id: coinbase
-  id: NEAR-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: near
-- source_id: coinmarketcap
-  id: '6535'
 - source_id: htx
   id: nearusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: NEAR/USD
-- source_id: okx
-  id: NEAR-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: NEAR-USDT

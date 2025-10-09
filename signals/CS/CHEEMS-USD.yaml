@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: cheems-token
-- source_id: coinmarketcap
-  id: '33280'
-- source_id: kraken
-  id: CHEEMS/USD

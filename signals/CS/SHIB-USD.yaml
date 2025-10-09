@@ -9,13 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tSHIB:USD
-- source_id: bitfinex
-  id: tSHIB:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: SHIBUSDC
   routes:
@@ -35,8 +28,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: shiba-inu
-- source_id: coinmarketcap
-  id: '5994'
 - source_id: htx
   id: shibusdt
   routes:
@@ -53,11 +44,6 @@ sources:
   id: SHIB/USDT
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: SHIB-USDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: okx
   id: SHIB-USDT

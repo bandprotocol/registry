@@ -1,42 +1,16 @@
 sources:
 - source_id: binance
-  id: apeusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
   id: apeusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bitfinex
-  id: tAPEUSD
-- source_id: bitfinex
-  id: tAPEUST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: APEUSDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: APEUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: APE-USD
-- source_id: coinbase
-  id: APE-USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: apecoin
-- source_id: coinmarketcap
-  id: '18876'
 - source_id: htx
   id: apeusdt
   routes:
@@ -44,21 +18,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: APE/USD
-- source_id: kraken
-  id: APE/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: APE/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: APE-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: APE-USDT
   routes:

@@ -1,0 +1,13 @@
+sources:
+- source_id: bybit
+  id: APEXUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: APEXUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: apex-token-2

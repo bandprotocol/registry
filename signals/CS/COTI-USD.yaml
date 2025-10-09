@@ -1,0 +1,12 @@
+sources:
+- source_id: binance
+  id: cotiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: COTI-USD
+- source_id: coingecko
+  id: coti
+- source_id: kraken
+  id: COTI/USD

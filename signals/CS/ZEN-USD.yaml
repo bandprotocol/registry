@@ -1,0 +1,25 @@
+sources:
+- source_id: binance
+  id: zenusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: zenusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: ZENUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: ZEN-USD
+- source_id: coingecko
+  id: zencash
+- source_id: htx
+  id: zenusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

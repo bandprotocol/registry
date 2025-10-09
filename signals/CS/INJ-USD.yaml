@@ -10,30 +10,14 @@ sources:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: INJUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: bybit
   id: INJUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: INJ-USD
 - source_id: coingecko
   id: injective-protocol
-- source_id: coinmarketcap
-  id: '7226'
 - source_id: htx
   id: injusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: INJ/USD
-- source_id: okx
-  id: INJ-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

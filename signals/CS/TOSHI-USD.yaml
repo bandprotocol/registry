@@ -8,7 +8,10 @@ sources:
   id: TOSHI-USD
 - source_id: coingecko
   id: toshi
-- source_id: coinmarketcap
-  id: '27750'
 - source_id: kraken
   id: TOSHI/USD
+- source_id: okx
+  id: TOSHI-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

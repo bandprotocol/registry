@@ -1,11 +1,20 @@
 sources:
-- source_id: bitfinex
-  id: tDAIUSD
+- source_id: bybit
+  id: DAIUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: DAI-USD
 - source_id: coingecko
   id: dai
-- source_id: coinmarketcap
-  id: '4943'
-- source_id: kraken
-  id: DAI/USD
+- source_id: htx
+  id: daiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: DAI-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

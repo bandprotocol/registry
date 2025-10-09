@@ -1,4 +1,14 @@
 sources:
+- source_id: binance
+  id: plumeusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: plumeusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
   id: PLUMEUSDT
   routes:
@@ -6,8 +16,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: plume
-- source_id: coinmarketcap
-  id: '35364'
 - source_id: htx
   id: plumeusdt
   routes:

@@ -9,13 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tGALA:USD
-- source_id: bitfinex
-  id: tGALA:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: GALAUSDT
   routes:
@@ -23,8 +16,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: gala
-- source_id: coinmarketcap
-  id: '7080'
 - source_id: htx
   id: galausdt
   routes:
@@ -32,11 +23,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: GALA/USD
-- source_id: okx
-  id: GALA-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: GALA-USDT
   routes:

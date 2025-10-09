@@ -1,0 +1,15 @@
+sources:
+- source_id: binance
+  id: scrtusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: secret
+- source_id: htx
+  id: scrtusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: SCRT/USD

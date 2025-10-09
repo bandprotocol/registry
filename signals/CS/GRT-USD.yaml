@@ -4,17 +4,10 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bybit
-  id: GRTUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coinbase
   id: GRT-USD
 - source_id: coingecko
   id: the-graph
-- source_id: coinmarketcap
-  id: '6719'
 - source_id: htx
   id: grtusdt
   routes:
@@ -22,11 +15,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: GRT/USD
-- source_id: okx
-  id: GRT-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: GRT-USDT
   routes:

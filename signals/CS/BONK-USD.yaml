@@ -9,18 +9,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tBONK:USD
-- source_id: bitfinex
-  id: tBONK:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: BONKUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: bybit
   id: BONKUSDT
   routes:
@@ -30,8 +18,6 @@ sources:
   id: BONK-USD
 - source_id: coingecko
   id: bonk
-- source_id: coinmarketcap
-  id: '23095'
 - source_id: htx
   id: bonkusdt
   routes:
@@ -39,11 +25,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: BONK/USD
-- source_id: okx
-  id: BONK-USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
 - source_id: okx
   id: BONK-USDT
   routes:

@@ -11,17 +11,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: raydium
-- source_id: coinmarketcap
-  id: '8526'
 - source_id: htx
   id: rayusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: kraken
-  id: RAY/USD
-- source_id: okx
-  id: RAY-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

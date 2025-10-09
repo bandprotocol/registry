@@ -9,22 +9,15 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tSONIC:USD
-- source_id: bitfinex
-  id: tSONIC:UST
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: bybit
   id: SUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: S-USD
 - source_id: coingecko
   id: sonic-3
-- source_id: coinmarketcap
-  id: '32684'
 - source_id: htx
   id: susdt
   routes:
@@ -32,16 +25,6 @@ sources:
     operation: '*'
 - source_id: kraken
   id: S/USD
-- source_id: kraken
-  id: S/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: kraken
-  id: S/USDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: okx
   id: S-USDT
   routes:

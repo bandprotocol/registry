@@ -1,0 +1,27 @@
+sources:
+- source_id: binance
+  id: biousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: biousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: BIO-USD
+- source_id: coingecko
+  id: bio-protocol
+- source_id: htx
+  id: biousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: BIO/USD
+- source_id: okx
+  id: BIO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

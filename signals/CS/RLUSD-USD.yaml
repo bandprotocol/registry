@@ -1,7 +1,0 @@
-sources:
-- source_id: coingecko
-  id: ripple-usd
-- source_id: coinmarketcap
-  id: '34387'
-- source_id: kraken
-  id: RLUSD/USD
