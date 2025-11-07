@@ -20,6 +20,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: morpho
+- source_id: okx
+  id: MORPHO-USDT
 - source_id: htx
   id: morphousdt
   routes:

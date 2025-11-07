@@ -4,10 +4,17 @@ sources:
 - source_id: band2
   id: CS:KAITO-USD
 - source_id: binance
+  id: kaitousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: kaitousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: KAITO-USD
 - source_id: coingecko
   id: kaito
 - source_id: htx

@@ -4,6 +4,11 @@ sources:
 - source_id: band2
   id: CS:OM-USD
 - source_id: binance
+  id: omusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: omusdt
   routes:
   - signal_id: CS:USDT-USD

@@ -10,6 +10,11 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: icon
+- source_id: htx
+  id: icxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: ICX-USDT
   routes:

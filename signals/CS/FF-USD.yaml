@@ -4,6 +4,11 @@ sources:
 - source_id: band2
   id: CS:FF-USD
 - source_id: binance
+  id: ffusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: ffusdt
   routes:
   - signal_id: CS:USDT-USD
@@ -20,3 +25,5 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: FF/USD

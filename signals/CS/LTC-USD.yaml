@@ -13,6 +13,13 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bitfinex
+  id: tLTCUSD
+- source_id: bybit
+  id: LTCUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: bybit
   id: LTCUSDT
   routes:

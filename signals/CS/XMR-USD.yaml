@@ -4,6 +4,8 @@ sources:
 - source_id: band2
   id: CS:XMR-USD
 - source_id: bitfinex
+  id: tXMRUSD
+- source_id: bitfinex
   id: tXMRUST
   routes:
   - signal_id: CS:USDT-USD

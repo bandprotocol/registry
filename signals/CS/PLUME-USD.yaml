@@ -4,6 +4,11 @@ sources:
 - source_id: band2
   id: CS:PLUME-USD
 - source_id: binance
+  id: plumeusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: plumeusdt
   routes:
   - signal_id: CS:USDT-USD

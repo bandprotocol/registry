@@ -10,3 +10,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: moonbeam
+- source_id: htx
+  id: glmrusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

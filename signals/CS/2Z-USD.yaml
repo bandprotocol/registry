@@ -4,9 +4,19 @@ sources:
 - source_id: band2
   id: CS:2Z-USD
 - source_id: binance
+  id: 2zusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: 2zusdt
   routes:
   - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: 2ZUSDC
+  routes:
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: 2ZUSDT
@@ -17,3 +27,5 @@ sources:
   id: 2Z-USD
 - source_id: coingecko
   id: doublezero
+- source_id: kraken
+  id: 2Z/USD
