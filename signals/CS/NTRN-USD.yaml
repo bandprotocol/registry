@@ -5,3 +5,8 @@ sources:
   id: CS:NTRN-USD
 - source_id: coingecko
   id: neutron-3
+- source_id: binance
+  id: ntrnusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
