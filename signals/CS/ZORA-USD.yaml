@@ -10,6 +10,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: ZORA-USD
+- source_id: coingecko
+  id: zora
 - source_id: kraken
   id: ZORA/USD
 - source_id: okx

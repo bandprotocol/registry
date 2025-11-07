@@ -3,6 +3,11 @@ sources:
   id: CS:ZETA-USD
 - source_id: band2
   id: CS:ZETA-USD
+- source_id: bybit
+  id: ZETAUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ZETA-USD
 - source_id: coingecko

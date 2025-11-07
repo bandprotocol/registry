@@ -4,6 +4,11 @@ sources:
 - source_id: band2
   id: CS:NEO-USD
 - source_id: binance
+  id: neousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: neousdt
   routes:
   - signal_id: CS:USDT-USD
