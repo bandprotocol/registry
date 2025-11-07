@@ -1,9 +1,8 @@
 sources:
-- source_id: binance
-  id: cfxusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
+- source_id: band1
+  id: CS:CFX-USD
+- source_id: band2
+  id: CS:CFX-USD
 - source_id: binance
   id: cfxusdt
   routes:

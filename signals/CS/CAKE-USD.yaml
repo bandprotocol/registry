@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:CAKE-USD
+- source_id: band2
+  id: CS:CAKE-USD
 - source_id: binance
   id: cakeusdc
   routes:
@@ -14,8 +18,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: CAKE-USD
 - source_id: coingecko
   id: pancakeswap-token
 - source_id: htx
@@ -23,5 +25,3 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: CAKE/USD

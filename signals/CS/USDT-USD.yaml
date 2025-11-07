@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:USDT-USD
+- source_id: band2
+  id: CS:USDT-USD
 - source_id: bitfinex
   id: tUSTUSD
 - source_id: coinbase

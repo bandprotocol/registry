@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:AXS-USD
+- source_id: band2
+  id: CS:AXS-USD
 - source_id: binance
   id: axsusdt
   routes:
@@ -8,6 +12,11 @@ sources:
   id: axie-infinity
 - source_id: htx
   id: axsusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: AXS-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

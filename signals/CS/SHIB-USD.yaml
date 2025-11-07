@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:SHIB-USD
+- source_id: band2
+  id: CS:SHIB-USD
 - source_id: binance
   id: shibusdc
   routes:
@@ -8,11 +12,6 @@ sources:
   id: shibusdt
   routes:
   - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: SHIBUSDC
-  routes:
-  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: SHIBUSDT

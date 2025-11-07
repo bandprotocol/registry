@@ -1,9 +1,8 @@
 sources:
-- source_id: bybit
-  id: MNTUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
+- source_id: band1
+  id: CS:MNT-USD
+- source_id: band2
+  id: CS:MNT-USD
 - source_id: bybit
   id: MNTUSDT
   routes:
@@ -16,5 +15,3 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: MNT/USD

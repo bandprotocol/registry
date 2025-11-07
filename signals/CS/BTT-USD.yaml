@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:BTT-USD
+- source_id: band2
+  id: CS:BTT-USD
 - source_id: coingecko
   id: bittorrent
 - source_id: htx

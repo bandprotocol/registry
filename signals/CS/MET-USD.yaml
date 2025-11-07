@@ -1,13 +1,20 @@
 sources:
 - source_id: bybit
-  id: GRASSUSDT
+  id: METUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: MET-USD
 - source_id: coingecko
-  id: grass
+  id: meteora
 - source_id: htx
-  id: grassusdt
+  id: metusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: MET-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

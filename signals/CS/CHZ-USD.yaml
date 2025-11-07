@@ -1,4 +1,13 @@
 sources:
+- source_id: band1
+  id: CS:CHZ-USD
+- source_id: band2
+  id: CS:CHZ-USD
+- source_id: binance
+  id: chzusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: chzusdt
   routes:

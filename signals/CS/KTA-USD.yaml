@@ -1,0 +1,7 @@
+sources:
+- source_id: coinbase
+  id: KTA-USD
+- source_id: coingecko
+  id: keeta
+- source_id: kraken
+  id: KTA/USD

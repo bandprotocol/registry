@@ -1,6 +1,20 @@
 sources:
+- source_id: band1
+  id: CS:AR-USD
+- source_id: band2
+  id: CS:AR-USD
+- source_id: binance
+  id: arusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: arusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: ARUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
@@ -8,6 +22,11 @@ sources:
   id: arweave
 - source_id: htx
   id: arusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: AR-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

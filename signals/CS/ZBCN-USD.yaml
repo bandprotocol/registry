@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:ZBCN-USD
+- source_id: band2
+  id: CS:ZBCN-USD
 - source_id: coingecko
   id: zebec-network
 - source_id: htx
@@ -6,6 +10,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: ZBCN/USD
 - source_id: okx
   id: ZBCN-USDT
   routes:

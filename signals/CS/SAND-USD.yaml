@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:SAND-USD
+- source_id: band2
+  id: CS:SAND-USD
 - source_id: binance
   id: sandusdt
   routes:
@@ -18,6 +22,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: SAND/USD
 - source_id: okx
   id: SAND-USDT
   routes:

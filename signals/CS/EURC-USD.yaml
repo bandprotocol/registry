@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:EURC-USD
+- source_id: band2
+  id: CS:EURC-USD
 - source_id: coinbase
   id: EURC-USDC
   routes:
@@ -6,8 +10,3 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: euro-coin
-- source_id: kraken
-  id: EURC/USDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'

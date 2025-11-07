@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:ALGO-USD
+- source_id: band2
+  id: CS:ALGO-USD
 - source_id: binance
   id: algousdc
   routes:
@@ -29,6 +33,11 @@ sources:
   id: ALGO/USDC
   routes:
   - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
+  id: ALGO/USDT
+  routes:
+  - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
   id: ALGO-USDT

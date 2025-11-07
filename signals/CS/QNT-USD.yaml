@@ -1,13 +1,18 @@
 sources:
-- source_id: bybit
-  id: APEXUSDC
+- source_id: binance
+  id: qntusdc
   routes:
   - signal_id: CS:USDC-USD
     operation: '*'
+- source_id: binance
+  id: qntusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: bybit
-  id: APEXUSDT
+  id: QNTUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: apex-token-2
+  id: quant-network

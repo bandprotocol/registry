@@ -1,4 +1,10 @@
 sources:
+- source_id: band1
+  id: CS:USDC-USD
+- source_id: band2
+  id: CS:USDC-USD
+- source_id: bitfinex
+  id: tUDCUSD
 - source_id: coingecko
   id: usd-coin
 - source_id: kraken

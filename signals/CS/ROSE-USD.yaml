@@ -1,10 +1,29 @@
 sources:
+- source_id: band1
+  id: CS:ROSE-USD
+- source_id: band2
+  id: CS:ROSE-USD
+- source_id: binance
+  id: roseusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: roseusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: ROSEUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coinbase
   id: ROSE-USD
+- source_id: coinbase
+  id: ROSE-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: oasis-network

@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:WLD-USD
+- source_id: band2
+  id: CS:WLD-USD
 - source_id: binance
   id: wldusdc
   routes:
@@ -10,11 +14,6 @@ sources:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: WLDUSDC
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: bybit
   id: WLDUSDT
   routes:
   - signal_id: CS:USDT-USD
@@ -23,11 +22,6 @@ sources:
   id: WLD-USD
 - source_id: coingecko
   id: worldcoin-wld
-- source_id: htx
-  id: wldusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: okx
   id: WLD-USDT
   routes:

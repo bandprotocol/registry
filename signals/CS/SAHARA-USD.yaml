@@ -1,27 +1,23 @@
 sources:
 - source_id: binance
-  id: avntusdc
-  routes:
-  - signal_id: CS:USDC-USD
-    operation: '*'
-- source_id: binance
-  id: avntusdt
+  id: saharausdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
-  id: AVNTUSDT
+  id: SAHARAUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: AVNT-USD
 - source_id: coingecko
-  id: avantis
-- source_id: kraken
-  id: AVNT/USD
+  id: sahara-ai
+- source_id: htx
+  id: saharausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
-  id: AVNT-USDT
+  id: SAHARA-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

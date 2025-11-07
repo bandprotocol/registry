@@ -1,0 +1,20 @@
+sources:
+- source_id: bybit
+  id: RLUSDUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: ripple-usd
+- source_id: kraken
+  id: RLUSD/USD
+- source_id: kraken
+  id: RLUSD/USDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: kraken
+  id: RLUSD/USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

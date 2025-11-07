@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:CRO-USD
+- source_id: band2
+  id: CS:CRO-USD
 - source_id: coinbase
   id: CRO-USD
 - source_id: coingecko

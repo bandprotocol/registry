@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:KNC-USD
+- source_id: band2
+  id: CS:KNC-USD
 - source_id: binance
   id: kncusdt
   routes:
@@ -8,6 +12,11 @@ sources:
   id: kyber-network-crystal
 - source_id: htx
   id: kncusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: KNC-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

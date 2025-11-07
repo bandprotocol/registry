@@ -1,10 +1,10 @@
 sources:
-- source_id: binance
-  id: iotxusdt
+- source_id: bybit
+  id: DEEPUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: IOTX-USD
 - source_id: coingecko
-  id: iotex
+  id: deep
+- source_id: kraken
+  id: DEEP/USD

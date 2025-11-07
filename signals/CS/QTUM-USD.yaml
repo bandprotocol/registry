@@ -1,11 +1,10 @@
 sources:
+- source_id: band1
+  id: CS:QTUM-USD
+- source_id: band2
+  id: CS:QTUM-USD
 - source_id: binance
   id: qtumusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: QTUMUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
@@ -13,11 +12,6 @@ sources:
   id: qtum
 - source_id: htx
   id: qtumusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: QTUM-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:RUNE-USD
+- source_id: band2
+  id: CS:RUNE-USD
 - source_id: binance
   id: runeusdc
   routes:
@@ -6,11 +10,6 @@ sources:
     operation: '*'
 - source_id: binance
   id: runeusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: RUNEUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

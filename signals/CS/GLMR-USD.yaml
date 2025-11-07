@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:GLMR-USD
+- source_id: band2
+  id: CS:GLMR-USD
 - source_id: binance
   id: glmrusdt
   routes:
@@ -6,8 +10,3 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: moonbeam
-- source_id: htx
-  id: glmrusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'

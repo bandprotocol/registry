@@ -1,9 +1,8 @@
 sources:
-- source_id: bybit
-  id: MERLUSDT
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
+- source_id: band1
+  id: CS:MERL-USD
+- source_id: band2
+  id: CS:MERL-USD
 - source_id: coingecko
   id: merlin-chain
 - source_id: htx

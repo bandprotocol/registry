@@ -1,6 +1,15 @@
 sources:
+- source_id: band1
+  id: CS:MINA-USD
+- source_id: band2
+  id: CS:MINA-USD
 - source_id: binance
   id: minausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: MINAUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
@@ -13,6 +22,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: MINA/USD
 - source_id: okx
   id: MINA-USDT
   routes:

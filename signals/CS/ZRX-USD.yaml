@@ -1,6 +1,15 @@
 sources:
+- source_id: band1
+  id: CS:ZRX-USD
+- source_id: band2
+  id: CS:ZRX-USD
 - source_id: binance
   id: zrxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: ZRXUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
@@ -13,6 +22,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: ZRX/USD
 - source_id: okx
   id: ZRX-USDT
   routes:

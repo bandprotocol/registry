@@ -1,15 +1,18 @@
 sources:
 - source_id: bybit
-  id: DRIFTUSDT
+  id: CTCUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: DRIFT-USD
 - source_id: coingecko
-  id: drift-protocol
+  id: creditcoin-2
 - source_id: htx
-  id: driftusdt
+  id: ctcusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: CTC-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

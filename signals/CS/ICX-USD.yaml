@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:ICX-USD
+- source_id: band2
+  id: CS:ICX-USD
 - source_id: binance
   id: icxusdt
   routes:
@@ -6,11 +10,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: icon
-- source_id: htx
-  id: icxusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: okx
   id: ICX-USDT
   routes:

@@ -1,11 +1,10 @@
 sources:
+- source_id: band1
+  id: CS:CELO-USD
+- source_id: band2
+  id: CS:CELO-USD
 - source_id: binance
   id: celousdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: CELOUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

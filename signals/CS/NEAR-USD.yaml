@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:NEAR-USD
+- source_id: band2
+  id: CS:NEAR-USD
 - source_id: binance
   id: nearusdc
   routes:
@@ -23,6 +27,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: NEAR/USD
 - source_id: okx
   id: NEAR-USDT
   routes:

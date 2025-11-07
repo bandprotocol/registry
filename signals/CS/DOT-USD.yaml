@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:DOT-USD
+- source_id: band2
+  id: CS:DOT-USD
 - source_id: binance
   id: dotusdc
   routes:
@@ -23,6 +27,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: DOT/USD
 - source_id: okx
   id: DOT-USDT
   routes:

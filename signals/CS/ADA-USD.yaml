@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:ADA-USD
+- source_id: band2
+  id: CS:ADA-USD
 - source_id: binance
   id: adausdc
   routes:
@@ -21,6 +25,11 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: ADA-USD
+- source_id: coinbase
+  id: ADA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: cardano
 - source_id: htx

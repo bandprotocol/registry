@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:DYDX-USD
+- source_id: band2
+  id: CS:DYDX-USD
 - source_id: binance
   id: dydxusdt
   routes:
@@ -11,11 +15,6 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: dydx-chain
-- source_id: htx
-  id: dydxusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: okx
   id: DYDX-USDT
   routes:

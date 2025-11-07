@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:INJ-USD
+- source_id: band2
+  id: CS:INJ-USD
 - source_id: binance
   id: injusdc
   routes:
@@ -14,6 +18,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: INJ-USD
 - source_id: coingecko
   id: injective-protocol
 - source_id: htx

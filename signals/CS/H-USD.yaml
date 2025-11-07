@@ -1,0 +1,10 @@
+sources:
+- source_id: bybit
+  id: HUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: humanity
+- source_id: kraken
+  id: H/USD

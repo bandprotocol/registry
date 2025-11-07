@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:FARTCOIN-USD
+- source_id: band2
+  id: CS:FARTCOIN-USD
 - source_id: coinbase
   id: FARTCOIN-USD
 - source_id: coingecko

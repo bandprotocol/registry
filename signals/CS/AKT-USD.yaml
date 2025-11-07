@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:AKT-USD
+- source_id: band2
+  id: CS:AKT-USD
 - source_id: coinbase
   id: AKT-USD
 - source_id: coingecko

@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:AAVE-USD
+- source_id: band2
+  id: CS:AAVE-USD
 - source_id: binance
   id: aaveusdc
   routes:

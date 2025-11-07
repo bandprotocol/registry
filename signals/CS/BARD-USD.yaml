@@ -1,22 +1,25 @@
 sources:
 - source_id: binance
-  id: turbousdt
+  id: bardusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: BARDUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
-  id: TURBO-USD
+  id: BARD-USD
 - source_id: coingecko
-  id: turbo
+  id: lombard-protocol
 - source_id: htx
-  id: turbousdt
+  id: bardusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: kraken
-  id: TURBO/USD
 - source_id: okx
-  id: TURBO-USDT
+  id: BARD-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

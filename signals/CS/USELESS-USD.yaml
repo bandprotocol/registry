@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:USELESS-USD
+- source_id: band2
+  id: CS:USELESS-USD
 - source_id: coinbase
   id: USELESS-USD
 - source_id: coingecko

@@ -1,4 +1,8 @@
 sources:
+- source_id: band1
+  id: CS:SPX-USD
+- source_id: band2
+  id: CS:SPX-USD
 - source_id: bybit
   id: SPXUSDT
   routes:

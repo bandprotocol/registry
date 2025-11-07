@@ -1,9 +1,20 @@
 sources:
+- source_id: band1
+  id: CS:1INCH-USD
+- source_id: band2
+  id: CS:1INCH-USD
 - source_id: binance
   id: 1inchusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: bybit
+  id: 1INCHUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: 1INCH-USD
 - source_id: coingecko
   id: 1inch
 - source_id: htx
@@ -11,6 +22,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: 1INCH/USD
 - source_id: okx
   id: 1INCH-USDT
   routes:

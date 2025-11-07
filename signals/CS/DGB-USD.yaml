@@ -1,13 +1,18 @@
 sources:
 - source_id: binance
-  id: kavausdt
+  id: dgbusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: DGBUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: kava
-- source_id: htx
-  id: kavausdt
+  id: digibyte
+- source_id: okx
+  id: DGB-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

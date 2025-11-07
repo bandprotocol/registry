@@ -11,4 +11,6 @@ processor:
       htx: 1
       kraken: 1
       okx: 1
+      band1: 1
+      band2: 1
     minimum_cumulative_weight: 1

@@ -1,6 +1,20 @@
 sources:
+- source_id: band1
+  id: CS:ENS-USD
+- source_id: band2
+  id: CS:ENS-USD
+- source_id: binance
+  id: ensusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: ensusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: ENSUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

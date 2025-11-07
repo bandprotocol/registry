@@ -1,11 +1,18 @@
 sources:
+- source_id: band1
+  id: CS:ZEC-USD
+- source_id: band2
+  id: CS:ZEC-USD
+- source_id: binance
+  id: zecusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: zecusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: bitfinex
-  id: tZECUSD
 - source_id: coingecko
   id: zcash
 - source_id: htx
