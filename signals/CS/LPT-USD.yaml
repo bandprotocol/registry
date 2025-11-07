@@ -15,3 +15,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: okx
+  id: LPT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

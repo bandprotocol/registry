@@ -10,6 +10,8 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: SUSHI-USD
+- source_id: coingecko
+  id: sushi
 - source_id: htx
   id: sushiusdt
   routes:

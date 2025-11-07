@@ -1,22 +1,29 @@
 sources:
 - source_id: band1
-  id: CS:ONE-USD
+  id: CS:BIO-USD
 - source_id: band2
-  id: CS:ONE-USD
+  id: CS:BIO-USD
 - source_id: binance
-  id: oneusdt
+  id: biousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: biousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: BIO-USD
 - source_id: coingecko
-  id: harmony
+  id: bio-protocol
 - source_id: htx
-  id: oneusdt
+  id: biousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: okx
-  id: ONE-USDT
+  id: BIO-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
