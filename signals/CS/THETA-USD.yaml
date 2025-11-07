@@ -4,6 +4,11 @@ sources:
 - source_id: band2
   id: CS:THETA-USD
 - source_id: binance
+  id: thetausdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: thetausdt
   routes:
   - signal_id: CS:USDT-USD

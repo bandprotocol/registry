@@ -1,14 +1,12 @@
 sources:
 - source_id: band1
-  id: CS:COTI-USD
+  id: CS:WBTC-USD
 - source_id: band2
-  id: CS:COTI-USD
+  id: CS:WBTC-USD
 - source_id: binance
-  id: cotiusdt
+  id: wbtcusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: COTI-USD
-- source_id: kraken
-  id: COTI/USD
+- source_id: coingecko
+  id: wrapped-bitcoin

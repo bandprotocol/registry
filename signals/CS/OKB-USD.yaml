@@ -1,0 +1,7 @@
+sources:
+- source_id: band1
+  id: CS:OKB-USD
+- source_id: band2
+  id: CS:OKB-USD
+- source_id: coingecko
+  id: okb

@@ -18,8 +18,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: MORPHO-USD
 - source_id: coingecko
   id: morpho
 - source_id: htx

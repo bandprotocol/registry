@@ -1,0 +1,12 @@
+sources:
+- source_id: band1
+  id: CS:PYUSD-USD
+- source_id: band2
+  id: CS:PYUSD-USD
+- source_id: coingecko
+  id: paypal-usd
+- source_id: okx
+  id: PYUSD-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

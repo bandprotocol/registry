@@ -1,0 +1,7 @@
+sources:
+- source_id: band1
+  id: CS:TUSD-USD
+- source_id: band2
+  id: CS:TUSD-USD
+- source_id: coingecko
+  id: true-usd

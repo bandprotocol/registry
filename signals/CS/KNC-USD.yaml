@@ -8,8 +8,6 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coingecko
-  id: kyber-network-crystal
 - source_id: htx
   id: kncusdt
   routes:
