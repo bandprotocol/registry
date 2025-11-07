@@ -1,26 +1,26 @@
 sources:
-  - source_id: band1
-    id: CS:TURBO-USD
-  - source_id: band2
-    id: CS:TURBO-USD
-  - source_id: binance
-    id: turbousdt
-    routes:
-      - signal_id: CS:USDT-USD
-        operation: "*"
-  - source_id: coinbase
-    id: TURBO-USD
-  - source_id: coingecko
-    id: turbo
-  - source_id: htx
-    id: turbousdt
-    routes:
-      - signal_id: CS:USDT-USD
-        operation: "*"
-  - source_id: kraken
-    id: TURBO/USD
-  - source_id: okx
-    id: TURBO-USDT
-    routes:
-      - signal_id: CS:USDT-USD
-        operation: "*"
+- source_id: band1
+  id: CS:TURBO-USD
+- source_id: band2
+  id: CS:TURBO-USD
+- source_id: binance
+  id: turbousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: TURBO-USD
+- source_id: coingecko
+  id: turbo
+- source_id: htx
+  id: turbousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: TURBO/USD
+- source_id: okx
+  id: TURBO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

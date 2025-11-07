@@ -1,17 +1,17 @@
 sources:
-  - source_id: band1
-    id: CS:GRASS-USD
-  - source_id: band2
-    id: CS:GRASS-USD
-  - source_id: bybit
-    id: GRASSUSDT
-    routes:
-      - signal_id: CS:USDT-USD
-        operation: "*"
-  - source_id: coingecko
-    id: grass
-  - source_id: htx
-    id: grassusdt
-    routes:
-      - signal_id: CS:USDT-USD
-        operation: "*"
+- source_id: band1
+  id: CS:GRASS-USD
+- source_id: band2
+  id: CS:GRASS-USD
+- source_id: bybit
+  id: GRASSUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: grass
+- source_id: htx
+  id: grassusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

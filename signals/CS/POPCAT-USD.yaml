@@ -1,21 +1,21 @@
 sources:
-  - source_id: band1
-    id: CS:POPCAT-USD
-  - source_id: band2
-    id: CS:POPCAT-USD
-  - source_id: bybit
-    id: POPCATUSDT
-    routes:
-      - signal_id: CS:USDT-USD
-        operation: "*"
-  - source_id: coinbase
-    id: POPCAT-USD
-  - source_id: coingecko
-    id: popcat
-  - source_id: htx
-    id: popcatusdt
-    routes:
-      - signal_id: CS:USDT-USD
-        operation: "*"
-  - source_id: kraken
-    id: POPCAT/USD
+- source_id: band1
+  id: CS:POPCAT-USD
+- source_id: band2
+  id: CS:POPCAT-USD
+- source_id: bybit
+  id: POPCATUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: POPCAT-USD
+- source_id: coingecko
+  id: popcat
+- source_id: htx
+  id: popcatusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: POPCAT/USD
