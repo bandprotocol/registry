@@ -22,6 +22,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: APE/USD
 - source_id: okx
   id: APE-USDT
   routes:

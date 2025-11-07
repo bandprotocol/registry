@@ -1,8 +1,8 @@
 sources:
 - source_id: band1
-  id: CS:TUSD-USD
+  id: CS:IOTX-USD
 - source_id: band2
-  id: CS:TUSD-USD
+  id: CS:IOTX-USD
 - source_id: binance
   id: iotxusdt
   routes:
