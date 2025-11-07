@@ -4,6 +4,11 @@ sources:
 - source_id: band2
   id: CS:FORM-USD
 - source_id: binance
+  id: formusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
   id: formusdt
   routes:
   - signal_id: CS:USDT-USD
