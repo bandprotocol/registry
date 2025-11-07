@@ -1,0 +1,31 @@
+sources:
+- source_id: band1
+  id: CS:AVNT-USD
+- source_id: band2
+  id: CS:AVNT-USD
+- source_id: binance
+  id: avntusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: binance
+  id: avntusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: AVNTUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: AVNT-USD
+- source_id: coingecko
+  id: avantis
+- source_id: kraken
+  id: AVNT/USD
+- source_id: okx
+  id: AVNT-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

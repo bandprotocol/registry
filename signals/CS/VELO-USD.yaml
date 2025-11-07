@@ -1,0 +1,22 @@
+sources:
+- source_id: band1
+  id: CS:VELO-USD
+- source_id: band2
+  id: CS:VELO-USD
+- source_id: bybit
+  id: VELOUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: velo
+- source_id: htx
+  id: velousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: VELO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

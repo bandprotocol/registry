@@ -1,0 +1,17 @@
+sources:
+- source_id: band1
+  id: CS:KAVA-USD
+- source_id: band2
+  id: CS:KAVA-USD
+- source_id: binance
+  id: kavausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: kava
+- source_id: htx
+  id: kavausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
