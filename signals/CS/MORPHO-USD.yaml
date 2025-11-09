@@ -22,6 +22,9 @@ sources:
   id: morpho
 - source_id: okx
   id: MORPHO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: htx
   id: morphousdt
   routes:
