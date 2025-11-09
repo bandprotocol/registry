@@ -1,18 +1,17 @@
 sources:
-- source_id: bybit
-  id: CTCUSDT
+- source_id: band1
+  id: CS:KAVA-USD
+- source_id: band2
+  id: CS:KAVA-USD
+- source_id: binance
+  id: kavausdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coingecko
-  id: creditcoin-2
+  id: kava
 - source_id: htx
-  id: ctcusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: okx
-  id: CTC-USDT
+  id: kavausdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

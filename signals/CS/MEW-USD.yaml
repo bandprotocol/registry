@@ -1,20 +1,19 @@
 sources:
-- source_id: binance
-  id: glmusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: coinbase
-  id: GLM-USD
+- source_id: band1
+  id: CS:MEW-USD
+- source_id: band2
+  id: CS:MEW-USD
 - source_id: coingecko
-  id: golem
+  id: cat-in-a-dogs-world
 - source_id: htx
-  id: glmusdt
+  id: mewusdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: MEW/USD
 - source_id: okx
-  id: GLM-USDT
+  id: MEW-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

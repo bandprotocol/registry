@@ -1,0 +1,14 @@
+sources:
+- source_id: band1
+  id: CS:IOTX-USD
+- source_id: band2
+  id: CS:IOTX-USD
+- source_id: binance
+  id: iotxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coinbase
+  id: IOTX-USD
+- source_id: coingecko
+  id: iotex

@@ -1,31 +1,26 @@
 sources:
 - source_id: band1
-  id: CS:APE-USD
+  id: CS:TURBO-USD
 - source_id: band2
-  id: CS:APE-USD
+  id: CS:TURBO-USD
 - source_id: binance
-  id: apeusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
-- source_id: bybit
-  id: APEUSDT
+  id: turbousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
-  id: APE-USD
+  id: TURBO-USD
 - source_id: coingecko
-  id: apecoin
+  id: turbo
 - source_id: htx
-  id: apeusdt
+  id: turbousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: kraken
-  id: APE/USD
+  id: TURBO/USD
 - source_id: okx
-  id: APE-USDT
+  id: TURBO-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

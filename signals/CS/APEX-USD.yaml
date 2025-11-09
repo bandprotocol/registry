@@ -1,0 +1,17 @@
+sources:
+- source_id: band1
+  id: CS:APEX-USD
+- source_id: band2
+  id: CS:APEX-USD
+- source_id: bybit
+  id: APEXUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
+  id: APEXUSDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: apex-token-2
