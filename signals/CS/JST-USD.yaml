@@ -1,7 +1,7 @@
 sources:
-- source_id: band1
+- source_id: band/macaw
   id: CS:JST-USD
-- source_id: band2
+- source_id: band/kiwi
   id: CS:JST-USD
 - source_id: binance
   id: jstusdt
