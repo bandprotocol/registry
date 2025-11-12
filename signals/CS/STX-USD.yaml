@@ -1,6 +1,15 @@
 sources:
+- source_id: band/macaw
+  id: CS:STX-USD
+- source_id: band/kiwi
+  id: CS:STX-USD
 - source_id: binance
   id: stxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: STXUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

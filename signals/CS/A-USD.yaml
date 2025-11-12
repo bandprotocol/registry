@@ -1,6 +1,15 @@
 sources:
+- source_id: band/macaw
+  id: CS:A-USD
+- source_id: band/kiwi
+  id: CS:A-USD
 - source_id: binance
   id: ausdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: AUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
@@ -11,6 +20,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: A/USD
 - source_id: okx
   id: A-USDT
   routes:

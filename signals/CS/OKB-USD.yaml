@@ -1,0 +1,12 @@
+sources:
+- source_id: band/macaw
+  id: CS:OKB-USD
+- source_id: band/kiwi
+  id: CS:OKB-USD
+- source_id: coingecko
+  id: okb
+- source_id: okx
+  id: OKB-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

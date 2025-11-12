@@ -1,6 +1,15 @@
 sources:
+- source_id: band/macaw
+  id: CS:BAT-USD
+- source_id: band/kiwi
+  id: CS:BAT-USD
 - source_id: binance
   id: batusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: BATUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

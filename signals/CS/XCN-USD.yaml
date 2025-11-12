@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:XCN-USD
+- source_id: band/kiwi
+  id: CS:XCN-USD
 - source_id: coinbase
   id: XCN-USD
 - source_id: coingecko

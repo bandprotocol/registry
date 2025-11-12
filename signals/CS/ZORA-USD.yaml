@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:ZORA-USD
+- source_id: band/kiwi
+  id: CS:ZORA-USD
 - source_id: bybit
   id: ZORAUSDT
   routes:
@@ -10,3 +14,8 @@ sources:
   id: zora
 - source_id: kraken
   id: ZORA/USD
+- source_id: okx
+  id: ZORA-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

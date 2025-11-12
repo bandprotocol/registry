@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:RAY-USD
+- source_id: band/kiwi
+  id: CS:RAY-USD
 - source_id: binance
   id: rayusdc
   routes:
@@ -13,6 +17,11 @@ sources:
   id: raydium
 - source_id: htx
   id: rayusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: RAY-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

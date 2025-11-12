@@ -1,4 +1,13 @@
 sources:
+- source_id: band/macaw
+  id: CS:ETC-USD
+- source_id: band/kiwi
+  id: CS:ETC-USD
+- source_id: binance
+  id: etcusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: etcusdt
   routes:
@@ -11,3 +20,8 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: ethereum-classic
+- source_id: okx
+  id: ETC-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'

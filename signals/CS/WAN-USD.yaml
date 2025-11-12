@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:WAN-USD
+- source_id: band/kiwi
+  id: CS:WAN-USD
 - source_id: binance
   id: wanusdt
   routes:

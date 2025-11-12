@@ -1,4 +1,13 @@
 sources:
+- source_id: band/macaw
+  id: CS:MORPHO-USD
+- source_id: band/kiwi
+  id: CS:MORPHO-USD
+- source_id: binance
+  id: morphousdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: morphousdt
   routes:
@@ -13,6 +22,11 @@ sources:
   id: morpho
 - source_id: okx
   id: MORPHO-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: htx
+  id: morphousdt
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

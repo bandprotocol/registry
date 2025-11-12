@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:KSM-USD
+- source_id: band/kiwi
+  id: CS:KSM-USD
 - source_id: binance
   id: ksmusdt
   routes:

@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:TRUMP-USD
+- source_id: band/kiwi
+  id: CS:TRUMP-USD
 - source_id: binance
   id: trumpusdc
   routes:

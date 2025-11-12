@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:COTI-USD
+- source_id: band/kiwi
+  id: CS:COTI-USD
 - source_id: binance
   id: cotiusdt
   routes:
@@ -8,5 +12,10 @@ sources:
   id: COTI-USD
 - source_id: coingecko
   id: coti
+- source_id: htx
+  id: cotiusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: kraken
   id: COTI/USD

@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:ICX-USD
+- source_id: band/kiwi
+  id: CS:ICX-USD
 - source_id: binance
   id: icxusdt
   routes:

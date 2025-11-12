@@ -1,0 +1,12 @@
+sources:
+- source_id: band/macaw
+  id: CS:TUSD-USD
+- source_id: band/kiwi
+  id: CS:TUSD-USD
+- source_id: binance
+  id: tusdusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: coingecko
+  id: true-usd

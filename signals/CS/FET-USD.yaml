@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:FET-USD
+- source_id: band/kiwi
+  id: CS:FET-USD
 - source_id: binance
   id: fetusdc
   routes:
@@ -16,6 +20,11 @@ sources:
     operation: '*'
 - source_id: coinbase
   id: FET-USD
+- source_id: coinbase
+  id: FET-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: fetch-ai
 - source_id: kraken

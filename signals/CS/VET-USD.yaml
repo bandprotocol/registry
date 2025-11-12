@@ -1,4 +1,13 @@
 sources:
+- source_id: band/macaw
+  id: CS:VET-USD
+- source_id: band/kiwi
+  id: CS:VET-USD
+- source_id: binance
+  id: vetusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: vetusdt
   routes:

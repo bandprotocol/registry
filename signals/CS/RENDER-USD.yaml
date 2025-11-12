@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:RENDER-USD
+- source_id: band/kiwi
+  id: CS:RENDER-USD
 - source_id: binance
   id: renderusdc
   routes:
@@ -20,6 +24,11 @@ sources:
   id: render-token
 - source_id: htx
   id: renderusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: okx
+  id: RENDER-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

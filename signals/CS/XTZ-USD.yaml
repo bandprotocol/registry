@@ -1,4 +1,13 @@
 sources:
+- source_id: band/macaw
+  id: CS:XTZ-USD
+- source_id: band/kiwi
+  id: CS:XTZ-USD
+- source_id: binance
+  id: xtzusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: xtzusdt
   routes:
@@ -9,10 +18,19 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: XTZ-USD
 - source_id: coingecko
   id: tezos
 - source_id: htx
   id: xtzusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: kraken
+  id: XTZ/USD
+- source_id: okx
+  id: XTZ-USDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

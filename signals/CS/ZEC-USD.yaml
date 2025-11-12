@@ -1,4 +1,13 @@
 sources:
+- source_id: band/macaw
+  id: CS:ZEC-USD
+- source_id: band/kiwi
+  id: CS:ZEC-USD
+- source_id: binance
+  id: zecusdc
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
 - source_id: binance
   id: zecusdt
   routes:

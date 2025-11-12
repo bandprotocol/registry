@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:NFT-USD
+- source_id: band/kiwi
+  id: CS:NFT-USD
 - source_id: coingecko
   id: apenft
 - source_id: htx

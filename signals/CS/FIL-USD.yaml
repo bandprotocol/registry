@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:FIL-USD
+- source_id: band/kiwi
+  id: CS:FIL-USD
 - source_id: binance
   id: filusdc
   routes:
@@ -8,6 +12,13 @@ sources:
   id: filusdt
   routes:
   - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bitfinex
+  id: tFILUSD
+- source_id: bybit
+  id: FILUSDC
+  routes:
+  - signal_id: CS:USDC-USD
     operation: '*'
 - source_id: bybit
   id: FILUSDT
@@ -23,6 +34,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: FIL/USD
 - source_id: okx
   id: FIL-USDT
   routes:

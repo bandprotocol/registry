@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:2Z-USD
+- source_id: band/kiwi
+  id: CS:2Z-USD
 - source_id: binance
   id: 2zusdc
   routes:
@@ -19,6 +23,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: coinbase
+  id: 2Z-USD
 - source_id: coingecko
   id: doublezero
 - source_id: kraken

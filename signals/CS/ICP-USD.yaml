@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:ICP-USD
+- source_id: band/kiwi
+  id: CS:ICP-USD
 - source_id: binance
   id: icpusdc
   routes:
@@ -10,12 +14,22 @@ sources:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: bybit
+  id: ICPUSDC
+  routes:
+  - signal_id: CS:USDC-USD
+    operation: '*'
+- source_id: bybit
   id: ICPUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
 - source_id: coinbase
   id: ICP-USD
+- source_id: coinbase
+  id: ICP-USDT
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: coingecko
   id: internet-computer
 - source_id: htx
@@ -23,6 +37,8 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
+- source_id: kraken
+  id: ICP/USD
 - source_id: okx
   id: ICP-USDT
   routes:

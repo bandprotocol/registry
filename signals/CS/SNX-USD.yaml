@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:SNX-USD
+- source_id: band/kiwi
+  id: CS:SNX-USD
 - source_id: binance
   id: snxusdt
   routes:
@@ -8,6 +12,11 @@ sources:
   id: SNX-USD
 - source_id: coingecko
   id: havven
+- source_id: htx
+  id: snxusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: SNX-USDT
   routes:

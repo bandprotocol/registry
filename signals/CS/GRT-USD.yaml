@@ -1,6 +1,15 @@
 sources:
+- source_id: band/macaw
+  id: CS:GRT-USD
+- source_id: band/kiwi
+  id: CS:GRT-USD
 - source_id: binance
   id: grtusdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
+- source_id: bybit
+  id: GRTUSDT
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'

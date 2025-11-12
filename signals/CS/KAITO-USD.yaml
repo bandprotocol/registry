@@ -1,4 +1,8 @@
 sources:
+- source_id: band/macaw
+  id: CS:KAITO-USD
+- source_id: band/kiwi
+  id: CS:KAITO-USD
 - source_id: binance
   id: kaitousdc
   routes:
@@ -13,6 +17,11 @@ sources:
   id: KAITO-USD
 - source_id: coingecko
   id: kaito
+- source_id: htx
+  id: kaitousdt
+  routes:
+  - signal_id: CS:USDT-USD
+    operation: '*'
 - source_id: okx
   id: KAITO-USDT
   routes:
