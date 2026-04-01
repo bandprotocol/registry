@@ -19,8 +19,8 @@ def main(input_path: str, output_path: str):
             print(f"Missing {d}.yaml")
             exit(1)
 
+    signal_ids: dict[str, OrderedDict] = defaultdict(OrderedDict)
     for root, _, files in iter_:
-        signal_ids: dict[str, OrderedDict] = defaultdict(OrderedDict)
         prefix = root.split('/')[-1]
         for file in sorted(files):
             with open(os.path.join(root, file), 'r') as f:
@@ -33,8 +33,8 @@ def main(input_path: str, output_path: str):
         if not os.path.exists(output_path):
             os.makedirs(output_path)
 
-        with open(f"{output_path}/registry.json", 'w') as f:
-            json.dump(signal_ids, f, indent=4)
+    with open(f"{output_path}/registry.json", 'w') as f:
+        json.dump(signal_ids, f, indent=4)
 
 
 if __name__ == '__main__':
