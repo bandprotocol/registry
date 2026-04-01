@@ -1,0 +1,7 @@
+sources:
+- source_id: band/fieldfare
+  id: FS:CAD-USD
+- source_id: band/owlet
+  id: FS:CAD-USD
+- source_id: band/xenops
+  id: FS:CAD-USD

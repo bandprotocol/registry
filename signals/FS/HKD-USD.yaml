@@ -1,0 +1,7 @@
+sources:
+- source_id: band/fieldfare
+  id: FS:HKD-USD
+- source_id: band/owlet
+  id: FS:HKD-USD
+- source_id: band/xenops
+  id: FS:HKD-USD

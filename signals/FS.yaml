@@ -1,0 +1,8 @@
+processor:
+  function: weighted_median
+  params:
+    source_weights:
+      band/fieldfare: 1
+      band/owlet: 1
+      band/xenops: 1
+    minimum_cumulative_weight: 1

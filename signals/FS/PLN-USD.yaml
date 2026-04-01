@@ -1,0 +1,7 @@
+sources:
+- source_id: band/fieldfare
+  id: FS:PLN-USD
+- source_id: band/owlet
+  id: FS:PLN-USD
+- source_id: band/xenops
+  id: FS:PLN-USD

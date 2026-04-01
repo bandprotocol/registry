@@ -1,0 +1,7 @@
+sources:
+- source_id: band/fieldfare
+  id: FS:RUB-USD
+- source_id: band/owlet
+  id: FS:RUB-USD
+- source_id: band/xenops
+  id: FS:RUB-USD
