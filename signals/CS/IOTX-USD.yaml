@@ -8,7 +8,5 @@ sources:
   routes:
   - signal_id: CS:USDT-USD
     operation: '*'
-- source_id: coinbase
-  id: IOTX-USD
 - source_id: coingecko
   id: iotex
