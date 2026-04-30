@@ -1,7 +1,7 @@
 sources:
-- source_id: band/macaw
-  id: CS:FORM-USD
 - source_id: band/kiwi
+  id: CS:FORM-USD
+- source_id: band/macaw
   id: CS:FORM-USD
 - source_id: binance
   id: formusdc

@@ -1,7 +1,7 @@
 sources:
-- source_id: band/macaw
-  id: CS:ZEN-USD
 - source_id: band/kiwi
+  id: CS:ZEN-USD
+- source_id: band/macaw
   id: CS:ZEN-USD
 - source_id: binance
   id: zenusdc

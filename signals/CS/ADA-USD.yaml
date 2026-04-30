@@ -1,7 +1,7 @@
 sources:
-- source_id: band/macaw
-  id: CS:ADA-USD
 - source_id: band/kiwi
+  id: CS:ADA-USD
+- source_id: band/macaw
   id: CS:ADA-USD
 - source_id: binance
   id: adausdc

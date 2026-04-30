@@ -1,7 +1,7 @@
 sources:
-- source_id: band/macaw
-  id: CS:BNB-USD
 - source_id: band/kiwi
+  id: CS:BNB-USD
+- source_id: band/macaw
   id: CS:BNB-USD
 - source_id: binance
   id: bnbusdc
