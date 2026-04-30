@@ -1,7 +1,7 @@
 sources:
-- source_id: band/macaw
-  id: CS:TRAC-USD
 - source_id: band/kiwi
+  id: CS:TRAC-USD
+- source_id: band/macaw
   id: CS:TRAC-USD
 - source_id: coinbase
   id: TRAC-USD

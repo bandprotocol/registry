@@ -1,7 +1,7 @@
 sources:
-- source_id: band/macaw
-  id: CS:APEX-USD
 - source_id: band/kiwi
+  id: CS:APEX-USD
+- source_id: band/macaw
   id: CS:APEX-USD
 - source_id: bybit
   id: APEXUSDC

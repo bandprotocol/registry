@@ -1,7 +1,7 @@
 sources:
-- source_id: band/macaw
-  id: CS:MERL-USD
 - source_id: band/kiwi
+  id: CS:MERL-USD
+- source_id: band/macaw
   id: CS:MERL-USD
 - source_id: bybit
   id: MERLUSDT
