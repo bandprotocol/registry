@@ -1,0 +1,7 @@
+sources:
+- source_id: band/kiwi
+  id: CS:GCOTI-USD
+- source_id: band/macaw
+  id: CS:GCOTI-USD
+- source_id: coingecko
+  id: coti-governance-token

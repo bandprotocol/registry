@@ -3,10 +3,7 @@ sources:
   id: CS:NTRN-USD
 - source_id: band/macaw
   id: CS:NTRN-USD
-- source_id: binance
-  id: ntrnusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: coingecko
   id: neutron-3
+- source_id: kraken
+  id: NTRN/USD
