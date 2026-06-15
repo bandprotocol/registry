@@ -10,8 +10,3 @@ sources:
     operation: '*'
 - source_id: coingecko
   id: dexe
-- source_id: htx
-  id: dexeusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'

@@ -22,11 +22,6 @@ sources:
   id: WLFI-USD
 - source_id: coingecko
   id: world-liberty-financial
-- source_id: htx
-  id: wlfiusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
 - source_id: kraken
   id: WLFI/USD
 - source_id: okx
