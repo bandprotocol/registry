@@ -3,7 +3,7 @@ sources:
   id: CS:DAI-USD
 - source_id: band/macaw
   id: CS:DAI-USD
-- source_id: coinbase
-  id: DAI-USD
 - source_id: coingecko
   id: dai
+- source_id: kraken
+  id: DAI/USD

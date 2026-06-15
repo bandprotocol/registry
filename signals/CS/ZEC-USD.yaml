@@ -17,8 +17,3 @@ sources:
   id: tZECUSD
 - source_id: coingecko
   id: zcash
-- source_id: htx
-  id: zecusdt
-  routes:
-  - signal_id: CS:USDT-USD
-    operation: '*'
